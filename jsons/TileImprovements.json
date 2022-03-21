@@ -1,0 +1,33 @@
+[
+    {
+		"name": "Residential District",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
+		"food": 2,
+		"turnsToBuild": 15,
+		"techRequired": "Residentials",
+		"uniques": ["[+1 food] for each adjacent [Residential District]",
+		"[+1 Production] <after discovering [Implants]>"]
+	},
+    {
+		"name": "Data Center",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra"],
+		"production": 1,
+		"science": 1,
+		"turnsToBuild": 15,
+		"techRequired": "Computers",
+		"uniques": ["[+1 Science] for each adjacent [Data Center]",
+		"[+1 Culture] <after discovering [The Internet]>",
+		"[+1 Gold] <after discovering [Artificial Intelligence]>"]
+	},
+	{
+		"name": "Quantum Trap",
+		"terrainsCanBeBuiltOn": ["Marsh","Jungle","Forest","Tundra","Snow","Hill"],
+		"science": 1,
+		"turnsToBuild": 30,
+		"techRequired": "Quantum Theory",
+		"uniques": ["[+3 Science, +3 Culture, +3 Gold] <after discovering [Antimatter]>",
+		"[+2 Science, +2 Culture, +2 Gold] <after discovering [Causality Matrix]>",
+		"[+2 Science, +2 Culture, +2 Gold] <after discovering [Dimensional Travelling]>"
+		"[+2 Science, +2 Culture, +2 Gold] <after discovering [Entropy Fields]>"]
+	},
+]

@@ -1,0 +1,236 @@
+[
+    {
+		"name": "Futurism",
+		"era": "Atomic era",
+		"uniques": ["[+33]% Culture cost of adopting new Policies","[-100]% maintenance cost for buildings [in capital]"],
+		"policies": [
+			{
+				"name": "Modernization",
+				"uniques": ["[+2 Science] from all [Gold] buildings"],
+				"requires": ["Futurism"],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Market Competition",
+				"uniques": ["[10]% Production towards any buildings that already exist in the Capital"],
+				"requires": ["Futurism"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Wage Labor",
+				"uniques":["[+1 Happiness, -3 Gold] from all [Gold] buildings"],
+				"requires": ["Modernization"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Board of Directors",
+				"uniques": ["[+2 Culture] from all [Gold] buildings"],
+				"requires": ["Modernization"],
+				"row": 2,
+				"column": 3
+			},
+	
+			{
+				"name": "Monopolization",
+				"uniques": ["[+20]% Production when constructing [Gold] buildings [in all cities]"],
+				"requires": ["Market Competition"],
+				"row": 3,
+				"column": 5
+			},
+			{
+				"name": "Futurism Complete",
+				"uniques": ["Free [Great Merchant] appears","[+1 Gold, +1 Production, +1 Science] from every [Residential District]"]
+			}
+		]
+	},
+	{
+		"name": "Pragmatism",
+		"era": "Information era",
+		"uniques": ["[+33]% Culture cost of adopting new Policies","[+2 Culture] from every specialist [in all cities]"],
+		"policies": [
+			{
+				"name": "Realism",
+				"uniques": ["[+10]% unhappiness from population [in all cities]", "[+15%] [Production] [in all cities]", "[+15%] [Science] [in all cities]"],
+				"requires": ["Pragmatism"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Welfare",
+				"uniques": ["[+1 Happiness] from every [Residential District]"],
+				"requires": ["Realism"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Tried and True",
+				"uniques":["[+1 Gold, +1 Production] from every specialist [in all cities]"],
+				"requires": ["Realism"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Practicality",
+				"uniques": ["[+10]% Production when constructing [Production] buildings [in all cities]"],
+				"requires": ["Realism"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Post-Growth",
+				"uniques": ["[+1 Production, +3 Gold] from all [Culture] buildings"],
+				"requires": ["Tried and True"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Pragmatism Complete",
+				"uniques": ["[+100]% great person generation [in all cities]","[+2 Gold, +3 Production, +4 Culture] from every [Great Improvement]"]
+			}
+		]
+	},
+	{
+		"name": "Inventionism",
+		"era": "Future era",
+		"uniques": ["[+33]% Culture cost of adopting new Policies","Provides a [Wonder Invention] in your first [1] cities for free","Only available <before adopting [Unhinged]>","Only available <before adopting [Transhumanism]>"],
+		"policies": [
+			{
+				"name": "Creative Solutions",
+				"uniques": ["[+2 Happiness] from every [Wonder]"],
+				"requires": ["Inventionism"],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Pioneers",
+				"uniques": ["Free [Great Spacefarer] appears","[Great Spacefarer] is earned [100]% faster"],
+				"requires": ["Inventionism"],
+				"row": 1,
+				"column": 4
+			},
+			{
+				"name": "Joint Projects",
+				"uniques":["[+3 Science, +3 Culture] from each Trade Route"],
+				"requires": ["Creative Solutions", "Pioneers"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Discovery",
+				"uniques": ["[+1 Happiness, +2 Science] from all [Space] buildings"],
+				"requires": ["Joint Projects"],
+				"row": 3,
+				"column": 2
+			},
+			{
+				"name": "Revolutionism",
+				"uniques": ["[+5]% [Production] from every [Space Station]",
+				"[+10]% [Production] from every [Aerospace Complex]",
+				"[+15]% [Production] from every [Space Colony]",
+				"[+20]% [Production] from every [Space Expedition]"],
+				"requires": ["Joint Projects"],
+				"row": 3,
+				"column": 4
+			},
+			{
+				"name": "Inventionism Complete",
+				"uniques": ["Provides a [Quantum Invention] in your first [1] cities for free","[+10]% Production when constructing [All] buildings [in all cities]"]
+			}
+		]
+	},
+	{
+		"name": "Unhinged",
+		"era": "Future era",
+		"uniques": ["[+33]% Culture cost of adopting new Policies","[+50]% growth [in all cities] <when between [-1] and [-20] Happiness>","[+15]% [Science]","[-1 Happiness] [in all cities]","Only available <before adopting [Inventionism]>","Only available <before adopting [Transhumanism]>"],
+		"policies": [
+			{
+				"name": "Overwork",
+				"uniques": ["[+20%] [Production] [in all cities]","[-10]% growth [in all cities]"],
+				"requires": ["Unhinged"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Battlefield Experiments",
+				"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Science]"],
+				"requires": ["Unhinged"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Opression",
+				"uniques": ["[-50]% unhappiness from population [in all cities]","[-25]% growth [in all cities]"],
+				"requires": ["Overwork"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "No Ethics",
+				"uniques": ["[+30]% Strength <vs [Wounded] units>"],
+				"requires": ["Battlefield Experiments"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Private Contractors",
+				"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Foreign Land] tiles>"],
+				"requires": ["Opression","No Ethics"],
+				"row": 3,
+				"column": 4
+			},
+			{
+				"name": "Unhinged Complete",
+				"uniques": ["Resting point for Influence with City-States is increased by [-20]","Science gained from research agreements [-50]%","[-25]% Golden Age length","[+15]% [Science] [in all cities]","[+15]% [Production] [in all cities]","[+15]% [Gold] [in all cities]"]
+			}
+		]
+	},
+	{
+		"name": "Transhumanism",
+		"era": "Future era",
+		"uniques": ["[+33]% Culture cost of adopting new Policies","[+30]% Strength <for [Bio] units>", "[-25]% Strength <for [Cyber] units>","Only available <before adopting [Inventionism]>","Only available <before adopting [Unhinged]>"],
+		"policies": [
+			{
+				"name": "Cloning",
+				"uniques": ["[+7 Food] [in all cities]"],
+				"requires": ["Transhumanism"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Bio-Specialism",
+				"uniques": ["[+25]% Production when constructing [Bio] units [in all cities]"],
+				"requires": ["Transhumanism"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Virology",
+				"uniques": ["Provides a [Outbreak Center] in your first [5] cities for free"],
+				"requires": ["Cloning"],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "Techno-Organic Virus",
+				"uniques": ["[+30]% Strength <for [Bio] units> <vs [Cyber] units>"],
+				"requires": ["Bio-Specialism"],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Brainwashing",
+				"uniques": ["[+1 Happiness] from every [Medical Lab]","[+2 Happiness] [in annexed cities]"],
+				"requires": ["Virology","Techno-Organic Virus"],
+				"row": 3,
+				"column": 4
+			},
+			{
+				"name": "Transhumanism Complete",
+				"uniques": ["[+2 Production, +2 Culture, +2 Gold] from all [Food] buildings","[+2 Gold, +2 Production, +2 Science] from every [Data Center]"]
+			}
+		]
+	}
+]

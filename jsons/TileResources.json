@@ -1,0 +1,49 @@
+[
+    {
+		"name": "Aid Kit",
+		"resourceType": "Luxury",
+		"gold": 2,
+	},
+	{
+		"name": "Wonder Module(Total)",
+		"resourceType": "Bonus",
+		"gold": 1,
+	},
+	{
+		"name": "Wonder Module", 
+		"resourceType": "Strategic",
+		"happiness": 1
+	},
+	{
+		"name": "Quantum Fragment",
+		"resourceType": "Strategic",
+		"revealedBy": "Quantum Theory",
+		"terrainsCanBeFoundOn": ["Marsh","Jungle","Forest","Tundra","Snow","Hill"],
+		"science": 1,
+		"improvement": "Quantum Trap",
+		"improvementStats": {"production": 3, "science": 3, "culture": 3, "gold": 3},
+		"uniques": ["Generated with weight [17] <in [Marsh] tiles>",
+					"Generated with weight [45] <in [Jungle] tiles>",
+					"Generated with weight [45] <in [Forest] tiles>",
+					"Minor deposits generated with weight [5] <in [Forest] tiles>",
+					"Minor deposits generated with weight [5] <in [Featureless] [Tundra] tiles>",
+					"Minor deposits generated with weight [5] <in [Featureless] [Snow] tiles>"],
+		"majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 2},
+		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 2}
+	},
+	{
+		"name": "Virus Agent",
+		"resourceType": "Strategic",
+		"science": 2,
+	},
+	{
+		"name": "Nanomaterials",
+		"resourceType": "Strategic",
+		"gold": 2,
+	},
+	{
+		"name": "Computronium",
+		"resourceType": "Strategic",
+		"production": 3,
+	},
+]

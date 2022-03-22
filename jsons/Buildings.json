@@ -1,0 +1,975 @@
+[
+    // Atomic Era
+	{
+		"name": "Medical Lab",
+		"requiredBuilding": "Hospital",
+		"food": 1,
+		"maintenance": 3,
+		"requiredTech": "Pharmaceuticals",
+		"uniques": ["[25]% Food is carried over after population increases [in this city]",
+		"[+1 Science] from [Plain] tiles [in this city]"]
+	},
+    {
+		"name": "Produce Medicine",
+		"requiredBuilding": "Medical Lab",
+		"requiredTech": "Pharmaceuticals",
+		"uniques": ["Provides [1] [Aid Kit]",
+		"[+1 Happiness] per [3] population [in this city]",
+		"Limited to [3] per Civilization"]
+	},
+    {
+		"name": "Solar Plant",
+		"production": 5,
+		"percentStatBonus": {"production": 20},
+		"requiredBuilding": "Factory",
+		"maintenance": 3,
+		"requiredTech": "Ecology",
+		"uniques": ["Must be next to [Desert]",	
+		"Only available <in cities without a [Nuclear Plant]>"]
+	},
+    {
+		"name": "Recycling Center",
+		"production": 1,
+		"maintenance": 3,
+		"requiredTech": "Ecology",
+		"uniques": ["Provides [2] [Aluminum]",
+		"[+1 Production] per [3] population [in this city]"]
+	},
+	{
+		"name": "Greenhouse",
+		"maintenance": 2,
+		"requiredTech": "Residentials",
+		"uniques": ["[+1 Production] from [Grassland] tiles [in this city]",
+		"[+1 Production] from [Plains] tiles [in this city]",
+		"[+2 Culture] from [Grassland] tiles [in this city]",
+		"[+2 Culture] from [Plains] tiles [in this city]"]
+	},
+    {
+		"name": "Nuclear Plant",
+		"production": 5,
+		"food": -3,
+		"percentStatBonus": {"production": 30},
+		"requiredBuilding": "Factory",
+		"maintenance": 3,
+		"requiredResource": "Uranium",
+		"requiredTech": "Nuclear Fission",
+		"uniques": ["Only available <in cities without a [Solar Plant]>"]
+	},
+	{
+		"name": "Manhattan Project",
+		"isWonder": true,
+		"requiredTech": "Atomic Theory",
+		"uniques": ["Provides [1] [Uranium]",
+		"Gain a free [Nuclear Testing Site] [in this city]",
+		"[+50]% Production when constructing [Atomic Bomb] units [in this city]",
+		"Free [Atomic Bomb] appears"]
+		"quote": "'The only use for an atomic bomb is to keep somebody else from using one.' - George Wald"
+	},
+	{
+		"name": "Nuclear Testing Site",
+		"isNationalWonder": true,
+		"requiredTech": "Atomic Theory",
+		"cost": 1000,
+		"uniques": ["Enables nuclear weapon", "Triggers a global alert upon completion"]
+	},
+	{
+		"name": "Apollo Program",
+		"cost": 1000,
+		"isWonder": true,
+		"uniques": ["[+10]% [Culture] [in all cities]",
+		"[+20]% Production when constructing [Space] buildings [in this city]",
+		"[+20]% Production when constructing [Space] units [in this city]"],
+		"requiredTech": "Rocketry"
+		"quote": "'That's one small step for a man, one giant leap for mankind.' - Neil Armstrong"
+	},
+	{
+		"name": "Global Operating System",
+		"isWonder": true,
+		"uniques": ["[+3 Culture] from [Data Center] tiles [in all cities]",
+		"[+2 Gold] from [Data Center] tiles [in all cities]",
+		"[+1 Science] from [Data Center] tiles [in all cities]",
+		"Science gained from research agreements [+50]%"],
+		"requiredTech": "Computers"
+		"quote": "'You can make something big when young that will carry you through life. Look at all the big startups like Microsoft, Apple, Google, Facebook, Twitter, etc. They were all started by very young people who stumbled on something of unseen value. You'll know it when you hit a home run.' - Steve Wozniak"
+	},
+	 // Information Era
+	 
+	{
+		"name": "Shopping Mall",
+		"gold": 1,
+		"percentStatBonus": {"gold": 15},
+		"specialistSlots": {"Merchant": 3},
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Stock Exchange",
+		"requiredTech": "Urbanization"
+		"uniques": ["[+2 Gold] from [Residential District] tiles [in this city]",
+		"[+1 Food] from [Residential District] tiles [in this city]"]
+	}, 
+	{
+		"name": "Police Force",
+		"cityStrength": 15,
+		"cityHealth": 40,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Military Base",
+		"requiredTech": "Urbanization",
+		"uniques": ["Destroyed when the city is captured",
+		"[+1 Production] from [Residential District] tiles [in this city]",
+		"[+1 Culture] from [Residential District] tiles [in this city]",
+		"Only available <in cities without a [Criminal Gang]>"]
+	},
+	{
+		"name": "Criminal Gang",
+		"cityStrength": -10,
+		"maintenance": 3,
+		"percentStatBonus": {"gold": 30},
+		"requiredTech": "Urbanization",
+		"uniques": ["[-2 Food] [in this city]", "Only available <in cities without a [Police Force]>"]
+	},
+	{
+		"name": "Spaceship Factory",
+		"production": 3,
+		"requiredResource": "Aluminum",
+		"cost": 330,
+		"requiredBuilding": "Factory",
+		"uniques": ["[+50]% Production when constructing [Space] Buildings [in this city]"],
+		"requiredTech": "Robotics"
+	},
+	{
+		"name": "Disability Center",
+		"food": 3,
+		"percentStatBonus": {"food": 10},
+		"requiredBuilding": "Medical Lab",
+		"maintenance": 6,
+		"uniques": ["[+1 Food] from [Data Center] tiles [in this city]",
+		"[+1 Food] from [Residential District] tiles [in this city]",
+		"Only available <in cities without a [Virus Research Center]>"]
+		"hurryCostModifier": 20,
+		"requiredTech": "Genetics"
+	},
+	{
+		"name": "Virus Research Center",
+		"science": 3,
+		"percentStatBonus": {"science": 25},
+		"requiredBuilding": "Medical Lab",
+		"maintenance": 6,
+		"uniques": ["Provides [1] [Virus Agent]",
+		"[-5 Food] [in this city]",
+		"Only available <in cities without a [Disability Center]>"]
+		"hurryCostModifier": 20,
+		"requiredTech": "Genetics"
+	},
+{
+		"name": "Cryptocurrencies",
+		"gold": 2,
+		"percentStatBonus": {"gold": 20},
+		"specialistSlots": {"Merchant": 3},
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Shopping Mall",
+		"requiredTech": "Advertising"
+		"uniques": ["[+1 Gold] from [Data Center] tiles [in this city]",
+		"[+1 Gold] from [Residential District] tiles [in this city]"]
+	},
+	{
+		"name": "Private Server",
+		"science": 3,
+		"percentStatBonus": {"science": 35},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Research Lab",
+		"maintenance": 5,
+		"requiredTech": "Hackers",
+		"uniques": ["[+2 Science] from [Data Center] tiles [in this city]",
+		"[+1 Production] from [Data Center] tiles [in this city]",
+		"Only available <in cities without a [Private Server]>"]
+	},
+	{
+		"name": "The Human Atlas",
+		"isWonder": true,
+		"requiredTech": "Genetics",
+		"uniques": ["[+2 Food] from [Residential District] tiles [in all cities]",
+		"[+2 Production] from [Data Center] tiles [in all cities]",
+		"[+2 Gold] from [Data Center] tiles [in all cities]"]
+		"quote": "'Our own genomes carry the story of evolution, written in DNA, the language of molecular genetics, and the narrative is unmistakable.' - Keneth Miller"
+	},
+	{
+		"name": "Hubble Space Telescope",
+		"isWonder": true,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"uniques": ["Space",
+		"Reveals the entire Map",
+		"Free [Great Scientist] appears",
+		"[+25]% Production when constructing [Space] buildings [in this city]"],
+		"requiredTech": "Satellites",
+		"quote": "'The wonder is, not that the field of stars is so vast, but that man has measured it.' - Anatole France"
+	},
+	{
+		"name": "Satellite Grid Array",
+		"isWonder": true,
+		"uniques": ["Space",
+		"Reveals the entire Map",
+		"[+15]% Strength <for [Air] units>"],
+		"requiredTech": "Robotics",
+		"quote": "'Two possibilities exist: either we are alone in the Universe or we are not. Both are equally terrifying.' - Arthur C. Clarke"
+	},
+		{
+		"name": "Sillicon Valley",
+		"isWonder": true,
+		"requiredTech": "The Internet",
+		"uniques": ["[+1 Science] from [Data Center] tiles [in all cities]",
+		"[+5 Gold] from [Data Center] tiles [in all cities]",
+		"[+1 Science] from [Residential District] tiles [in this city]"]
+		"quote": "'The truth is you don't know what is going to happen tomorrow. Life is a crazy ride, and nothing is guaranteed.' - Eminem"
+	},
+	{
+		"name": "Social Network",
+		"isWonder": true,
+		"requiredTech": "The Internet",
+		"greatPersonPoints": {"Great Scientist": 1},
+		"uniques": ["[+10]% [Culture] [in all cities]", 
+		"[+1 Science] from [Residential District] tiles [in all cities]",
+		"[+1 Happiness] per [5] population [in all cities]"],
+		"quote": "'Which of all my important nothings shall I tell you first?' - Jane Austen"
+	},
+	{
+		"name": "The Anime",
+		"isWonder": true,
+		"requiredTech": "The Internet",
+		"greatPersonPoints": {"Great Scientist": 1},
+		"uniques": ["[+100]% [Culture] [in capital]", 
+		"[+1 Happiness] [in all cities connected to capital]",
+		"[+1 Gold] from [Residential District] tiles [in all cities]"],
+		"quote": "'Everything I learned I learned from the movies.' - Audrey Hepburn"
+	},
+	{
+		"name": "World Olympics",
+		"isWonder": true,
+		"requiredTech": "Globalization",
+		"uniques": ["[+25]% [Culture] [in all cities] <when not at war>"]
+		"quote": "'Only the gentle are ever really strong.' - James Dean"
+	},
+	{
+		"name": "United Nations",
+		"isWonder": true,
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"requiredTech": "Globalization",
+		"uniques": ["Resting point for Influence with City-States is increased by [60]",
+		"Allied City-States provide [Culture] equal to [50]% of what they produce for themselves"],
+		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
+	},
+	{
+		"name": "World Delivery Company",
+		"isWonder": true,
+		"gold": 1,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"requiredTech": "Advertising",
+		"uniques": ["[+3 Gold, +2 Culture] from each Trade Route",
+		"[+1 Gold] from [Residential District] tiles [in this city]"
+		"Allied City-States provide [Gold] equal to [50]% of what they produce for themselves"],
+		"quote": "'If you’re not stubborn, you’ll give up on experiments too soon. And if you’re not flexible, you’ll pound your head against the wall and you won’t see a different solution to a problem you’re trying to solve.' - Jeff Bezos"
+	},
+	{
+		"name": "Virtual Assistant",
+		"culture": 2,
+		"percentStatBonus": {"culture": 25},
+		"requiredBuilding": "Broadcast Tower",
+		"maintenance": 6,
+		"requiredTech": "Artificial Intelligence",
+		"uniques": ["[+2 Culture] from [Residential District] tiles [in this city]",
+		"[+1 Production] from [Residential District] tiles [in this city]",
+		"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Global AI",
+		"isWonder": true,
+		"uniques": ["[+20]% Production when constructing [Cyber] units [in all cities]", 
+		"[+20]% Strength <for [Cyber] units>",
+		"Gain a free [Virtual Assistant] [in all cities]"],
+		"requiredTech": "Artificial Intelligence",
+		"quote": "'The first truly advanced machine we build, is the last thing we will ever have to make.' - Anonymous"
+	},
+	{
+		"name": "The Dark Web",
+		"isWonder": true,
+		"uniques": ["[Gold] cost of purchasing items in cities [-15]%", 
+		"[+50]% Production when constructing [Hacker] units [in all cities]"
+		"[+2 Gold] from [Data Center] tiles [in all cities]"],
+		"requiredTech": "Hackers",
+		"quote": "'You thought your secrets were safe. You were wrong.' - Anonymous"
+	},
+	{
+		"name": "James Webb Telescope",
+		"isWonder": true,
+		"uniques": ["Space",
+		"Reveals the entire map", 
+		"[+50]% great person generation [in all cities]",
+		 "[+3 Culture, +2 Science, +1 Gold] from all [Space] buildings [in all cities]"],
+		"requiredTech": "Advanced Ballistics",
+		"quote": "'Across the sea of space, the stars are other suns' - Carl Sagan"
+	},
+	// Future Era
+	
+	{
+		"name": "Outbreak Center",
+		"science": 3,
+		"food": -2,
+		"percentStatBonus": {"science" : 25},
+		"requiredBuilding": "Medical Lab",
+		"maintenance": 7,
+		"requiredResource": "Virus Agent",
+		"uniques": ["[+35]% Production when constructing [Bio] units [in this city]",
+		"All newly-trained [Bio] units [in this city] receive the [Outbreak] promotion",
+		"Only available <in cities without a [Private Server]>",
+		"Only available <in cities without a [Automated Factory]>"]
+		"hurryCostModifier": 20,
+		"requiredTech": "Mutations"
+	},
+	{
+		"name": "Nano Factory",
+		"production": 3,
+		"percentStatBonus": {"production": 10},
+		"maintenance": 7,
+		"requiredTech": "Nanomaterials",
+		"uniques": ["Provides [1] [Nanomaterials]"]
+	},
+	{
+		"name": "Automated Factory",
+		"production": 3,
+		"percentStatBonus": {"production": 15},
+		"requiredBuilding": "Factory",
+		"maintenance": 7,
+		"requiredTech": "Robots",
+		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]",
+		"[+25]% Production when constructing [Cyber] units [in this city]",
+		"Only available <in cities without a [Outbreak Center]>",
+		"Destroyed when the city is captured"]
+	},
+	{
+		"name": "The Zombie Project",
+		"isWonder": true,
+		"requiredResource": "Wonder Module",
+		"uniques": ["Enables Construction of Zombies",
+		"Consumes [1] [Wonder Module(Total)]"],
+		"requiredTech": "Mutations",
+		"quote": "'Its alive! Its alive!'"
+	},
+	{
+		"name": "The Robo Museum",
+		"isWonder": true,
+		"requiredResource": "Wonder Module",
+		"uniques": ["[+100]% Strength <for [Builder] units> <when defending>",
+		"[+50]% Production when constructing [Builder] units [in all cities]",
+		"[-50]% Gold cost of upgrading <for [Builder] units>",
+		"[Gold] cost of purchasing [Builder] units [-33]%",
+		"Consumes [1] [Wonder Module(Total)]"],
+		"requiredTech": "Nanomaterials",
+		"quote": "'When we built the first truly sentient machines: we gave them the opportunity to build anythng. Whatever they wished. And they built a Museum... Not of us. But of them' - Anonymous"	
+	},
+	{
+		"name": "City Drives",
+		"isNationalWonder": true,
+		"uniques": ["Enables Construction of City Drives",
+		"Provides [1] [Wonder Module]",
+		"Provides [1] [Wonder Module(Total)]"],
+		"requiredTech": "City Drives",
+	},
+	{
+		"name": "Bio Drive",
+		"food": 5,
+		"science": -20,
+		"culture": -20,
+		"gold": -20,
+		"production": -20,
+		"cost": 1,
+		"requiredResource": "Nanomaterials",
+		"percentStatBonus": {"food" : 100},
+		"uniques": ["Only available <if [City Drives] is constructed>",
+		"Population loss from nuclear attacks [-100]% [in this city]",
+		"Only available <in cities without a [Science Drive]>",
+		"Only available <in cities without a [Culture Drive]>",
+		"Only available <in cities without a [Gold Drive]>",
+		"Only available <in cities without a [Build Drive]>",
+		"Only available <in cities without a [Space Drive]>"]
+		"hurryCostModifier": 20,
+	},
+	{
+		"name": "Science Drive",
+		"food": -10,
+		"science": 10,
+		"culture": -20,
+		"gold": -20,
+		"production": -20,
+		"cost": 1,
+		"requiredResource": "Nanomaterials",
+		"percentStatBonus": {"science" : 100},
+		"uniques": ["Only available <if [City Drives] is constructed>",
+		"Population loss from nuclear attacks [-100]% [in this city]",
+		"Only available <in cities without a [Culture Drive]>",
+		"Only available <in cities without a [Bio Drive]>",
+		"Only available <in cities without a [Gold Drive]>",
+		"Only available <in cities without a [Build Drive]>",
+		"Only available <in cities without a [Space Drive]>"]
+		"hurryCostModifier": 20,
+	},
+	{
+		"name": "Culture Drive",
+		"food": -10,
+		"science": -20,
+		"culture": 10,
+		"gold": -20,
+		"production": -20,
+		"cost": 1,
+		"requiredResource": "Nanomaterials",
+		"percentStatBonus": {"culture" : 100},
+		"uniques": ["Only available <if [City Drives] is constructed>",
+		"Only available <in cities without a [Science Drive]>",
+		"Only available <in cities without a [Bio Drive]>",
+		"Only available <in cities without a [Gold Drive]>",
+		"Only available <in cities without a [Build Drive]>",
+		"Only available <in cities without a [Space Drive]>"]
+		"hurryCostModifier": 20,
+	},
+	{
+		"name": "Gold Drive",
+		"food": -10,
+		"science": -20,
+		"culture": -20,
+		"gold": 10,
+		"production": -20,
+		"cost": 1,
+		"requiredResource": "Nanomaterials",
+		"percentStatBonus": {"gold" : 100},
+		"uniques": ["Only available <if [City Drives] is constructed>",
+		"Population loss from nuclear attacks [-100]% [in this city]",
+		"Only available <in cities without a [Science Drive]>",
+		"Only available <in cities without a [Bio Drive]>",
+		"Only available <in cities without a [Culture Drive]>",
+		"Only available <in cities without a [Build Drive]>",
+		"Only available <in cities without a [Space Drive]>"]
+		"hurryCostModifier": 20,
+	},
+	{
+		"name": "Build Drive",
+		"food": -10,
+		"science": -20,
+		"culture": -20,
+		"gold": -20,
+		"production": 10,
+		"cost": 1,
+		"requiredResource": "Nanomaterials",
+		"percentStatBonus": {"production" : 100},
+		"uniques": ["Only available <if [City Drives] is constructed>",
+		"Population loss from nuclear attacks [-100]% [in this city]",
+		"Only available <in cities without a [Science Drive]>",
+		"Only available <in cities without a [Bio Drive]>",
+		"Only available <in cities without a [Gold Drive]>",
+		"Only available <in cities without a [Culture Drive]>",
+		"Only available <in cities without a [Space Drive]>"]
+		"hurryCostModifier": 20,
+	},
+	{
+		"name": "Space Drive",
+		"food": -10,
+		"science": -20,
+		"culture": -20,
+		"gold": -20,
+		"production": -20,
+		"cost": 1,
+		"requiredResource": "Nanomaterials",
+		"uniques": ["Only available <if [City Drives] is constructed>",
+		"Population loss from nuclear attacks [-100]% [in this city]",
+		"[+200]% great person generation [in this city]",
+		"[-100]% unhappiness from specialists [in this city]",
+		"[-100]% Food consumption by specialists [in this city]",
+		"[+1 Production, +1 Culture, +1 Gold, +1 Science] from every specialist [in this city]"
+		"Only available <in cities without a [Science Drive]>",
+		"Only available <in cities without a [Bio Drive]>",
+		"Only available <in cities without a [Culture Drive]>",
+		"Only available <in cities without a [Build Drive]>",
+		"Only available <in cities without a [Gold Drive]>"]
+		"hurryCostModifier": 20,
+	},
+	{
+		"name": "Hostile Fauna",
+		"cityStrength": 25,
+		"cityHealth": 100,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Medical Lab",
+		"requiredTech": "Metagenetics",
+		"uniques": ["Destroyed when the city is captured",
+		"Only available <in cities without a [Utility Fog]>"]
+	},
+	{
+		"name": "Bio Synthetizer",
+		"production": 1,
+		"percentStatBonus": {"production": 10},
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Medical Lab",
+		"requiredTech": "Metagenetics",
+		"uniques": ["[+2 Production] from [Horse] tiles [in this city]",
+		"[+2 Production] from [Cattle] tiles [in this city]",
+		"[+2 Production] from [Sheep] tiles [in this city]",
+		"[+2 Production] from [Deer] tiles [in this city]",
+		"[+2 Production] from [Ivory] tiles [in this city]",
+		"Only available <in cities without a [Automated Foundry]>"]
+	},
+	{
+		"name": "The Life Archives",
+		"isWonder": true,
+		"requiredResource": "Wonder Module",
+		"uniques": ["[+25]% Production when constructing [Bio] units [in all cities]",
+		"[+2 Production, +2 Food] from [Data Center] tiles [in all cities]",
+		"[+20]% [Food] from every [Bio Drive] [in all cities]",
+		"Consumes [1] [Wonder Module(Total)]"],
+		"requiredTech": "Metagenetics",
+		"quote": "'As you know, human history is full of evil deeds, and maybe we ought to think of them with tears, not fascination' - Elizabeth Kostova"
+	},
+	{
+		"name": "Gravity Field",
+		"culture": 5,
+		"percentStatBonus": {"culture": 35},
+		"specialistSlots": {"Artist": 3},
+		"requiredBuilding": "Virtual Assistant",
+		"maintenance": 10,
+		"requiredTech": "Gravitation",
+		"uniques": ["Space","[+1 Culture] from every specialist [in this city]","Destroyed when the city is captured"]
+	},
+	{
+		"name": "Space Station",
+		"Science": 3,
+		"culture": 3,
+		"gold": 3,
+		"percentStatBonus": {"culture": 10},
+		"percentStatBonus": {"science": 10},
+		"percentStatBonus": {"gold": 10},
+		"specialistSlots": {"Spacefarer": 1},
+		"maintenance": 10,
+		"requiredTech": "Gravitation",
+		"uniques": ["Space", "[-10]% growth [in this city]"]
+	},
+	{
+		"name": "Space Elevator",
+		"production": 3,
+		"greatPersonPoints": {"Great Spacefarer": 2},
+		"isWonder": true,
+		"requiredResource": "Wonder Module",
+		"uniques": ["Space",
+		"[+100]% Production when constructing [Space] buildings [in this city]"
+		"[+50]% Production when constructing [Space] units [in this city]",
+		"[+10]% [Production] from every [Space Drive]",
+		"[+1 Gold] from all [Space] buildings [in all cities]",
+		"Consumes [1] [Wonder Module(Total)]"],
+		"requiredTech": "Gravitation",
+		"quote": "'It takes a planet to explore the universe.' - Dylan Taylor"
+	},
+	{
+		"name": "Recreation Center",
+		"happiness": 3,
+		"requiredBuilding": "Stadium",
+		"maintenance": 6,
+		"requiredTech": "Virtualization",
+		"uniques": ["[+1 Happiness] from [Residential District] tiles [in this city]"]
+	},
+	{
+		"name": "Simulation Center",
+		"hurryCostModifier": 25,
+		"maintenance": 5,
+		"requiredBuilding": "Military Academy",
+		"uniques": ["[+10]% Production when constructing [Military] units [in this city]",
+		"New [Military] units start with [30] Experience [in this city]",
+		"Destroyed when the city is captured"],
+		"requiredTech": "Virtualization"
+	},
+	{
+		"name": "Mega City Pyramid",
+		"culture": 1,
+		"isWonder": true,
+		"requiredResource": "Wonder Module",
+		"uniques": ["[+1 Culture] per [2] population [in all cities]",
+		"Free Social Policy",
+		"[+1 Happiness] per [2] population [in this city]",
+		"Consumes [1] [Wonder Module(Total)]"],
+		"requiredTech": "Virtualization",
+		"quote": "'We make a living by what we get, but we make a life by what we give.' - Winston Churchill"
+	},
+		{
+		"name": "Fusion Reactor",
+		"science": 3,
+		"production": 5,
+		"isWonder": true,
+		"requiredResource": "Wonder Module",
+		"uniques": ["[+20]% Production when constructing [Cyber] units [in all cities]",
+		"[+2 Production, +2 Science] from [Data Center] tiles [in all cities]",
+		"[+20]% [Science] from every [Science Drive] [in all cities]",
+		"Consumes [1] [Wonder Module(Total)]"],
+		"requiredTech": "Nuclear Fusion",
+		"quote": "'The power of the Sun, in the palm of my hand' - Otto Octavious"
+	},
+	{
+		"name": "Utility Fog",
+		"cityStrength": 15,
+		"cityHealth": 55,
+		"maintenance": 10,
+		"requiredTech": "Particle Physics",
+		"requiredBuilding": "Military Academy",
+		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]",
+		"[+1 Production, +1 Science] from [Data Center] tiles [in this city]",
+		"Provides [1] [Nanomaterials]",
+		"Only available <in cities without a [Hostile Fauna]>"]
+	},
+	{
+		"name": "Sea Station",
+		"hurryCostModifier": 25,
+		"maintenance": 10,
+		"requiredBuilding": "Seaport",
+		"uniques": ["[+2 Production, +2 Science, +1 Gold] from [Water] tiles [in this city]",
+		"Must be next to [Coast]", 
+		"[+25]% Production when constructing [Water] units [in this city]"],
+		"requiredTech": "Terraforming"
+	},
+	{
+		"name": "Flying City",
+		"isWonder": true,
+		"requiredResource": "Wonder Module",
+		"uniques": ["[+4 Culture, +4 Production, +4 Gold, +2 Science, +2 Food] from [Water] tiles [in all cities]",
+		"[+20]% [Gold] from every [Gold Drive]",
+		"Consumes [1] [Wonder Module(Total)]"],
+		"requiredTech": "Terraforming",
+		"quote": "'I believe that if one always looked at the skies, one would end up with wings.' - Gustave Flaubert"
+	},
+	{
+		"name": "Nano Foundry",
+		"production": 5,
+		"hurryCostModifier": 25,
+		"maintenance": 12,
+		"requiredBuilding": "Nano Factory",
+		"requiredTech": "Nanotechnology"
+		"uniques": ["Provides [1] [Nanomaterials]",
+		 "[+25]% Production when constructing [Cyber] units [in this city]",
+		 "Only available <in cities without a [Bio Factory]>",
+		 "Only available <in cities without a [Aerospace Complex]>"]
+	},
+	{
+		"name": "Bio Factory",
+		"food": 5,
+		"hurryCostModifier": 25,
+		"maintenance": 12,
+		"requiredBuilding": "Medical Lab",
+		"requiredTech": "Terraforming",
+		"uniques": ["Provides [1] [Virus Agent]",
+		 "[+25]% Production when constructing [Bio] units [in this city]",
+		 "Only available <in cities without a [Nano Foundry]>",
+		 "Only available <in cities without a [Aerospace Complex]>"]
+	},
+	{
+		"name": "Clean Energy Tower",
+		"isWonder": true,
+		"requiredResource": "Wonder Module",
+		"uniques": ["Provides [6] [Nanomaterials]",
+		"[+4 Production] from [Data Center] tiles [in all cities]",
+		"[+20]% [Production] from every [Build Drive] [in all cities]"
+		"Consumes [1] [Wonder Module(Total)]"],
+		"requiredTech": "Nanotechnology",
+		"quote": "''"
+	},
+	{
+		"name": "Aerospace Complex",
+		"production": 5,
+		"gold": 3,
+		"science": 3,
+		"culture": 3,
+		"food": -5,
+		"percentStatBonus": {"production": 25},
+		"specialistSlots": {"Spacefarer": 2},
+		"maintenance": 10,
+		"requiredTech": "Spaceflight",
+		"uniques": ["Space",
+		"[+25]% Production when constructing [Air] units [in this city]", 
+		"[-10]% growth [in this city]",
+		"Only available <in cities without a [Nano Foundry]>",
+		"Only available <in cities without a [Bio Factory]>"]
+	},
+	{
+		"name": "Forcefield",
+		"cityStrength": 25,
+		"cityHealth": 150,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Military Base",
+		"requiredTech": "Forcefields",
+		"uniques": ["Population loss from nuclear attacks [-100]% [in this city]","Destroyed when the city is captured"]
+	},
+	{
+		"name": "Kinetic Shield Generator",
+		"hurryCostModifier": 25,
+		"maintenance": 10,
+		"requiredBuilding": "Simulation Center",
+		"uniques": ["All newly-trained [all] units [in this city] receive the [Energy Shield] promotion",
+		"Destroyed when the city is captured"],
+		"requiredTech": "Forcefields"
+	},
+	{
+		"name": "The World Shield",
+		"isWonder": true,
+		"requiredResource": "Wonder Module",
+		"uniques": ["[+100]% City Strength from defensive buildings",
+		"[+33]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+		"[+17]% Strength <for [All] units> <when fighting in [Friendly Land] tiles> <when defending>",
+		"Consumes [1] [Wonder Module(Total)]"],
+		"requiredTech": "Forcefields",
+		"quote": "''"
+	},
+	{
+		"name": "Gene Upgrade",
+		"food": 2,
+		"percentStatBonus": {"food": 15},
+		"requiredBuilding": "Medical Lab",
+		"maintenance": 12,
+		"requiredTech": "Life Theory",
+		"uniques": ["[25]% Food is carried over after population increases [in this city]",
+		"[+1 Food] from [Residential District] tiles [in this city]",
+		"[+1 Production] from [Data Center] tiles [in this city]"]
+	},
+	{
+		"name": "Recreating Lifeforms",
+		"isWonder": true,
+		"requiredResource": "Wonder Module",
+		"uniques": ["Enables Construction of Dinosaurs",
+		"Consumes [1] [Wonder Module(Total)"]
+		"requiredTech": "Life Theory",
+		"quote": "'Dinosaurs may be extinct from the face of the planet, but they are alive and well in our imaginations.' - Steve Miller"
+	},
+	{
+		"name": "Quantum Facility",
+		"maintenance": 12,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 75},
+		"specialistSlots": {"Scientist": 4},
+		"requiredBuilding": "Fusion Reactor",
+		"uniques": ["[+2 Science] from [Data Center] tiles [in this city]"],
+		"requiredTech": "Molecular Engineering"
+	},
+	{
+		"name": "The Time Heist",
+		"isWonder": true,
+		"requiredResource": "Wonder Module",
+		"uniques": ["Free Technology",
+		"[+100]% Production when constructing [Time Machine] buildings [in this city]",
+		"Consumes [1] [Wonder Module(Total)]"],
+		"requiredTech": "Antimatter",
+		"quote": "'But to understand the future. We have to go back in time' - Pitbull"
+	},
+	{
+		"name": "Space Colony",
+		"science": 6,
+		"culture": 6,
+		"gold": 6,
+		"percentStatBonus": {"culture": 20},
+		"percentStatBonus": {"science": 20},
+		"percentStatBonus": {"gold": 20},
+		"specialistSlots": {"Spacefarer": 2},
+		"maintenance": 12,
+		"requiredTech": "Space Colony",
+		"uniques": ["Space", "[-25]% growth [in this city]"]
+	},
+	{
+		"name": "Mars Colonization",
+		"isWonder": true,
+		"requiredResource": "Wonder Module",
+		"uniques": ["[-25]% growth [in all cities]",
+		"[+50%] [Gold] [in all cities]",
+		"[+50%] [Science] [in all cities]",
+		"[+50%] [Culture] [in all cities]"
+		"Consumes [1] [Wonder Module(Total)]"],
+		"requiredTech": "Space Colony",
+		"quote": "'I would like to die on Mars. Just not on impact.' - Elon Musk"
+	},
+	{
+		"name": "Space Expedition",
+		"production": 10,
+		"gold": 6,
+		"science": 6,
+		"culture": 6,
+		"food": -10,
+		"percentStatBonus": {"culture": 50},
+		"specialistSlots": {"Spacefarer": 2},
+		"maintenance": 10,
+		"requiredTech": "World Alliance",
+		"requiredBuilding": "Space Colony"
+		"uniques": ["Space", 
+		"[-20]% growth [in this city]"]
+	},
+	{
+		"name": "Energy Weapons",
+		"isNationalWonder": true,
+		"requiredTech": "Particle Physics",
+		"uniques": ["All newly-trained [Cyber] units [in all cities] receive the [Energy Weapons] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Energy Weapons] promotion"],
+	},
+	{
+		"name": "Information Warfare",
+		"isNationalWonder": true,
+		"requiredTech": "Mobile Tactics",
+		"uniques": ["All newly-trained [Cyber] units [in all cities] receive the [Firewall] promotion"],
+	},
+	{
+		"name": "World Alliance",
+		"isWonder": true,
+		"requiredTech": "World Alliance",
+		"uniques": ["Space","Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon completion"],
+		"quote": "'Don’t Cry Because It’s Over; Smile Because It Happened'"
+	},
+	{
+		"name": "Teleport Station",
+		"isWonder": true,
+		"requiredTech": "Phasing",
+		"requiredResource": "Wonder Module",
+		"uniques": ["All newly-trained [Chrono-Infantry] units [in this city] receive the [Teleportation] promotion",
+		"All newly-trained [Quantum Hacker] units [in this city] receive the [Teleportation] promotion",
+		"Consumes [1] [Wonder Module(Total)]"],
+		"quote": "'If I could teleport, I'd probably still be late.' - Anonymous"
+	},
+	{
+		"name": "Computronium Assembly",
+		"production": 5,
+		"percentStatBonus": {"production": 25},
+		"maintenance": 12,
+		"requiredBuilding": "Nano Foundry",
+		"requiredResource": "Quantum Fragment",
+		"requiredTech": "Computronium"
+		"uniques": ["Provides [3] [Computronium]"]
+	},
+	{
+		"name": "Quantum Module",
+		"food": -5,
+		"requiredTech": "Space Modules"
+		"requiredBuilding": "Space Colony"
+		"uniques": ["Space",
+		"Provides [2] [Quantum Fragment]",
+		"Only available <in cities without a [Survey Module]>",
+		"Only available <in cities without a [Build Module]>",
+		"Limited to [2] per Civilization"]
+		"hurryCostModifier": 20,
+	},
+	{
+		"name": "Build Module",
+		"food": -5,
+		"production": 5,
+		"percentStatBonus": {"production": 25},
+		"requiredTech": "Space Modules"
+		"requiredBuilding": "Space Colony"
+		"uniques": ["Space",
+		"Only available <in cities without a [Quantum Module]>",
+		"Only available <in cities without a [Survey Module]>",
+		"Limited to [2] per Civilization"]
+		"hurryCostModifier": 20,
+	},
+	{
+		"name": "Survey Module",
+		"food": -5,
+		"Culture": 5,
+		"percentStatBonus": {"culture": 50},
+		"requiredTech": "Space Modules"
+		"requiredBuilding": "Space Colony"
+		"uniques": ["Space",
+		"Only available <in cities without a [Quantum Module]>",
+		"Only available <in cities without a [Build Module]>",
+		"Limited to [2] per Civilization"]
+		"hurryCostModifier": 20,
+	},
+	{
+        "name": "Photon Generator",
+		"isNationalWonder": true,
+        "requiredTech": "Antimatter",
+		"requiredResource": "Quantum Fragment",
+        "uniques": ["Time Machine",
+		"Cannot be purchased",
+		"Hidden when [Scientific] Victory is disabled"]
+    },
+	{
+        "name": "Causality Matrix",
+		"isNationalWonder": true,
+        "requiredTech": "Causality Matrix",
+		"requiredResource": "Quantum Fragment",
+        "uniques": ["Time Machine",
+		"Cannot be purchased",
+		"Hidden when [Scientific] Victory is disabled"]
+    },
+    {
+        "name": "Dimensional Shifter",
+		"isNationalWonder": true,
+        "requiredTech": "Dimensional Travelling",
+		"requiredResource": "Quantum Fragment",
+        "uniques": ["Time Machine",
+		"Cannot be purchased",
+		"Hidden when [Scientific] Victory is disabled"]
+    },
+    {
+        "name": "Entropy Field Generator",
+		"isNationalWonder": true,
+        "requiredTech": "Entropy Fields",
+		"requiredResource": "Quantum Fragment",
+        "uniques": ["Time Machine",
+		"Cannot be purchased",
+		"Hidden when [Scientific] Victory is disabled"]
+    },
+	{
+        "name": "Back to the Past",
+		"isNationalWonder": true,
+        "requiredTech": "Dimensional Travelling",
+        "uniques": ["Time Machine",
+		"Triggers victory",	
+		"Only available <if [Photon Generator] is constructed>",
+		"Only available <if [Causality Matrix] is constructed>",
+		"Only available <if [Dimensional Shifter] is constructed>",
+		"Only available <if [Entropy Field Generator] is constructed>",
+		"Hidden when [Scientific] Victory is disabled",
+		"Cannot be purchased"]
+    },
+	{
+		"name": "Utopia Project",
+		"cost": 1500,
+		"requiredResource": "Quantum Fragment",
+		"isNationalWonder": true,
+		"uniques": ["Hidden until [10] social policy branches have been completed", "Triggers a global alert upon build start",
+			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled"]
+	},
+	{
+		"name": "Wonder Invention",
+		"isNationalWonder": true,
+		"uniques": ["Provides [1] [Wonder Module]",
+		"Provides [1] [Wonder Module(Total)]",
+		"Unbuildable"],
+		"requiredTech": "City Drives",
+	},
+	{
+		"name": "Quantum Invention",
+		"isNationalWonder": true,
+		"uniques": ["Provides [2] [Quantum Fragment]",
+		"Unbuildable"],
+		"requiredTech": "City Drives",
+	},
+	// Unused with the Expansion; hidden by default, included for compatibility purposes
+	{
+        "name": "SS Booster",
+        "requiredResource": "Aluminum",
+        "requiredTech": "Advanced Ballistics",
+        "uniques": ["Spaceship part","Cannot be purchased","Hidden", "Will not be displayed in Civilopedia"]
+    },
+	{
+        "name": "SS Cockpit",
+        "requiredResource": "Aluminum",
+        "requiredTech": "Satellites",
+        "uniques": ["Spaceship part","Cannot be purchased","Hidden", "Will not be displayed in Civilopedia"]
+    },
+    {
+        "name": "SS Engine",
+        "requiredResource": "Aluminum",
+        "requiredTech": "Particle Physics",
+        "uniques": ["Spaceship part","Cannot be purchased","Hidden", "Will not be displayed in Civilopedia"]
+    },
+    {
+        "name": "SS Stasis Chamber",
+        "requiredResource": "Aluminum",
+        "requiredTech": "Nanotechnology",
+        "uniques": ["Spaceship part","Cannot be purchased","Hidden", "Will not be displayed in Civilopedia"]
+    },
+]

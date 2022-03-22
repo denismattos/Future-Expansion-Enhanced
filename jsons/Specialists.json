@@ -1,0 +1,8 @@
+[
+	{
+		"name":"Spacefarer",
+		"science":1,
+		"greatPersonPoints": {"Great Spacefarer":3},
+		"color": [110,0,220]
+	},
+]

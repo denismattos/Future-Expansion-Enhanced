@@ -952,24 +952,24 @@
         "name": "SS Booster",
         "requiredResource": "Aluminum",
         "requiredTech": "Advanced Ballistics",
-        "uniques": ["Spaceship part","Cannot be purchased","Hidden", "Will not be displayed in Civilopedia"]
+        "uniques": ["Spaceship part","Cannot be purchased","Unbuildable", "Will not be displayed in Civilopedia"]
     },
 	{
         "name": "SS Cockpit",
         "requiredResource": "Aluminum",
         "requiredTech": "Satellites",
-        "uniques": ["Spaceship part","Cannot be purchased","Hidden", "Will not be displayed in Civilopedia"]
+        "uniques": ["Spaceship part","Cannot be purchased","Unbuildable", "Will not be displayed in Civilopedia"]
     },
     {
         "name": "SS Engine",
         "requiredResource": "Aluminum",
         "requiredTech": "Particle Physics",
-        "uniques": ["Spaceship part","Cannot be purchased","Hidden", "Will not be displayed in Civilopedia"]
+        "uniques": ["Spaceship part","Cannot be purchased","Unbuildable", "Will not be displayed in Civilopedia"]
     },
     {
         "name": "SS Stasis Chamber",
         "requiredResource": "Aluminum",
         "requiredTech": "Nanotechnology",
-        "uniques": ["Spaceship part","Cannot be purchased","Hidden", "Will not be displayed in Civilopedia"]
+        "uniques": ["Spaceship part","Cannot be purchased","Unbuildable", "Will not be displayed in Civilopedia"]
     },
 ]

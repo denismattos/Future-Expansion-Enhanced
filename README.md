@@ -14,8 +14,6 @@ V1.5 Update: Bug Fixes Edition
 
 -Slightly increased strength of Enhanced Infantry
 
--Battleships can now Upgrade to Sea Arsenal
-
 -Spaceflight now reveals the entire map
 
 -Fixed Residential Districts

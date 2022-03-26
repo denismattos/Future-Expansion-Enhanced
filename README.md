@@ -36,7 +36,7 @@ V1.5 Update: Bug Fixes Edition
 
 -Fixed Recreating Lifeforms
 
--Increased Culture obtained from Artificial Intelligence
+-Increased Culture obtained from Virtual Assistant
 
 -Increased Culture obtained from City-States with United Nations
 

@@ -13,7 +13,7 @@
 			},
 			{
 				"name": "Market Competition",
-				"uniques": ["[15]% Production towards any buildings that already exist in the Capital"],
+				"uniques": ["[+15]% Production towards any buildings that already exist in the Capital"],
 				"requires": ["Futurism"],
 				"row": 1,
 				"column": 5

@@ -35,15 +35,7 @@
 		"uniques": ["Provides [2] [Aluminum]",
 		"[+1 Production] per [3] population [in this city]"]
 	},
-	{
-		"name": "Greenhouse",
-		"maintenance": 2,
-		"requiredTech": "Residentials",
-		"uniques": ["[+1 Production] from [Grassland] tiles [in this city]",
-		"[+1 Production] from [Plains] tiles [in this city]",
-		"[+2 Culture] from [Grassland] tiles [in this city]",
-		"[+2 Culture] from [Plains] tiles [in this city]"]
-	},
+
     {
 		"name": "Nuclear Plant",
 		"production": 5,
@@ -97,7 +89,7 @@
 	{
 		"name": "Shopping Mall",
 		"gold": 1,
-		"percentStatBonus": {"gold": 15},
+		"percentStatBonus": {"gold": 25},
 		"specialistSlots": {"Merchant": 3},
 		"hurryCostModifier": 15,
 		"requiredBuilding": "Stock Exchange",
@@ -121,7 +113,7 @@
 		"name": "Criminal Gang",
 		"cityStrength": -10,
 		"maintenance": 3,
-		"percentStatBonus": {"gold": 30},
+		"percentStatBonus": {"gold": 35},
 		"requiredTech": "Urbanization",
 		"uniques": ["[-2 Food] [in this city]", "Only available <in cities without a [Police Force]>"]
 	},
@@ -178,8 +170,7 @@
 		"maintenance": 5,
 		"requiredTech": "Hackers",
 		"uniques": ["[+2 Science] from [Data Center] tiles [in this city]",
-		"[+1 Production] from [Data Center] tiles [in this city]",
-		"Only available <in cities without a [Private Server]>"]
+		"[+1 Production] from [Data Center] tiles [in this city]"]
 	},
 	{
 		"name": "The Human Atlas",
@@ -195,7 +186,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Scientist": 1},
 		"uniques": ["Space",
-		"Reveals the entire Map",
+		"Reveals the entire map",
 		"Free [Great Scientist] appears",
 		"[+25]% Production when constructing [Space] buildings [in this city]"],
 		"requiredTech": "Satellites",
@@ -205,7 +196,7 @@
 		"name": "Satellite Grid Array",
 		"isWonder": true,
 		"uniques": ["Space",
-		"Reveals the entire Map",
+		"Reveals the entire map",
 		"[+15]% Strength <for [Air] units>"],
 		"requiredTech": "Robotics",
 		"quote": "'Two possibilities exist: either we are alone in the Universe or we are not. Both are equally terrifying.' - Arthur C. Clarke"
@@ -243,7 +234,7 @@
 		"name": "World Olympics",
 		"isWonder": true,
 		"requiredTech": "Globalization",
-		"uniques": ["[+25]% [Culture] [in all cities] <when not at war>"]
+		"uniques": ["[+35]% [Culture] [in all cities] <when not at war>"]
 		"quote": "'Only the gentle are ever really strong.' - James Dean"
 	},
 	{
@@ -253,7 +244,7 @@
 		"greatPersonPoints": {"Great Merchant": 2},
 		"requiredTech": "Globalization",
 		"uniques": ["Resting point for Influence with City-States is increased by [60]",
-		"Allied City-States provide [Culture] equal to [50]% of what they produce for themselves"],
+		"Allied City-States provide [Culture] equal to [75]% of what they produce for themselves"],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
 	},
 	{
@@ -270,7 +261,7 @@
 	{
 		"name": "Virtual Assistant",
 		"culture": 2,
-		"percentStatBonus": {"culture": 25},
+		"percentStatBonus": {"culture": 35},
 		"requiredBuilding": "Broadcast Tower",
 		"maintenance": 6,
 		"requiredTech": "Artificial Intelligence",
@@ -733,7 +724,7 @@
 		"isWonder": true,
 		"requiredResource": "Wonder Module",
 		"uniques": ["Enables Construction of Dinosaurs",
-		"Consumes [1] [Wonder Module(Total)"]
+		"Consumes [1] [Wonder Module(Total)]"]
 		"requiredTech": "Life Theory",
 		"quote": "'Dinosaurs may be extinct from the face of the planet, but they are alive and well in our imaginations.' - Steve Miller"
 	},
@@ -926,7 +917,7 @@
     },
 	{
 		"name": "Utopia Project",
-		"cost": 1500,
+		"cost": 9500,
 		"requiredResource": "Quantum Fragment",
 		"isNationalWonder": true,
 		"uniques": ["Hidden until [10] social policy branches have been completed", "Triggers a global alert upon build start",

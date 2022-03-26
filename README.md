@@ -26,6 +26,8 @@ V1.5 Update: Bug Fixes Edition
 
 -Removed Greenhouses
 
+-Increased Production Bonus obtained from Practicality
+
 -Fixed Hubble Space Telescope, Satellite Grid Array and James Webb Telescope
 
 -Slightly Increased World Olympics Culture Bonus

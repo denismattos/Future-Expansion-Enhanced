@@ -16,6 +16,7 @@
 				"name": "Residentials",
 				"row": 3,
 				"prerequisites": ["Pharmaceuticals","Atomic Theory"],
+				"uniques": ["[-25]% tile improvement construction time"],
 				"quote": "'For those who are lost, there will always be cities that feel like home.' - Simon Van"
 			},
 			{
@@ -55,6 +56,7 @@
 				"name": "Urbanization",
 				"row": 3,
 				"prerequisites": ["Residentials"],
+				"uniques": ["[-25]% tile improvement construction time"],
 				"quote": "'Seasons change. So do cities. People come into your life and people go, but it's comforting to know: the ones you love are always in your heart. And if you're very lucky, a plane ride away.' - Michael Patrick"
 			},
 			{
@@ -271,6 +273,7 @@
 				"name": "Spaceflight",
 				"row": 7,
 				"prerequisites": ["Nuclear Fusion"],
+		                 "uniques": ["Reveals the entire map"],
 				"quote": "'That's one small step for a man, one giant leap for mankind.' - Neil Armstrong"
 			}
 			{

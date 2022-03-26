@@ -5,7 +5,7 @@
 		"food": 2,
 		"turnsToBuild": 15,
 		"techRequired": "Residentials",
-		"uniques": ["[+1 food] for each adjacent [Residential District]",
+		"uniques": ["[+1 Food] for each adjacent [Residential District]",
 		"[+1 Production] <after discovering [Implants]>"]
 	},
     {

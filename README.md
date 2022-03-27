@@ -12,6 +12,8 @@ V1.5 Update: Bug Fixes Edition
 
 -Increased cost of Special Forces
 
+-SS Cockpit is now unbuildable
+
 -Slightly increased strength of Enhanced Infantry
 
 -Spaceflight now reveals the entire map

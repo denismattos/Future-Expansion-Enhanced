@@ -920,7 +920,7 @@
 		"cost": 9500,
 		"requiredResource": "Quantum Fragment",
 		"isNationalWonder": true,
-		"uniques": ["Hidden until [10] social policy branches have been completed", "Triggers a global alert upon build start",
+		"uniques": ["Hidden until [9] social policy branches have been completed", "Triggers a global alert upon build start",
 			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled"]
 	},
 	{

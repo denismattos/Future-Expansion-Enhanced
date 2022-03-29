@@ -8,6 +8,8 @@ This mod does not add new eras. Information/Future eras are still meant to be fo
 
 V1.5 Update: Bug Fixes Edition
 
+-Lowered cost of Techs, Buildings, and Wonders
+
 -Increased cost of Utopia project
 
 -Increased cost of Special Forces

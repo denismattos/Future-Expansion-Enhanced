@@ -166,9 +166,9 @@
 	{
 		"columnNumber": 18,
 		"era": "Future era",
-		"techCost": 13200,
-		"buildingCost": 1200,
-		"wonderCost": 2500,
+		"techCost": 12500,
+		"buildingCost": 1100,
+		"wonderCost": 2200,
 		"techs": [
 			{
 				"name": "Mutations",
@@ -199,9 +199,9 @@
 	{
 		"columnNumber": 19,
 		"era": "Future era",
-		"techCost": 17000,
-		"buildingCost": 1600,
-		"wonderCost": 3300,
+		"techCost": 15600,
+		"buildingCost": 1400,
+		"wonderCost": 2900,
 		"techs": [
 			{
 				"name": "City Drives",
@@ -214,9 +214,9 @@
 	{
 		"columnNumber": 20,
 		"era": "Future era",
-		"techCost": 22900,
-		"buildingCost": 2160,
-		"wonderCost": 4400,
+		"techCost": 20000,
+		"buildingCost": 1980,
+		"wonderCost": 3400,
 		"techs": [
 		    {
 				"name": "Metagenetics",
@@ -253,9 +253,9 @@
 	{
 		"columnNumber": 21,
 		"era": "Future era",
-		"techCost": 30000,
-		"buildingCost": 2500,
-		"wonderCost": 5200,
+		"techCost": 25600,
+		"buildingCost": 2460,
+		"wonderCost": 3700,
 		"techs": [
 		    {
 				"name": "Terraforming",
@@ -287,9 +287,9 @@
 	{
 		"columnNumber": 22,
 		"era": "Future era",
-		"techCost": 40500,
-		"buildingCost": 3370,
-		"wonderCost": 7020,
+		"techCost": 32400,
+		"buildingCost": 2980,
+		"wonderCost": 4100,
 		"techs": [
 		    {
 				"name": "Life Theory",
@@ -326,9 +326,9 @@
 	{
 		"columnNumber": 23,
 		"era": "Future era",
-		"techCost": 55000,
-		"buildingCost": 4500,
-		"wonderCost": 9500,
+		"techCost": 38400,
+		"buildingCost": 3300,
+		"wonderCost": 4800,
 		"techs": [
 		    {
 				"name": "World Alliance",
@@ -365,9 +365,9 @@
 	{
 		"columnNumber": 24,
 		"era": "Future era",
-		"techCost": 74250,
-		"buildingCost": 4500,
-		"wonderCost": 9500,
+		"techCost": 45000,
+		"buildingCost": 3700,
+		"wonderCost": 5500,
 		"techs": [
 			{
 				"name": "Causality Matrix",
@@ -392,7 +392,7 @@
 	{
 		"columnNumber": 25,
 		"era": "Future era",
-		"techCost": 99999,
+		"techCost": 50000,
 		"buildingCost": 4500,
 		"wonderCost": 9500,
 		"techs": [

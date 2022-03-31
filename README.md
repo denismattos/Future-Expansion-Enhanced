@@ -6,7 +6,7 @@ The main objective is to prevent the late-game from feeling stale by introducing
 
 This mod does not add new eras. Information/Future eras are still meant to be for wrapping up the game.
 
-V1.5 Update: Bug Fixes Edition
+V1.6 Update: Bug Fixes Edition
 
 -Slightly lowered Policy increases from Future era Policies
 

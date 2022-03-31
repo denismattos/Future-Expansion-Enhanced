@@ -2,7 +2,7 @@
     {
 		"name": "Residential District",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
-		"food": 2,
+		"food": 1,
 		"turnsToBuild": 15,
 		"techRequired": "Residentials",
 		"uniques": ["[+1 Food] for each adjacent [Residential District]",
@@ -12,7 +12,6 @@
 		"name": "Data Center",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra"],
 		"production": 1,
-		"science": 1,
 		"turnsToBuild": 15,
 		"techRequired": "Computers",
 		"uniques": ["[+1 Science] for each adjacent [Data Center]",

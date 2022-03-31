@@ -2,7 +2,7 @@
     {
 		"name": "Futurism",
 		"era": "Atomic era",
-		"uniques": ["[+33]% Culture cost of adopting new Policies","[-75]% maintenance cost for buildings [in all cities]"],
+		"uniques": ["[+25]% Culture cost of adopting new Policies","[-75]% maintenance cost for buildings [in all cities]"],
 		"policies": [
 			{
 				"name": "Modernization",
@@ -49,7 +49,7 @@
 	{
 		"name": "Pragmatism",
 		"era": "Information era",
-		"uniques": ["[+33]% Culture cost of adopting new Policies","[+2 Culture] from every specialist [in all cities]"],
+		"uniques": ["[+25]% Culture cost of adopting new Policies","[+2 Culture] from every specialist [in all cities]"],
 		"policies": [
 			{
 				"name": "Realism",
@@ -95,7 +95,7 @@
 	{
 		"name": "Inventionism",
 		"era": "Future era",
-		"uniques": ["[+33]% Culture cost of adopting new Policies","Provides a [Wonder Invention] in your first [1] cities for free","Only available <before adopting [Unhinged]>","Only available <before adopting [Transhumanism]>"],
+		"uniques": ["[+25]% Culture cost of adopting new Policies","Provides a [Wonder Invention] in your first [1] cities for free","Only available <before adopting [Unhinged]>","Only available <before adopting [Transhumanism]>"],
 		"policies": [
 			{
 				"name": "Creative Solutions",
@@ -144,7 +144,7 @@
 	{
 		"name": "Unhinged",
 		"era": "Future era",
-		"uniques": ["[+33]% Culture cost of adopting new Policies","[+50]% growth [in all cities] <when between [-1] and [-20] Happiness>","[+15]% [Science]","[-1 Happiness] [in all cities]","Only available <before adopting [Inventionism]>","Only available <before adopting [Transhumanism]>"],
+		"uniques": ["[+25]% Culture cost of adopting new Policies","[+50]% growth [in all cities] <when between [-1] and [-20] Happiness>","[+15]% [Science]","[-1 Happiness] [in all cities]","Only available <before adopting [Inventionism]>","Only available <before adopting [Transhumanism]>"],
 		"policies": [
 			{
 				"name": "Overwork",
@@ -190,7 +190,7 @@
 	{
 		"name": "Transhumanism",
 		"era": "Future era",
-		"uniques": ["[+33]% Culture cost of adopting new Policies","[+30]% Strength <for [Bio] units>", "[-25]% Strength <for [Cyber] units>","Only available <before adopting [Inventionism]>","Only available <before adopting [Unhinged]>"],
+		"uniques": ["[+25]% Culture cost of adopting new Policies","[+30]% Strength <for [Bio] units>", "[-25]% Strength <for [Cyber] units>","Only available <before adopting [Inventionism]>","Only available <before adopting [Unhinged]>"],
 		"policies": [
 			{
 				"name": "Cloning",

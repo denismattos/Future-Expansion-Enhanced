@@ -8,6 +8,10 @@ This mod does not add new eras. Information/Future eras are still meant to be fo
 
 V1.5 Update: Bug Fixes Edition
 
+-Slightly lowered Policy increases from Future era Policies
+
+-Workers now automate Buildings in earlier eras
+
 -Utopia Project now requires only 9 Policies
 
 -Lowered cost of Techs, Buildings, and Wonders

@@ -516,7 +516,6 @@
 		"cost": 750,
 		"requiredTech": "Life Enhancing",
 		"requiredResource": "Virus Agent",
-		"upgradesTo": "Dinosaur",
 		"uniques": ["Bio", 
 		"Ignores Zone of Control", 
 		"All tiles cost 1 movement",

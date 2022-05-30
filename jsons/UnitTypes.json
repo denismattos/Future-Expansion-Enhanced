@@ -1,0 +1,11 @@
+[
+	{
+        "name": "Hacker",
+        "movementType": "Land"
+		"uniques": ["Ranged attacks may be performed over obstacles"],
+    },
+	{
+        "name": "Land Carrier",
+        "movementType": "Land"
+    },
+]

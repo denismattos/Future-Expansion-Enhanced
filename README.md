@@ -1,10 +1,49 @@
 3# Future-Expansion
 
-Mod that greatly expands the Atomic, Information and Future eras.
+Mod that greatly expands the late-game eras, with a focus on Atomic, Information and Future eras.
 
 The main objective is to prevent the late-game from feeling stale by introducing new units, improvements and mechanics. 
 
-This mod does not add new eras. Information/Future eras are still meant to be for wrapping up the game.
+While this mod extends game length, the goal is to not extend it too long. If you have any feedback/suggestions feel free to contact me.
+
+V2.0 Update: Beyond the Future Edition
+
+-Added Beyond the Future era
+
+-Added Supply Routes
+
+-Added Monolith
+
+-Added Corporations
+
+-Removed Plans
+
+-Reworked Time Machine
+
+-Reworked costs, techs and wonders
+
+-Great Spacefarer can build Space Platform
+
+-Added Infraestructure
+
+-Reworked Tech Tree
+
+-Removed Pre-Future-era policies
+
+-Removed Unit-based Future era wonders
+
+-Reworked Wonder Modules into Corporation Slots
+
+-Added Composites
+
+-Added Power
+
+-Removed Data Centers, Reworked Improvements into Infraestructure
+
+-Removed Culture-Based redundant Information era Wonders
+
+-Utopia Project now requires only 6 policies
+
 
 V1.6 Update: Bug Fixes Edition
 

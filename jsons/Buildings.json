@@ -173,9 +173,7 @@
 	},
 	{
 		"name": "Space Station",
-		"percentStatBonus": {"culture": 10},
-		"percentStatBonus": {"science": 10},
-		"percentStatBonus": {"gold": 10},
+		"percentStatBonus": {"culture": 10,"science": 10,"gold": 10},
 		"specialistSlots": {"Spacefarer": 2},
 		"requiredResource": "Power",
 		"requiredTech": "Lasers",
@@ -216,9 +214,7 @@
 	},
 	{
 		"name": "Space Colony",
-		"percentStatBonus": {"culture": 20},
-		"percentStatBonus": {"science": 20},
-		"percentStatBonus": {"gold": 20},
+		"percentStatBonus": {"culture": 20,"science": 20,"gold": 20},
 		"specialistSlots": {"Spacefarer": 2},
 		"requiredResource": "Power",
 		"requiredTech": "Spaceflight",

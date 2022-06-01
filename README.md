@@ -98,4 +98,4 @@ V1.6 Update: Bug Fixes Edition
 -Futurism now lowers maintenance cost by 75% but acts in all cities
 
 
-Compatible with REKMOD.
+Should be compatible with any mod that does not directly alter the G&K Tech Tree 

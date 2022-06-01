@@ -1,0 +1,506 @@
+[
+//Ancient
+    {
+		"name": "Palace",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["Indicates the capital city","Provides [1] [Corporation Slot(Total)] <after discovering [Corporations]>","Provides [1] [Corporation Slot] <after discovering [Corporations]>","Provides [3] [Power] <after discovering [Electricity]>"]
+	},
+//Atomic
+    {
+		"name": "Medical Lab",
+		"requiredBuilding": "Hospital",
+		"maintenance": 3,
+		"requiredTech": "Pharmaceuticals",
+		"uniques": ["[25]% Food is carried over after population increases [in this city]","[+1 Happiness] per [5] population [in this city]"]
+	},
+	{
+		"name": "Nuclear Plant",
+		"production": 5,
+		"percentStatBonus": {"production": 20},
+		"requiredBuilding": "Factory",
+		"maintenance": 3,
+		"requiredResource": "Uranium",
+		"requiredTech": "Nuclear Fission",
+		"uniques": ["Provides [2] [Power]","Provides [1] [Power] <after discovering [Clean Energy]>","Only available <in cities without a [Solar Plant]>","Only available <in cities without a [Energy Reactor]>"]
+	},
+	{
+		"name": "Solar Plant",
+		"production": 5,
+		"percentStatBonus": {"production": 20},
+		"requiredBuilding": "Factory",
+		"maintenance": 3,
+		"requiredTech": "Ecology",
+		"uniques": ["Provides [2] [Power]","Provides [1] [Power] <after discovering [Clean Energy]>","Must be next to [Desert]",	
+		"Only available <in cities without a [Nuclear Plant]>","Only available <in cities without a [Energy Reactor]>"]
+	},
+	{
+		"name": "Recycling Center",
+		"production": 1,
+		"maintenance": 3,
+		"requiredTech": "Ecology",
+		"requiredResource": "Power",
+		"uniques": ["Provides [2] [Aluminum]",
+		"[+1 Production] per [3] population [in this city]","Destroyed when the city is captured"]
+	},
+	{
+		"name": "Entrepeneur Venue",
+		"gold": 4,
+		"requiredResource": "Power",
+		"percentStatBonus": {"gold": 45},
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Stock Exchange",
+		"requiredTech": "Computers",
+		"uniques": ["Only available <in cities without a [Virtual Space]>",
+		"Only available <in cities without a [Foreign Center]>",
+		"Only available <in cities without a [Private Grid]>",
+		"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Foreign Center",
+		"culture": 5,
+		"requiredResource": "Power",
+		"specialistSlots": {"Artist": 1},
+		"percentStatBonus": {"culture": 55},
+		"requiredBuilding": "Broadcast Tower",
+		"maintenance": 4,
+		"hurryCostModifier": 0,
+		"requiredTech": "Computers",
+		"uniques": ["Only available <in cities without a [Virtual Space]>",
+		"Only available <in cities without a [Entrepeneur Venue]>",
+		"Only available <in cities without a [Private Grid]>",
+		"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Electrical Grid",
+		"hurryCostModifier": 15,
+		"requiredTech": "Combined Arms",
+		"uniques": ["Provides [2] [Power]","Provides [1] [Power] <after discovering [Clean Energy]>","Must have an owned [Power Plant] within [3] tiles","Destroyed when the city is captured"]
+	},
+	{
+		"name": "Bomb Shelter",
+		"cost": 300,
+		"maintenance": 1,
+		"requiredTech": "Telecommunications",
+		"uniques": ["Population loss from nuclear attacks [-85]% [in this city]"]
+	},
+	{
+		"name": "Spaceship Factory",
+		"production": 3,
+		"specialistSlots": {"Spacefarer": 1},
+		"requiredResource": "Power",
+		"cost": 330,
+		"requiredTech": "Robotics"
+		"requiredBuilding": "Factory",
+		"uniques": ["Space","[+25]% Production when constructing [Space] units [in this city]","[+25]% Production when constructing [Space] buildings [in this city]","Destroyed when the city is captured"],
+		
+	},
+//Information
+    {
+		"name": "Virtual Space",
+		"happiness": 5,
+		"requiredBuilding": "Stadium",
+		"maintenance": 4,
+		"requiredResource": "Power",
+		"requiredTech": "Globalization",
+		"uniques": ["[+1 Happiness] per [5] population [in this city]","Only available <in cities without a [Private Grid]>",
+		"Only available <in cities without a [Foreign Center]>",
+		"Only available <in cities without a [Entrepeneur Venue]>",
+		"Destroyed when the city is captured"]
+	},
+    {
+		"name": "Private Grid",
+		"science": 4,
+		"requiredResource": "Power",
+		"requiredTech": "Artificial Intelligence",
+		"percentStatBonus": {"science": 60},
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "Research Lab",
+		"maintenance": 5,
+		"uniques": ["Only available <in cities without a [Virtual Space]>",
+		"Only available <in cities without a [Foreign Center]>",
+		"Only available <in cities without a [Entrepeneur Venue]>",
+		"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Defense Complex",
+		"cityStrength": 24,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Military Base",
+		"requiredTech": "Genetics",
+		"requiredResource": "Power",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+//Future
+    {
+		"name": "Bio Facility",
+		"food": 3,
+		"percentStatBonus": {"food": 5},
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Medical Lab",
+		"requiredTech": "Enhancing",
+		"requiredResource": "Power",
+		"uniques": ["[+2 Food] from [Strategic resource] tiles [in this city]",
+		"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Nano-Factory",
+		"production": 2,
+		"percentStatBonus": {"production": 15},
+		"specialistSlots": {"Engineer": 1},
+		"requiredBuilding": "Factory",
+		"maintenance": 5,
+		"hurryCostModifier": 0,
+		"requiredResource": "Power",
+		"requiredTech": "Nanotechnology"
+		"uniques": ["Provides [1] [Composites]", "Destroyed when the city is captured"]
+	},
+	{
+		"name": "Energy Reactor",
+		"production": 5,
+		"percentStatBonus": {"production": 20},
+		"requiredBuilding": "Factory",
+		"maintenance": 5,
+		"requiredTech": "Lasers",
+		"uniques": ["Provides [2] [Power]","Provides [1] [Power] <after discovering [Clean Energy]>","Only available <in cities without a [Solar Plant]>","Only available <in cities without a [Nuclear Plant]>"]
+	},
+	{
+		"name": "Space Station",
+		"percentStatBonus": {"culture": 10},
+		"percentStatBonus": {"science": 10},
+		"percentStatBonus": {"gold": 10},
+		"specialistSlots": {"Spacefarer": 2},
+		"requiredResource": "Power",
+		"requiredTech": "Lasers",
+		"uniques": ["Space","[-15]% growth [in this city]","Destroyed when the city is captured"],
+		
+	},
+	{
+		"name": "Composite Factory",
+		"production": 2,
+		"requiredBuilding": "Recycling Center",
+		"maintenance": 6,
+		"hurryCostModifier": 0,
+		"requiredResource": "Power",
+		"requiredTech": "Automation"
+		"uniques": ["Provides [4] [Composites]","[+25]% Production when constructing [Cyber] units [in this city]","Destroyed when the city is captured","Only available <in cities without a [Adaptive Base]>","Only available <in cities without a [Energy Barrier]>"]
+	},
+	{
+		"name": "Adaptive Base",
+		"cityStrength": 16,
+		"cityHealth": 32,
+		"hurryCostModifier": 25,
+		"maintenance": 6,
+		"requiredBuilding": "Military Base",
+		"requiredTech": "Terraforming",
+		"requiredResource": "Power",
+		"uniques": ["[+25]% Production when constructing [Bio] units [in this city]","[+10]% growth [in this city]","Destroyed when the city is captured","Only available <in cities without a [Energy Barrier]>","Only available <in cities without a [Composite Factory]>"]
+	},
+	{
+		"name": "Energy Barrier",
+		"hurryCostModifier": 0,
+		"cityStrength": 8,
+		"cityHealth": 64,
+		"maintenance": 6,
+		"requiredBuilding": "Military Academy",
+		"requiredResource": "Power",
+		"requiredTech": "Clean Energy",
+		"uniques": ["New [Military] units start with [15] Experience [in this city]","All newly-trained [Military] units [in this city] receive the [Energy Shield] promotion","Destroyed when the city is captured"],
+	},
+	{
+		"name": "Space Colony",
+		"percentStatBonus": {"culture": 20},
+		"percentStatBonus": {"science": 20},
+		"percentStatBonus": {"gold": 20},
+		"specialistSlots": {"Spacefarer": 2},
+		"requiredResource": "Power",
+		"requiredTech": "Spaceflight",
+		"requiredBuilding": "Space Station"
+		"uniques": ["Space","[-25]% growth [in this city]","Destroyed when the city is captured"],
+		
+	},
+//National Wonders
+    {
+		"name": "Utopia Project",
+		"cost": 3000,
+		"isNationalWonder": true,
+		"uniques": ["Hidden until [6] social policy branches have been completed", "Triggers a global alert upon build start",
+			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled"]
+	},
+    {
+		"name": "Nuclear Testing Site",
+		"isNationalWonder": true,
+		"requiredTech": "Atomic Theory",
+		"cost": 1000,
+		"uniques": ["Enables nuclear weapon", "Triggers a global alert upon completion"]
+	},
+	{
+		"name": "Information Warfare",
+		"isNationalWonder": true,
+		"requiredTech": "Artificial Intelligence",
+		"uniques": ["Requires a [Military Academy] in all cities","All newly-trained [Cyber] units [in all cities] receive the [Firewall] promotion"],
+	},
+	{
+		"name": "Time Machine Blueprints",
+		"cost": 1600,
+		"isNationalWonder": true,
+		"uniques": ["Enables construction of Time Machine parts", "Triggers a global alert upon completion", 
+			"Hidden when [Scientific] Victory is disabled"],
+		"requiredTech": "Lasers"
+	},
+	{
+		"name": "Monolith Portal",
+		"cost": 1600,
+		"isNationalWonder": true,
+		"uniques": ["Enables construction of Monolith Aliens","Must have an owned [Alien Monolith] within [3] tiles","Only available <starting from the [Future era]>","Will not be displayed in Civilopedia"],
+		"requiredTech": "Lasers"
+	},
+//World Wonders
+    {
+		"name": "Sillicon Valley",
+		"isWonder": true,
+		"requiredTech": "Urbanization",
+		"uniques": ["[+6 Gold] from each Trade Route","[+6 Science] from each Trade Route"]
+		"quote": "'The truth is you don't know what is going to happen tomorrow. Life is a crazy ride, and nothing is guaranteed.' - Eminem"
+	},
+    {
+		"name": "Manhattan Project",
+		"isWonder": true,
+		"requiredTech": "Atomic Theory",
+		"uniques": ["Provides [1] [Uranium]",
+		"Gain a free [Nuclear Testing Site] [in this city]",
+		"[+50]% Production when constructing [Atomic Bomb] units [in this city]",
+		"Free [Atomic Bomb] appears"]
+		"quote": "'The only use for an atomic bomb is to keep somebody else from using one.' - George Wald"
+	},
+	{
+		"name": "Pentagon",
+		"isWonder": true,
+		"culture": 3,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>",
+		"[Gold] cost of purchasing [All] units [-33]%"],
+		"requiredTech": "Combined Arms",
+		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
+	},
+	{
+		"name": "Cristo Redentor",
+		"culture": 5,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 2},
+		"percentStatBonus": {"culture": 15}
+		"uniques": ["[-15]% Culture cost of adopting new Policies"],
+		"requiredTech": "Plastics",
+		"quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"
+	},
+	{
+		"name": "Apollo Program",
+		"isWonder": true,
+		"uniques": ["Free [Great Spacefarer] appears",
+		"[Great Spacefarer] is earned [100]% faster"],
+		"requiredTech": "Rocketry"
+		"quote": "'That's one small step for a man, one giant leap for mankind.' - Neil Armstrong"
+	},
+	{
+		"name": "Hubble Space Telescope",
+		"isWonder": true,
+		"requiredTech": "Satellites",
+		"greatPersonPoints": {"Great Spacefarer": 2},
+		"uniques": ["Space",
+		"Reveals the entire map",
+		"Free [Great Scientist] appears",
+		"[+100]% Production when constructing [Space] buildings [in this city]"],
+		"quote": "'The wonder is, not that the field of stars is so vast, but that man has measured it.' - Anatole France"
+	},
+	{
+		"name": "United Nations",
+		"isWonder": true,
+		"culture": 1,
+		"greatPersonPoints": {"Great Artist": 2},
+		"requiredTech": "Globalization",
+		"uniques": ["Resting point for Influence with City-States is increased by [60]",
+		"Allied City-States provide [Culture] equal to [100]% of what they produce for themselves"],
+		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
+	},
+	{
+		"name": "World Olympics",
+		"isWonder": true,
+		"requiredTech": "Urbanization",
+		"uniques": ["[+30]% [Culture] [in all cities] <when not at war>"]
+		"quote": "'Only the gentle are ever really strong.' - James Dean"
+	},
+	{
+		"name": "Fusion Reactor",
+		"isWonder": true,
+		"requiredTech": "Automation",
+		"uniques": ["[+25]% Strength <for [Cyber] units>",
+		"[+25]% Production when constructing [Cyber] units [in all cities]",
+		"[+25]% [Science] from every [Composite Factory]"],
+		"quote": "'The power of the Sun, in the palm of my hand' - Otto Octavious"
+	},
+	{
+		"name": "Living Castle",
+		"isWonder": true,
+		"requiredTech": "Metagenetics",
+		"uniques": ["[+25]% Strength <for [Bio] units>",
+		"[+25]% Production when constructing [Bio] units [in all cities]",
+		"[+25]% [Food] from every [Adaptive Base]"],
+		"quote": "'Its alive! Its alive!' - Víctor Frankenstein"
+	},
+	{
+		"name": "Space Elevator",
+		"isWonder": true,
+		"greatPersonPoints": {"Great Spacefarer": 2},
+		"requiredTech": "Spaceflight",
+		"uniques": ["Space",
+		"[+25]% Strength <for [Space] units>",
+		"[+2 Culture] from every specialist [in all cities]"
+		"[+100]% Great Person generation [in this city]"],
+		"quote": "'It takes a planet to explore the universe.' - Dylan Taylor"
+	},
+	{
+		"name": "Mega City Pyramid",
+		"isWonder": true,
+		"requiredTech": "Clean Energy",
+		"uniques": ["[+1 Culture] per [2] population [in all cities]",
+		"[+1 Happiness] per [2] population [in this city]"],
+		"quote": "'We make a living by what we get, but we make a life by what we give.' - Winston Churchill"
+	},
+	{
+		"name": "The Time Heist",
+		"isWonder": true,
+		"requiredTech": "Nuclear Fusion"
+		"uniques": ["Free Technology",
+		"[+100]% Production when constructing [Time Machine part] units [in this city]"],
+		"quote": "'But to understand the future. We have to go back in time' - Pitbull"
+	},
+	{
+		"name": "World Alliance",
+		"isWonder": true,
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"requiredTech": "World Alliance",
+		"uniques": ["Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon completion"],
+		"quote": "'Don’t Cry Because It’s Over; Smile Because It Happened'"
+	},
+	{
+		"name": "Teleport Station",
+		"isWonder": true,
+		"requiredTech": "Particle Physics",
+		"uniques": ["[Energy Infantry] units gain the [Teleportation] promotion",
+		"[Giant Death Robot] units gain the [Teleportation] promotion",
+		"[Stealth Hacker] units gain the [Teleportation] promotion"],
+		"quote": "'If I could teleport, I'd probably still be late.' - Anonymous"
+	},
+//Corporations
+    {
+		"name": "Electrical Corporation",
+		"isNationalWonder": true,
+		"requiredTech": "Corporations",
+		"requiredResource": "Corporation Slot",
+		"uniques": ["Provides [2] [Electrical Stock]","Gain a free [Electrical Branch] [in all cities]","Consumes [1] [Corporation Slot(Total)]","Only available <with [Corporation Slot]>"]
+	},
+	{
+		"name": "Electrical Branch",
+		"uniques": ["Provides [2] [Power]","Destroyed when the city is captured","Unbuildable","Unsellable"]
+	},
+	{
+		"name": "Engineering Corporation",
+		"isNationalWonder": true,
+		"requiredTech": "Corporations",
+		"requiredResource": "Corporation Slot",
+		"uniques": ["Provides [2] [Engineering Stock]","Gain a free [Engineering Branch] [in all cities]","Consumes [1] [Corporation Slot(Total)]","Only available <with [Corporation Slot]>"]
+	},
+	{
+		"name": "Engineering Branch",
+		"uniques": ["[+2 Production, +1 Science] from [Mine] tiles [in this city]","Destroyed when the city is captured","Unbuildable","Unsellable"]
+	},
+	{
+		"name": "Tourism Agency",
+		"isNationalWonder": true,
+		"requiredTech": "Corporations",
+		"requiredResource": "Corporation Slot",
+		"uniques": ["Provides [2] [Tourism Stock]","Gain a free [Tourism Branch] [in all cities]","Consumes [1] [Corporation Slot(Total)]","Only available <with [Corporation Slot]>"]
+	},
+	{
+		"name": "Tourism Branch",
+		"uniques": ["[-5]% Culture cost of adopting new Policies","Destroyed when the city is captured","Unbuildable","Unsellable"]
+	},
+	{
+		"name": "Defense Force Agency",
+		"isNationalWonder": true,
+		"cost": 1360,
+		"requiredResource": "Corporation Slot",
+		"requiredTech": "Combined Arms"
+		"uniques": ["Provides [2] [Defense Force Stock]","Gain a free [Defense Force Branch] [in all cities]","Consumes [1] [Corporation Slot(Total)]","Only available <after discovering [Corporations]>","Only available <with [Corporation Slot]>"]
+	},
+	{
+		"name": "Defense Force Branch",
+		"uniques": ["New [Military] units start with [25] Experience [in this city]","Destroyed when the city is captured","Unbuildable","Unsellable"]
+	},
+	{
+		"name": "Social Network Company",
+		"isNationalWonder": true,
+		"cost": 1710,
+		"requiredResource": "Corporation Slot",
+		"requiredTech": "The Internet",
+		"uniques": ["Provides [2] [Social Network Stock]","Gain a free [Social Network Branch] [in all cities]","Consumes [1] [Corporation Slot(Total)]","Only available <after discovering [Corporations]>","Only available <with [Corporation Slot]>"]
+	},
+	{
+		"name": "Social Network Branch",
+		"uniques": ["[-15]% Unhappiness from [Population] [in this city]","Destroyed when the city is captured","Unbuildable","Unsellable"]
+	},
+	{
+		"name": "World Delivery Company",
+		"isNationalWonder": true,
+		"cost": 1890,
+		"requiredResource": "Corporation Slot",
+		"requiredTech": "Globalization",
+		"uniques": ["Provides [2] [World Delivery Stock]","Gain a free [World Delivery Branch] [in all cities]","Consumes [1] [Corporation Slot(Total)]","Only available <after discovering [Corporations]>","Only available <with [Corporation Slot]>"]
+	},
+	{
+		"name": "World Delivery Branch",
+		"uniques": ["[+6 Culture, +6 Science] from [Supply Route] tiles [in this city]","Destroyed when the city is captured","Unbuildable","Unsellable"]
+	},
+	{
+		"name": "Space Organization",
+		"isNationalWonder": true,
+		"cost": 1710,
+		"requiredResource": "Corporation Slot",
+		"requiredTech": "Robotics",
+		"uniques": ["Provides [2] [Space Stock]","Gain a free [Space Branch] [in all cities]","Consumes [1] [Corporation Slot(Total)]","Only available <after discovering [Corporations]>","Only available <with [Corporation Slot]>"]
+	},
+	{
+		"name": "Space Branch",
+		"uniques": ["[-25]% Food consumption by specialists [in this city]","[-25]% Unhappiness from [Specialists] [in this city]","Destroyed when the city is captured","Unbuildable","Unsellable"]
+	},
+	{
+		"name": "Holy Organization",
+		"isNationalWonder": true,
+		"cost": 1710,
+		"requiredResource": "Corporation Slot",
+		"requiredTech": "Telecommunications",
+		"uniques": ["Provides [2] [Holy Stock]","Gain a free [Holy Branch] [in all cities]","Consumes [1] [Corporation Slot(Total)]","Only available <after discovering [Corporations]>","Only available <with [Corporation Slot]>"]
+	},
+	{
+		"name": "Holy Branch",
+		"uniques": ["[+100]% [Faith] from every [Temple]","Destroyed when the city is captured","Unbuildable","Unsellable"]
+	},
+//Effect-Based
+    {
+		"name": "Cloning Facility",
+		"food": 7,
+		"uniques": ["Destroyed when the city is captured","Unbuildable","Unsellable"]
+	},
+	{
+		"name": "Corporate Slot",
+		"uniques": ["Provides [1] [Corporation Slot(Total)] <after discovering [Corporations]>","Provides [1] [Corporation Slot] <after discovering [Corporations]>","Destroyed when the city is captured","Unbuildable","Unsellable"]
+	},
+]

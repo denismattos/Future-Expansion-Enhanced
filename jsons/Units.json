@@ -1,0 +1,705 @@
+[
+//Ancient
+    {
+		"name": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Recon"
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+//Renaissance
+    {
+		"name": "Recon",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 16,
+		"cost": 100,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Robotics",
+		"upgradesTo": "Drone"
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "shot"
+	},
+//Industrial
+    {
+		"name": "Supply Agent",
+		"requiredTech": "Electronics",
+		"unitType": "Civilian",
+		"cost": 560,	
+		"movement": 2,
+		"uniques": ["Cannot be purchased", "Can construct [Supply Route]","Can construct [Water Tower] <after discovering [Infraestructure]>","Can construct [Power Plant] <after discovering [Infraestructure]>","Can construct [Industrial Complex] <after discovering [Infraestructure]>","Can construct [Residential] <after discovering [Infraestructure]>","Uncapturable"],
+	},
+	{
+		"name": "Artillery",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 21,
+		"rangedStrength": 28,
+		"range": 3,
+		"cost": 320,
+		"requiredTech": "Dynamite",
+		"upgradesTo": "Rocket Artillery",
+		"obsoleteTech": "Nanotechnology",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+			"Must set up to ranged attack","[-1] Sight", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+//Atomic
+    {
+		"name": "Paratrooper",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 65,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"obsoleteTech": "Lasers",
+		"upgradesTo": "Future Soldier",
+		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory","Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Carrier",
+		"unitType": "Aircraft Carrier",
+		"movement": 5,
+		"strength": 50,
+		"cost": 375,
+		"requiredTech": "Electronics",
+		"obsoleteTech": "Clean Energy",
+		"upgradesTo": "Orbital Carrier"
+		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units","Never appears as a Barbarian unit"]
+	},
+    {
+		"name": "Atomic Bomb",
+		"unitType": "Atomic Bomber",
+		"movement": 1,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 10,
+		"cost": 800,
+		"obsoleteTech": "Advanced Ballistics"
+		"requiredTech": "Nuclear Fission",
+		"requiredResource": "Uranium",
+		"promotions" : ["Evasion"],
+		"uniques": ["Nuclear weapon of Strength [1]", "Only available <if [Nuclear Testing Site] is constructed>", "Self-destructs when attacking","Blast radius [2]","Limited to [2] per Civilization"],
+		"attackSound": "nuke"
+	},
+	{
+		"name": "Rocket Artillery",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 45,
+		"rangedStrength": 60,
+		"range": 3,
+		"cost": 425,
+		"requiredTech": "Rocketry",
+		"requiredResource": "Aluminum",
+		"upgradesTo": "Hovertillery",
+		"obsoleteTech": "Nanotechnology",
+		"uniques": ["Cyber","[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+			"[-1] Sight", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Mobile SAM",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"interceptRange": 2,
+		"strength": 65,
+		"cost": 425,
+		"requiredTech": "Rocketry",
+		"obsoleteTech": "Nanotechnology",
+		"upgradesTo": "Hover-SAM"
+		"uniques": ["Cyber","[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>",
+			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
+		"attackSound": "missile"
+	},
+	{
+		"name": "Guided Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 60,
+		"rangedStrength": 60,
+		"range": 8,
+		"cost": 150,
+		"requiredTech": "Advanced Ballistics",
+		"uniques": ["[-100]% maintenance costs","[+50]% Strength <after discovering [Lasers]>","[+5] Range <after discovering [Satellites]>"],
+		"attackSound": "missile"
+	},
+	{
+		"name": "Helicopter Gunship",
+		"unitType": "Helicopter",
+		"movement": 6,
+		"strength": 60,
+		"cost": 425,
+		"requiredTech": "Computers",
+		"requiredResource": "Aluminum",
+		"uniques": ["Cyber","[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+//Information
+    {
+		"name": "Nuclear Submarine",
+		"unitType": "Submarine",
+		"movement": 6,
+		"strength": 50,
+		"range": 3,
+		"rangedStrength": 85,
+		"cost": 425,
+		"requiredTech": "Telecommunications",
+		"uniques": ["Cyber","[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Missile] units", "Never appears as a Barbarian unit"],
+		"attackSound": "torpedo"
+	},
+	{
+		"name": "Nuclear Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 250,
+		"rangedStrength": 250,
+		"range": 12,
+		"cost": 1300,
+		"requiredTech": "Advanced Ballistics",
+		"uniques": ["Nuclear weapon of Strength [2]", "Only available <if [Nuclear Testing Site] is constructed>", "Only available <before discovering [Clean Energy]>","Blast radius [2]", "Consumes [2] [Uranium]","Limited to [2] per Civilization"],
+		"attackSound": "nuke"
+	},
+	{
+		"name": "Drone",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 60,
+		"cost": 280,
+		"requiredTech": "Robotics",
+		"obsoleteTech": "Metagenetics",
+		"upgradesTo": "Seeker"
+		"uniques": ["Cyber","Can move after attacking","Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Missile Cruiser",
+		"unitType": "Ranged Water",
+		"movement": 7,
+		"strength": 80,
+		"rangedStrength": 100,
+		"range": 3,
+		"interceptRange": 2,
+		"cost": 425,
+		"requiredTech": "Robotics",
+		"uniques": ["Cyber","[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
+			"Can carry [3] [Missile] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Hacker",
+		"unitType": "Hacker",
+		"movement": 2,
+		"interceptRange": 2,
+		"range": 2,
+		"strength": 35,
+		"rangedStrength": 60,
+		"cost": 450,
+		"upgradesTo": "Stealth Hacker",
+		"obsoleteTech": "Clean Energy",
+		"uniques": ["Can only attack [Cyber] units",
+		"[50]% chance to intercept air attacks"
+		"May capture killed [Cyber] units <with [33]% chance>",
+		"[+50]% Strength <vs [Cyber] units>",
+		"[+50]% Strength <vs [Cyber] units> <when attacking>",
+		"Never appears as a Barbarian unit"]
+		"requiredTech": "The Internet",
+		"attackSound": "Hacking"
+	},
+	{
+		"name": "Tactical Supplier",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 65,
+		"cost": 375,
+		"requiredTech": "Genetics",
+		"uniques": ["Cyber","All adjacent units heal [+25] HP when healing","[+50]% Strength <when defending>","Cannot attack","Never appears as a Barbarian unit"],
+	},
+	{
+		"name": "Mechanized Infantry",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 90,
+		"cost": 375,
+		"requiredTech": "Mobile Tactics",
+		"upgradesTo": "Energy Infantry",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Modern Armor",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 100,
+		"cost": 425,
+		"requiredTech": "Mobile Tactics",
+		"requiredResource": "Aluminum",
+		"obsoleteTech": "Clean Energy"
+		"upgradesTo": "Hovertank",
+		"uniques": ["Cyber","Can move after attacking", "No defensive terrain bonus","Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Jet Fighter",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 75,
+		"rangedStrength": 75,
+		"range": 10,
+		"interceptRange": 10,
+		"cost": 425,
+		"requiredTech": "Mobile Tactics",
+		"requiredResource": "Aluminum",
+		"obsoleteTech": "Spaceflight",
+		"upgradesTo": "Orbital Jet"
+		"uniques": ["Cyber","[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "jetgun"
+	},
+	{
+		"name": "Stealth Hacker",
+		"unitType": "Hacker",
+		"movement": 2,
+		"interceptRange": 2,
+		"range": 2,
+		"strength": 70,
+		"rangedStrength": 80,
+		"cost": 560,
+		"requiredResource": "Aluminum",
+		"requiredTech": "Stealth",
+		"uniques": ["Can see invisible [Stealth Hacker] units",
+		"[50]% chance to intercept air attacks"
+		"Can only attack [Cyber] units",
+		"May capture killed [Cyber] units <with [33]% chance>",
+		"[+50]% Strength <vs [Cyber] units>",
+		"[+50]% Strength <vs [Cyber] units> <when attacking>",
+		"Never appears as a Barbarian unit"]
+		"promotions": ["Stealth"],
+		"attackSound": "Hacking"
+	},
+	{
+		"name": "Stealth Bomber",
+		"unitType": "Bomber",
+		"movement": 2,
+		"strength": 90,
+		"rangedStrength": 90,
+		"range": 20,
+		"cost": 425,
+		"requiredTech": "Stealth",
+		"requiredResource": "Aluminum",
+		"upgradesTo": "Orbital Bomber",
+		"obsoleteTech": "Spaceflight"
+		"uniques": ["Cyber","Damage taken from interception reduced by [75]%", "Cannot be carried by [Carrier] units", "[+4] Sight", "Can see over obstacles"],
+		"attackSound": "bombing"
+	},
+//Future
+    {
+		"name": "Bio-Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 70,
+		"cost": 570,
+		"requiredTech": "Enhancing",
+		"uniques": ["Bio","[+45]% Strength <after discovering [Metagenetics]>","Heals [25] damage if it kills a unit","Never appears as a Barbarian unit"]
+		"promotions": ["Implants"]
+		"attackSound": "shot"
+	},
+    {
+		"name": "Hovertank",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 100,
+		"cost": 530,
+		"requiredTech": "Nanotechnology",
+		"requiredResource": "Composites",
+		"uniques": ["Cyber","Can move after attacking", "No defensive terrain bonus","Never appears as a Barbarian unit"],
+		"promotions": ["Amphibious","Hovering"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Future Soldier",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 70,
+		"cost": 500,
+		"requiredTech": "Lasers",
+		"uniques": ["May Paradrop up to [20] tiles from inside friendly territory", "No movement cost to pillage",
+		"Never appears as a Barbarian unit"],
+		"promotions": ["Rocket Launcher"]
+		"attackSound": "energyshot"
+	},
+	{
+		"name": "Hovertillery",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 50,
+		"rangedStrength": 70,
+		"range": 3,
+		"cost": 540,
+		"requiredTech": "Nanotechnology",
+		"requiredResource": "Composites",
+		"uniques": ["Cyber","[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+			"[-1] Sight", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire","Amphibious","Hovering"],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Hover-SAM",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"interceptRange": 2,
+		"strength": 75,
+		"cost": 540,
+		"requiredTech": "Nanotechnology",
+		"requiredResource": "Composites",
+		"uniques": ["Cyber","[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>",
+			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
+		"promotions": ["Heat Sensor","Amphibious","Hovering"],
+		"attackSound": "missile"
+	},
+	{
+		"name": "Combat Robot",
+		"unitType": "Ranged Gunpowder",
+		"range": 1,
+		"movement": 2,
+		"strength": 60,
+		"rangedStrength": 75,
+		"cost": 500,
+		"requiredTech": "Automation",
+		"uniques": ["Cyber","[+35]% Strength <after discovering [Nuclear Fusion]>","[+15]% Strength <when defending>","Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Seeker",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 80,
+		"cost": 480,
+		"requiredTech": "Metagenetics",
+		"uniques": ["Bio","Can see invisible [Wounded] units","Can move after attacking","Heals [25] damage if it kills a unit","Never appears as a Barbarian unit"],
+		"promotions": ["Amphibious"]
+		"attackSound": "bite"
+	},
+	{
+		"name": "Synthethic Plant",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"interceptRange": 6,
+		"strength": 100,
+		"cost": 660,
+		"requiredTech": "Metagenetics",
+		"requiredResource": "Composites",
+		"uniques": ["Bio","[100]% chance to intercept air attacks","[+150]% Strength <vs [Air] units>",
+			"[+50]% Strength <vs [Bomber] units>","Can move after attacking","Heals [25] damage if it kills a unit","Never appears as a Barbarian unit"],
+		"promotions": ["Sortie","Implants"],
+		"attackSound": "bite"
+	},
+	{
+		"name": "Energy Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 100,
+		"cost": 600,
+		"requiredTech": "Clean Energy",
+		"requiredResource": "Composites",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Energy Weapons","Amphibious"]
+		"attackSound": "energyshot"
+	},
+	{
+		"name": "Orbital Carrier",
+		"unitType": "Land Carrier",
+		"movement": 3,
+		"range": 2,
+		"interceptRange": 2,
+		"strength": 150,
+		"rangedStrength": 75,
+		"cost": 1400,
+		"requiredTech": "Clean Energy",
+		"requiredResource": "Composites",
+		"uniques": ["Cyber","Space","No defensive terrain bonus","Can carry [2] [Aircraft] units","Ignores Zone of Control","Never appears as a Barbarian unit"],
+		"promotions": ["In Orbit"]
+		"attackSound": "jetgun"
+	},
+	{
+		"name": "Orbital Jet",
+		"unitType": "Fighter",
+		"movement": 2,
+		"strength": 110,
+		"rangedStrength": 110,
+		"range": 20,
+		"interceptRange": 20,
+		"cost": 700,
+		"requiredTech": "Spaceflight",
+		"requiredResource": "Composites",
+		"uniques": ["Cyber","Space",
+		"[100]% chance to intercept air attacks",
+		"[+100]% Strength <vs [Bomber] units>", 
+		"[+50]% Strength <vs [Helicopter] units>"],
+		"promotions": ["Heat Sensor","In Orbit"]
+		"attackSound": "jetgun"
+	},
+	{
+		"name": "Orbital Bomber",
+		"unitType": "Bomber",
+		"movement": 2,
+		"strength": 125,
+		"rangedStrength": 125,
+		"range": 28,
+		"cost": 700,
+		"requiredTech": "Spaceflight",
+		"requiredResource": "Composites",
+		"uniques": ["Cyber","Space",
+		"Damage taken from interception reduced by [95]%", 
+		"Cannot be carried by [Carrier] units", 
+		"[+4] Sight", "Can see over obstacles"],
+		"promotions": ["In Orbit"],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Giant Death Robot",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 150,
+		"cost": 660,
+		"requiredTech": "Nuclear Fusion",
+		"requiredResource": "Composites",
+		"uniques": ["Cyber","Can move after attacking","Can carry [1] [Missile] units","Never appears as a Barbarian unit"],
+		"promotions": ["Scan Visor","Amphibious","Gravity Generator"]
+		"attackSound": "gdrAttack"
+	},
+	{
+		"name": "UUV",
+		"unitType": "Submarine",
+		"movement": 6,
+		"strength": 70,
+		"range": 3,
+		"rangedStrength": 100,
+		"cost": 530,
+		"requiredTech": "Nuclear Fusion",
+		"requiredResource": "Composites",
+		"uniques": ["Cyber","[+50]% Strength <when attacking>", "[+1] Sight", "Can carry [2] [Missile] units","Never appears as a Barbarian unit"],
+		"attackSound": "torpedo"
+	},
+	{
+		"name": "Orbital Strike",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 350,
+		"rangedStrength": 350,
+		"range": 18,
+		"cost": 2000,
+		"requiredTech": "Particle Physics",
+		"uniques": ["Nuclear weapon of Strength [2]","Only available <if [Nuclear Testing Site] is constructed>","Blast radius [2]","Limited to [2] per Civilization"],
+		"attackSound": "nuke"
+	},
+//Great Persons
+    {
+		"name": "Great Spacefarer",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [12]-turn golden age", "Can construct [Space Platform] <starting from the [Atomic era]>", "Great Person - [Spacefarer]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+//Time Machine Parts
+    {
+		"name": "Photon Generator",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"requiredTech": "Clean Energy",
+		"uniques": ["Time Machine part", "Cannot be purchased", "Only available <if [Time Machine Blueprints] is constructed>", "Uncapturable", "Can be added to [The Time Machine] in the Capital", "Limited to [2] per Civilization","Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Causality Matrix",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"requiredTech": "Nuclear Fusion",
+		"uniques": ["Time Machine part", "Cannot be purchased", "Only available <if [Time Machine Blueprints] is constructed>", "Uncapturable", "Can be added to [The Time Machine] in the Capital", "Limited to [1] per Civilization","Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Dimensional Shifter",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"requiredTech": "Metagenetics",
+		"uniques": ["Time Machine part", "Cannot be purchased", "Only available <if [Time Machine Blueprints] is constructed>", "Uncapturable", "Can be added to [The Time Machine] in the Capital", "Limited to [1] per Civilization","Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Entropy Phaser",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"requiredTech": "Particle Physics",
+		"uniques": ["Time Machine part", "Cannot be purchased", "Only available <if [Time Machine Blueprints] is constructed>", "Uncapturable", "Can be added to [The Time Machine] in the Capital", "Limited to [1] per Civilization","Will not be displayed in Civilopedia"]
+	}
+//Barbarians
+    {
+		"name": "Terrorist",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Barbarians",
+		"replaces": "Infantry",
+		"movement": 2,
+		"strength": 65,
+		"cost": 240,
+		"requiredTech": "Plastics",
+		"uniques": ["[+75]% Strength <vs [Wounded] units>"]
+		"attackSound": "shot",
+	},
+	{
+		"name": "Outlaw",
+		"unitType": "Hacker",
+		"uniqueTo": "Barbarians",
+		"replaces": "Hacker",
+		"movement": 2,
+		"interceptRange": 2,
+		"range": 2,
+		"strength": 65,
+		"rangedStrength": 85,
+		"cost": 265,
+		"requiredTech": "The Internet",
+		"uniques": ["Can only attack [Cyber] units",
+		"[50]% chance to intercept air attacks"
+		"May capture killed [Cyber] units <with [33]% chance>",
+		"[+50]% Strength <vs [Cyber] units>",
+		"[+50]% Strength <vs [Cyber] units> <when attacking>",
+		"[+35]% Strength <vs [Wounded] units>"],
+		"attackSound": "Hacking"
+	},
+	{
+		"name": "Hit Squad",
+		"unitType": "Armored",
+		"uniqueTo": "Barbarians",
+		"replaces": "Modern Armor",
+		"movement": 5,
+		"strength": 120,
+		"cost": 270,
+		"requiredTech": "Mobile Tactics",
+		"uniques": ["Cyber","Can move after attacking","No defensive terrain bonus","[+45]% Strength <vs [Wounded] units>"],
+		"attackSound": "tankshot"
+	},
+//Aliens
+    {
+		"name": "Body Snatcher",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Barbarians",
+		"replaces": "Bio-Infantry",
+		"movement": 3,
+		"strength": 140,
+		"cost": 390,
+		"requiredTech": "Enhancing",
+		"uniques": ["Bio","Heals [25] damage if it kills a unit","May capture killed [Military] units <with [99]% chance>","Will not be displayed in Civilopedia"]
+		"promotions": ["Implants"]
+		"attackSound": "bite"
+	},
+	{
+		"name": "Monolith Body Snatcher",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 140,
+		"cost": 720,
+		"uniques": ["Bio","Heals [25] damage if it kills a unit","May capture killed [Land] units <with [44]% chance>","Will not be displayed in Civilopedia","Only available <after discovering [Enhancing]>","Only available <if [Monolith Portal] is constructed>","Never appears as a Barbarian unit"]
+		"promotions": ["Implants"]
+		"attackSound": "bite"
+	},
+	{
+		"name": "Brainiac",
+		"unitType": "Hacker",
+		"uniqueTo": "Barbarians",
+		"replaces": "Stealth Hacker",
+		"movement": 2,
+		"interceptRange": 3,
+		"range": 3,
+		"strength": 140,
+		"rangedStrength": 160,
+		"cost": 400,
+		"requiredTech": "Automation",
+		"uniques": ["Can see invisible [Stealth Hacker] units",
+		"[50]% chance to intercept air attacks",
+		"May capture killed [Land] units <with [75]% chance>",
+		"[+50]% Strength <vs [Cyber] units>",
+		"[+50]% Strength <vs [Land] units> <when attacking>",
+		"Will not be displayed in Civilopedia"]
+		"promotions": ["Stealth"],
+		"attackSound": "Hacking"
+	},
+	{
+		"name": "Monolith Brainiac",
+		"unitType": "Hacker",
+		"movement": 2,
+		"interceptRange": 3,
+		"range": 3,
+		"strength": 140,
+		"rangedStrength": 160,
+		"cost": 800,
+		"requiredBuilding": "Monolith Portal",
+		"uniques": ["Can see invisible [Stealth Hacker] units",
+		"[50]% chance to intercept air attacks",
+		"May capture killed [Land] units <with [30]% chance>",
+		"[+50]% Strength <vs [Cyber] units>",
+		"[+25]% Strength <vs [Land] units> <when attacking>",
+		"Only available <after discovering [Automation]>",	
+		"Will not be displayed in Civilopedia",
+		"Only available <if [Monolith Portal] is constructed>",
+		"Never appears as a Barbarian unit"]
+		"promotions": ["Stealth"],
+		"attackSound": "Hacking"
+	},
+	{
+		"name": "UFO",
+		"unitType": "Armored",
+		"uniqueTo": "Barbarians",
+		"replaces": "Hovertank",
+		"movement": 5,
+		"strength": 185,
+		"cost": 680,
+		"requiredTech": "Nanotechnology",
+		"uniques": ["Cyber","Can move after attacking","Uncapturable","[+100]% Strength <vs [Air] units>","May capture killed [Land] units <with [55]% chance>","Will not be displayed in Civilopedia"],
+		"promotions": ["Firewall","Amphibious","Gravity Generator"]
+		"attackSound": "gdrAttack"
+	},
+	{
+		"name": "Monolith UFO",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 185,
+		"cost": 1180,
+		"requiredBuilding": "Monolith Portal",
+		"uniques": ["Cyber","Can move after attacking","Uncapturable","[+100]% Strength <vs [Air] units>","May capture killed [Land] units <with [22]% chance>",
+		"Only available <after discovering [Nanotechnology]>","Never appears as a Barbarian unit","Will not be displayed in Civilopedia","Only available <if [Monolith Portal] is constructed>"],
+		"promotions": ["Firewall","Amphibious","Gravity Generator"]
+		"attackSound": "gdrAttack"
+	},
+//Spaceship
+{
+		"name": "SS Booster",
+		"unitType": "Civilian",
+		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "SS Cockpit",
+		"unitType": "Civilian",
+		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "SS Engine",
+		"unitType": "Civilian",
+		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "SS Stasis Chamber",
+		"unitType": "Civilian",
+		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"]
+	}
+]

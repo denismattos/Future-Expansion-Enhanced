@@ -1,0 +1,161 @@
+	[
+    {
+		"name": "Futurism",
+		"era": "Future era",
+		"uniques": ["Provides a [Corporate Slot] in your first [1] cities for free","Only available <before adopting [Technocracy]>","Only available <before adopting [Transhumanism]>"],
+		"priorities": {
+            "Neutral": 70,
+            "Cultural": 50,
+            "Diplomatic":70,
+            "Domination": 0,
+            "Scientific": 30
+        },
+		"policies": [
+			{
+				"name": "Interplanetary Research",
+				"uniques": ["[+25]% [Science] from every [Space Station]","[+25]% [Culture] from every [Space Station]"],
+				"requires": ["Futurism"],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Determination",
+				"uniques": ["[Future Soldier] units gain the [Energy Weapons] promotion","[+25]% Strength <for [Wounded] units> <vs [Bio] units>","[+25]% Strength <for [Wounded] units> <vs [Cyber] units>"],
+				"requires": ["Futurism"],
+				"row": 1,
+				"column": 4
+			},
+			{
+				"name": "Joint Projects",
+				"uniques":["[+1 Food, +1 Production] from every specialist [in all cities]"],
+				"requires": ["Interplanetary Research", "Determination"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Discovery",
+				"uniques": ["[+2 Happiness, +4 Science] from every [Wonder]"],
+				"requires": ["Joint Projects"],
+				"row": 3,
+				"column": 2
+			},
+			{
+				"name": "Revolutionism",
+				"uniques": ["Free [Supply Agent] appears","[+2 Production, +2 Culture, +2 Science] from all [Space] buildings"],
+				"requires": ["Joint Projects"],
+				"row": 3,
+				"column": 4
+			},
+			{
+				"name": "Futurism Complete",
+				"uniques": ["[+25]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>","Free [Great Spacefarer] appears","[+6 Food, +6 Gold] from every [Space Platform]"]
+			}
+		]
+	},
+	{
+		"name": "Technocracy",
+		"era": "Future era",
+		"uniques": ["[+25]% Strength <for [Cyber] units>", "[-25]% Strength <for [Bio] units>","[+20%] [Production] [in all cities]","[-15]% growth [in all cities]","Only available <before adopting [Futurism]>","Only available <before adopting [Transhumanism]>"],
+		"priorities": {
+            "Neutral": 40,
+            "Cultural": 90,
+            "Diplomatic":20,
+            "Domination": 0,
+            "Scientific": 40
+        },
+		"policies": [
+			{
+				"name": "Battlefield Experiments",
+				"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Science]"],
+				"requires": ["Technocracy"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Predictive Algorithms",
+				"uniques": ["Free [Supply Agent] appears","[+50]% XP gained from combat <for [Cyber] units>"],
+				"requires": ["Technocracy"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Drone Surveillance",
+				"uniques": ["[+2 Culture] from all [Science] buildings","[+1 Culture] from all [Food] buildings"],
+				"requires": ["Battlefield Experiments"],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "Satellite Targeting",
+				"uniques": ["[+25]% Strength <for [Air] units> <vs [Land] units>","[+25]% Strength <for [Ranged] units> <vs [Melee] units>"],
+				"requires": ["Predictive Algorithms"],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Self-Assembly",
+				"uniques": ["[+5 Production] [in all cities]","[+100]% Production when constructing [Production] buildings [in all cities]"],
+				"requires": ["Satellite Targeting","Drone Surveillance"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Technocracy Complete",
+				"uniques": ["[+1 Production, +1 Culture, +1 Gold] from all [Science] buildings","[+25]% Strength <for [Military] units> <when adjacent to a [Cyber] unit>"]
+			}
+		]
+	},
+	{
+		"name": "Transhumanism",
+		"era": "Future era",
+		"uniques": ["[+17]% growth [in capital]","[+25]% Strength <for [Bio] units>", "[-25]% Strength <for [Cyber] units>","Only available <before adopting [Futurism]>","Only available <before adopting [Technocracy]>"],
+		"priorities": {
+            "Neutral": 20,
+            "Cultural": 40,
+            "Diplomatic":40,
+            "Domination": 0,
+            "Scientific": 90
+        },
+		"policies": [
+			{
+				"name": "Cloning",
+				"uniques": ["Provides a [Cloning Facility] in your first [4] cities for free"],
+				"requires": ["Transhumanism"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Bio-Specialism",
+				"uniques": ["Free [Supply Agent] appears","[+1 Food] from all [Food] buildings"],
+				"requires": ["Transhumanism"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Mind Control",
+				"uniques": ["[+1 Happiness] from all [Food] buildings"],
+				"requires": ["Cloning"],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "Techno-Organic Virus",
+				"uniques": ["[+1] Sight <for [Bio] units>","[+30]% Strength <for [Bio] units> <vs [Cyber] units>"],
+				"requires": ["Bio-Specialism"],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Lifeform Upgrade",
+				"uniques": ["[+1] Movement <for [Bio] units>","[+2 Food] from every [Research Lab]"],
+				"requires": ["Mind Control","Techno-Organic Virus"],
+				"row": 3,
+				"column": 4
+			},
+			{
+				"name": "Transhumanism Complete",
+				"uniques": ["[+1 Production, +1 Culture, +1 Gold] from all [Food] buildings","[+30]% Strength <vs [Wounded] units>"]
+			}
+		]
+	}
+]

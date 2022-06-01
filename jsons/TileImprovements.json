@@ -1,0 +1,114 @@
+[
+    {
+		"name": "Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": ["Can also be built on tiles adjacent to fresh water", 
+			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+			"[+2 Food, +1 Production] <within [1] tiles of a [Water Tower]>"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+		"uniques": ["[+1 Production] <after discovering [Chemistry]>",
+		"[+2 Production, +1 Food] <within [1] tiles of a [Industrial Complex]>"],
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Trading post",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Guilds",
+		"uniques": ["[+1 Gold] <after discovering [Economics]>",
+		"[+2 Food, +2 Gold] <within [1] tiles of a [Residential]>"],
+		"shortcutKey": "T"
+	},
+	{
+		"name": "Quantum Trap",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow"],
+		"science": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Particle Physics",
+		"uniques": ["Can only be built to improve a resource"]
+	},
+//Resource-Specific
+    {
+		"name": "Pasture",
+		"turnsToBuild": 8,
+		"techRequired": "Animal Husbandry",
+		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource",
+		"[+2 Food, +1 Production] <within [1] tiles of a [Water Tower]>"],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Plantation",
+		"turnsToBuild": 6,
+		"gold": 1,
+		"techRequired": "Calendar",
+		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource",
+		"[+2 Food, +1 Production] <within [1] tiles of a [Water Tower]>"],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Camp",
+		"turnsToBuild": 7,
+		"techRequired": "Trapping",
+		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Gold] <after discovering [Economics]>", "Can only be built to improve a resource","[+2 Food, +2 Gold] <within [1] tiles of a [Residential]>"],
+		"shortcutKey": "C"
+	},
+	{
+		"name": "Quarry",
+		"turnsToBuild": 8,
+		"techRequired": "Masonry",
+		"uniques": ["[+1 Production] <after discovering [Chemistry]>", "Can only be built to improve a resource","[+2 Production, +1 Food] <within [1] tiles of a [Industrial Complex]>"],
+		"shortcutKey": "Q"
+	},
+// Infraestructure
+{
+		"name": "Power Plant",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"techRequired": "Infraestructure",
+		"uniques": ["Provides [1] [Power]","Infraestructure","Removes removable features when built"]
+},
+{
+		"name": "Supply Route",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"food": 1,
+		"gold": 1,
+		"uniques": ["[+5 Food, +5 Gold] <in [Strategic resource] tiles>","Provides [1] [Composites] <after discovering [Nanotechnology]>","Removes removable features when built"]
+},
+{
+		"name": "Water Tower",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"techRequired": "Infraestructure",
+		"uniques": ["Infraestructure","Removes removable features when built"]
+},
+{
+		"name": "Industrial Complex",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"techRequired": "Infraestructure",
+		"uniques": ["Infraestructure","Removes removable features when built"]
+},
+{
+		"name": "Residential",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"techRequired": "Infraestructure",
+		"uniques": ["Infraestructure","Removes removable features when built"]
+}
+//Great Improvement
+    {
+		"name": "Space Platform",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 6,
+		"culture": 6,
+		"uniques": ["Great Improvement", "[+2 Science, +2 Culture] <after discovering [Spaceflight]>", "Removes removable features when built"]
+	},
+]

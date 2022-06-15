@@ -22,6 +22,16 @@
 		"shortcutKey": "M"
 	},
 	{
+		"name": "Lumber mill",
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Construction",
+		"uniques": ["[+1 Production] <after discovering [Scientific Theory]>",
+		"[+2 Production, +1 Food] <within [1] tiles of a [Industrial Complex]>"],
+		"shortcutKey": "L"
+	},
+	{
 		"name": "Trading post",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
 		"gold": 1,
@@ -49,6 +59,21 @@
 		"shortcutKey": "P"
 	},
 	{
+		"name": "Oil well",
+		"turnsToBuild": 9,
+		"techRequired": "Biology",
+		"uniques": ["Can only be built to improve a resource","Cannot be built on [Water] tiles",
+		"[+2 Production, +1 Food] <within [1] tiles of a [Industrial Complex]>"],
+		"shortcutKey": "W"
+	},
+	{
+		"name": "Offshore Platform",
+		"techRequired": "Refrigeration",
+		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles",
+		"[+2 Production, +1 Food] <within [1] tiles of a [Industrial Complex]>"],
+		"shortcutKey": "P"
+	},
+	{
 		"name": "Plantation",
 		"turnsToBuild": 6,
 		"gold": 1,
@@ -70,6 +95,14 @@
 		"techRequired": "Masonry",
 		"uniques": ["[+1 Production] <after discovering [Chemistry]>", "Can only be built to improve a resource","[+2 Production, +1 Food] <within [1] tiles of a [Industrial Complex]>"],
 		"shortcutKey": "Q"
+	},
+	{
+		"name": "Fishing Boats",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"food": 1,
+		"techRequired": "Sailing",
+		"uniques": ["[+1 Gold] <after discovering [Compass]>","[+2 Food, +1 Production] <within [1] tiles of a [Water Tower]>","Can only be built to improve a resource"],
+		"shortcutKey": "F"
 	},
 // Infraestructure
 {
@@ -104,6 +137,36 @@
 		"uniques": ["Infraestructure","Removes removable features when built"]
 }
 //Great Improvement
+    {
+		"name": "Academy",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 8,
+		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>", "[+2 Science] <after discovering [Atomic Theory]>","[+4 Science] <within [1] tiles of a [Power Plant]>","Removes removable features when built"]
+	},
+	{
+		"name": "Landmark",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 6,
+		"uniques": ["Great Improvement","Removes removable features when built","[+3 Culture] <within [1] tiles of a [Power Plant]>"]
+	},
+	{
+		"name": "Manufactory",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 4,
+		"uniques": ["Great Improvement","[+1 Production] <after discovering [Chemistry]>","Removes removable features when built","[+2 Production] <within [1] tiles of a [Power Plant]>"]
+	},
+	{
+		"name": "Customs house",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 4,
+		"uniques": ["Great Improvement","[+1 Gold] <after discovering [Economics]>","Removes removable features when built","[+2 Gold] <within [1] tiles of a [Power Plant]>"]
+	},
+	{
+		"name": "Holy site",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"faith": 6,
+		"uniques": ["Great Improvement","Removes removable features when built","[+3 Faith] <within [1] tiles of a [Power Plant]>"]
+	},
     {
 		"name": "Space Platform",
 		"terrainsCanBeBuiltOn": ["Land"],

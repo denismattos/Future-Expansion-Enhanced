@@ -8,7 +8,9 @@
 		"uniques": ["Can also be built on tiles adjacent to fresh water", 
 			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
-			"[+2 Food, +1 Production] <within [1] tiles of a [Water Tower]>"],
+			"[+1 Food] <within [2] tiles of a [Water Tower]>",
+			"[+1 Food] <within [2] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
+			"[+1 Food] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>"],
 		"shortcutKey": "F"
 	},
 	{
@@ -18,7 +20,9 @@
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
 		"uniques": ["[+1 Production] <after discovering [Chemistry]>",
-		"[+2 Production, +1 Food] <within [1] tiles of a [Industrial Complex]>"],
+		"[+1 Production] <within [2] tiles of a [Industrial Complex]>",
+		"[+1 Production] <within [2] tiles of a [Industrial Complex]> <after adopting [Safety Checks]>",
+		"[+1 Production] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>"],
 		"shortcutKey": "M"
 	},
 	{
@@ -28,7 +32,9 @@
 		"turnsToBuild": 7,
 		"techRequired": "Construction",
 		"uniques": ["[+1 Production] <after discovering [Scientific Theory]>",
-		"[+2 Production, +1 Food] <within [1] tiles of a [Industrial Complex]>"],
+		"[+1 Production] <within [2] tiles of a [Industrial Complex]>",
+		"[+1 Production] <within [2] tiles of a [Industrial Complex]> <after adopting [Safety Checks]>",
+		"[+1 Production] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>"],
 		"shortcutKey": "L"
 	},
 	{
@@ -38,8 +44,129 @@
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
 		"uniques": ["[+1 Gold] <after discovering [Economics]>",
-		"[+2 Food, +2 Gold] <within [1] tiles of a [Residential]>"],
+		"[+2 Gold] <within [2] tiles of a [Residential]>",
+		"[+2 Gold] <within [2] tiles of a [Residential]> <after adopting [Safety Checks]>",
+		"[+2 Gold] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>"],
 		"shortcutKey": "T"
+	},
+	//Modern Upgrades
+	{
+		"name": "Modern Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"food": 4,
+		"production": 1,
+		"techRequired": "Replaceable Parts",
+		"uniques": ["Can also be built on tiles adjacent to fresh water", 
+			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+			"[+1 Food] for each adjacent [Mine]",
+		    "[+1 Food] for each adjacent [Trading post]",
+			"[+2 Food] for each adjacent [Modern Mine]",
+		    "[+2 Food] for each adjacent [Modern Trading post]"
+			"[+2 Food, +1 Production] <within [2] tiles of a [Water Tower]>",
+			"[+2 Food, +1 Production] <within [1] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
+			"[+2 Food, +1 Production] <within [1] tiles of a [Citadel]> <after adopting [Coalition Complete]>"],
+	},
+	{
+		"name": "Modern Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 4,
+		"science": 1,
+		"techRequired": "Combustion",
+		"uniques": ["Provides [7] [Iron] <in [Iron] tiles>",
+		"Provides [7] [Coal] <in [Coal] tiles>",
+		"Provides [5] [Aluminum] <in [Aluminum] tiles>",
+		"Provides [3] [Uranium] <in [Uranium] tiles>",
+		"[+1 Production] for each adjacent [Farm]",
+		"[+1 Production] for each adjacent [Trading post]",
+		"[+2 Production] for each adjacent [Modern Farm]",
+		"[+2 Production] for each adjacent [Modern Trading post]",
+		"[+2 Production, +1 Science] <within [2] tiles of a [Industrial Complex]>",
+		"[+2 Production, +1 Science] <within [2] tiles of a [Industrial Complex]> <after adopting [Safety Checks]>",
+		"[+2 Production, +1 Science] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>"],
+	},
+	{
+		"name": "Modern Trading post",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"gold": 4,
+		"science": 1,
+		"techRequired": "Ballistics",
+		"uniques": [
+		"[+1 Gold] for each adjacent [Farm]",
+		"[+1 Gold] for each adjacent [Mine]",
+		"[+2 Gold] for each adjacent [Modern Farm]",
+		"[+2 Gold] for each adjacent [Modern Mine]",
+		"[+2 Gold, +1 Science] <within [2] tiles of a [Residential]>",
+		"[+2 Gold, +1 Science] <within [2] tiles of a [Residential]> <after adopting [Safety Checks]>",
+		"[+2 Gold, +1 Science] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>"],
+	},
+	{
+		"name": "Excavation Site",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","Hill"],
+		"food": -1,
+		"gold": 10,
+		"culture": 7,
+		"techRequired": "Archaeology",
+		"uniques": ["Can only be built to improve a resource"],
+	},
+	{
+		"name": "Concert Venue",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
+		"culture": 4,
+		"gold": 2,
+		"techRequired": "Radio",
+		"uniques": ["[+2 Culture] for each adjacent [Trading post]",
+		"[+4 Culture, +2 Gold] for each adjacent [Modern Trading post]",
+		"[+2 Culture, +1 Gold] <within [2] tiles of a [Residential]>",
+		"[+2 Culture, +1 Gold] <within [2] tiles of a [Residential]> <after adopting [Safety Checks]>",
+		"[+2 Culture, +1 Gold] <within [2] tiles of a [Residential]> <if [Tourism Agency] is constructed>",
+		"[+2 Culture, +1 Gold] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>"],
+	},
+	{
+		"name": "Industry",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
+		"gold": 4,
+		"production": 2,
+		"techRequired": "Corporations",
+		"uniques": ["[+12 Gold, +6 Production] <in [Luxury resource] tiles>",
+		"Removes removable features when built",
+		"[+2 Gold] for each adjacent [Trading post] <after adopting [Entrepeneurship]>",
+		"[+2 Gold, +1 Production] for each adjacent [Modern Trading post]",
+		"[+2 Gold] for each adjacent [Trading post] <after adopting [Entrepeneurship]>",
+		"[+2 Gold, +1 Production] for each adjacent [Modern Trading post] <after adopting [Entrepeneurship]>",
+		"[+2 Culture, +1 Gold] <within [2] tiles of a [Residential]>",
+		"[+2 Culture, +1 Gold] <within [2] tiles of a [Residential]> <after adopting [Safety Checks]>",
+		"[+2 Culture, +1 Gold] <within [2] tiles of a [Residential]> <after adopting [Entrepeneurship]>",
+		"[+2 Culture, +1 Gold] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",]
+	},
+	{
+		"name": "Wind Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"food": 1,
+		"production": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Ecology",
+		"uniques": ["[+1 Food, +1 Production] <after discovering [Enhancing]>","Provides [1] [Power]","Provides [1] [Power] <if [Green Energy] is constructed>","Provides [1] [Power] <if [Electrical Corporation] is constructed>",
+		"[+2 Production] <within [2] tiles of a [Power Plant]>",
+		"[+2 Production] <within [2] tiles of a [Power Plant]> <after adopting [Safety Checks]>",
+		"[+2 Production] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>"],
+		"shortcutKey": "G"
+	},
+	{
+		"name": "Offshore Wind Farm",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"food": 1,
+		"production": 2,
+		"techRequired": "Genetics",
+		"uniques": ["[+1 Food, +1 Production] <after discovering [Enhancing]>",
+		"Provides [1] [Power]",
+		"Provides [1] [Power] <if [Green Energy] is constructed>",
+		"Provides [1] [Power] <if [Electrical Corporation] is constructed>"
+		"[+2 Production] <within [2] tiles of a [Power Plant]>",
+	    "[+2 Production] <within [2] tiles of a [Power Plant]> <after adopting [Safety Checks]>",
+		"[+2 Production] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
+		"Can only be built on [Water] tiles"],
+		"shortcutKey": "P"
 	},
 	{
 		"name": "Quantum Trap",
@@ -55,7 +182,9 @@
 		"turnsToBuild": 8,
 		"techRequired": "Animal Husbandry",
 		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource",
-		"[+2 Food, +1 Production] <within [1] tiles of a [Water Tower]>"],
+		"[+1 Food] <within [2] tiles of a [Water Tower]>",
+		"[+1 Food] <within [2] tiles of a [Water Tower]> <after adopting [Safety Checks]>"
+		"[+1 Food] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>"],
 		"shortcutKey": "P"
 	},
 	{
@@ -63,14 +192,18 @@
 		"turnsToBuild": 9,
 		"techRequired": "Biology",
 		"uniques": ["Can only be built to improve a resource","Cannot be built on [Water] tiles",
-		"[+2 Production, +1 Food] <within [1] tiles of a [Industrial Complex]>"],
+		"[+2 Production] <within [2] tiles of a [Industrial Complex]>",
+		"[+2 Production] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
+		"[+2 Production] <within [2] tiles of a [Industrial Complex]> <after adopting [Safety Checks]>"],
 		"shortcutKey": "W"
 	},
 	{
 		"name": "Offshore Platform",
 		"techRequired": "Refrigeration",
 		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles",
-		"[+2 Production, +1 Food] <within [1] tiles of a [Industrial Complex]>"],
+		"[+2 Production] <within [2] tiles of a [Industrial Complex]>",
+		"[+2 Production] <within [2] tiles of a [Industrial Complex]> <after adopting [Safety Checks]>",
+		"[+2 Production] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>"],
 		"shortcutKey": "P"
 	},
 	{
@@ -79,21 +212,29 @@
 		"gold": 1,
 		"techRequired": "Calendar",
 		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource",
-		"[+2 Food, +1 Production] <within [1] tiles of a [Water Tower]>"],
+		"[+2 Food] <within [2] tiles of a [Water Tower]>",
+		"[+2 Food] <within [2] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
+		"[+2 Food] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>"],
 		"shortcutKey": "P"
 	},
 	{
 		"name": "Camp",
 		"turnsToBuild": 7,
 		"techRequired": "Trapping",
-		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Gold] <after discovering [Economics]>", "Can only be built to improve a resource","[+2 Food, +2 Gold] <within [1] tiles of a [Residential]>"],
+		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Gold] <after discovering [Economics]>", "Can only be built to improve a resource",
+		"[+2 Production] <within [2] tiles of a [Residential]>",
+		"[+2 Production] <within [2] tiles of a [Residential]> <after adopting [Safety Checks]>",
+		"[+2 Production] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>"],
 		"shortcutKey": "C"
 	},
 	{
 		"name": "Quarry",
 		"turnsToBuild": 8,
 		"techRequired": "Masonry",
-		"uniques": ["[+1 Production] <after discovering [Chemistry]>", "Can only be built to improve a resource","[+2 Production, +1 Food] <within [1] tiles of a [Industrial Complex]>"],
+		"uniques": ["[+1 Production] <after discovering [Chemistry]>", "Can only be built to improve a resource",
+		"[+2 Production] <within [2] tiles of a [Industrial Complex]>",
+		"[+2 Production] <within [2] tiles of a [Industrial Complex]> <after adopting [Safety Checks]>",
+		"[+2 Production] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>"],
 		"shortcutKey": "Q"
 	},
 	{
@@ -101,37 +242,51 @@
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"food": 1,
 		"techRequired": "Sailing",
-		"uniques": ["[+1 Gold] <after discovering [Compass]>","[+2 Food, +1 Production] <within [1] tiles of a [Water Tower]>","Can only be built to improve a resource"],
+		"uniques": ["[+1 Gold] <after discovering [Compass]>",
+		"[+1 Food] <within [2] tiles of a [Water Tower]>",
+		"[+1 Food] <within [2] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
+		"[+1 Food] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>","Can only be built to improve a resource"],
 		"shortcutKey": "F"
 	},
 // Infraestructure
 {
 		"name": "Power Plant",
 		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 1,
 		"techRequired": "Infraestructure",
-		"uniques": ["Provides [1] [Power]","Infraestructure","Removes removable features when built"]
+		"uniques": ["Provides [1] [Power]","Provides [1] [Power] <if [Electrical Corporation] is constructed>","Infraestructure","Removes removable features when built"]
 },
 {
 		"name": "Supply Route",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"food": 1,
 		"gold": 1,
-		"uniques": ["[+5 Food, +5 Gold] <in [Strategic resource] tiles>","Provides [1] [Composites] <after discovering [Nanotechnology]>","Removes removable features when built"]
+		"uniques": ["[+5 Food, +5 Gold] <in [Strategic resource] tiles>",
+		"Provides [1] [Composites] <after discovering [Nanotechnology]>",
+		"[+1 Food, +1 Gold] for each adjacent [Trading post]",
+		"[[+1 Food, +1 Gold]] for each adjacent [Modern Trading post]",
+		"Removes removable features when built",
+		"[+3 Food, +3 Gold] <within [2] tiles of a [Power Plant]>",
+	    "[+3 Food, +3 Gold] <within [2] tiles of a [Power Plant]> <after adopting [Safety Checks]>",
+		"[+3 Food, +3 Gold] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>"]
 },
 {
 		"name": "Water Tower",
 		"terrainsCanBeBuiltOn": ["Land"],
+		"food": 1,
 		"techRequired": "Infraestructure",
 		"uniques": ["Infraestructure","Removes removable features when built"]
 },
 {
 		"name": "Industrial Complex",
 		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 1,
 		"techRequired": "Infraestructure",
 		"uniques": ["Infraestructure","Removes removable features when built"]
 },
 {
 		"name": "Residential",
+		"gold": 2,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"techRequired": "Infraestructure",
 		"uniques": ["Infraestructure","Removes removable features when built"]
@@ -141,37 +296,61 @@
 		"name": "Academy",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 8,
-		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>", "[+2 Science] <after discovering [Atomic Theory]>","[+4 Science] <within [1] tiles of a [Power Plant]>","Removes removable features when built"]
+		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>", "[+2 Science] <after discovering [Atomic Theory]>",
+		"[+4 Science] <within [2] tiles of a [Power Plant]>",
+		"[+4 Science] <within [2] tiles of a [Power Plant]> <after adopting [Safety Checks]>",
+		"[+4 Science] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
+		"Removes removable features when built"]
 	},
 	{
 		"name": "Landmark",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 6,
-		"uniques": ["Great Improvement","Removes removable features when built","[+3 Culture] <within [1] tiles of a [Power Plant]>"]
+		"uniques": ["Great Improvement","Removes removable features when built",
+		"[+3 Culture] <within [2] tiles of a [Power Plant]>",
+		"[+3 Culture] <within [2] tiles of a [Power Plant]> <after adopting [Safety Checks]>",
+		"[+3 Culture] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>"]
 	},
 	{
 		"name": "Manufactory",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 4,
-		"uniques": ["Great Improvement","[+1 Production] <after discovering [Chemistry]>","Removes removable features when built","[+2 Production] <within [1] tiles of a [Power Plant]>"]
+		"uniques": ["Great Improvement",
+		"[+2 Production] <after discovering [Chemistry]>",
+		"Removes removable features when built",
+		"[+2 Production] <within [2] tiles of a [Power Plant]>",
+		"[+2 Production] <within [2] tiles of a [Power Plant]> <after adopting [Safety Checks]>",
+		"[+2 Production] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>"]
 	},
 	{
 		"name": "Customs house",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 4,
-		"uniques": ["Great Improvement","[+1 Gold] <after discovering [Economics]>","Removes removable features when built","[+2 Gold] <within [1] tiles of a [Power Plant]>"]
+		"uniques": ["Great Improvement",
+		"[+4 Gold] <after discovering [Economics]>",
+		"Removes removable features when built",
+		"[+4 Gold] <within [2] tiles of a [Power Plant]>",
+		"[+4 Gold] <within [2] tiles of a [Power Plant]> <after adopting [Safety Checks]>",
+		"[+4 Gold] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>"]
 	},
 	{
 		"name": "Holy site",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 6,
-		"uniques": ["Great Improvement","Removes removable features when built","[+3 Faith] <within [1] tiles of a [Power Plant]>"]
+		"uniques": ["Great Improvement","Removes removable features when built",
+		"[+3 Faith] <within [2] tiles of a [Power Plant]>",
+		"[+3 Faith] <within [2] tiles of a [Power Plant]> <after adopting [Safety Checks]>",
+		"[+3 Faith] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>"]
 	},
     {
 		"name": "Space Platform",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 6,
 		"culture": 6,
-		"uniques": ["Great Improvement", "[+2 Science, +2 Culture] <after discovering [Spaceflight]>", "Removes removable features when built"]
+		"uniques": ["Great Improvement", "[+2 Science, +2 Culture] <after discovering [Spaceflight]>",
+		"[+3 Science, +3 Culture] <within [2] tiles of a [Power Plant]>",
+		"[+3 Science, +3 Culture] <within [2] tiles of a [Power Plant]> <after adopting [Safety Checks]>",
+		"[+3 Science, +3 Culture] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
+		"Removes removable features when built"]
 	},
 ]

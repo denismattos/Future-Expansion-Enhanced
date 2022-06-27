@@ -14,6 +14,10 @@
 		"uniques": ["Normal vision when embarked", "Defense bonus when embarked"]
 	},
 	{
+		"name": "Car",
+		"uniques": ["[+1] Movement"]
+	},
+	{
 		"name": "Hovering",
 		"uniques": ["[+50]% Strength <vs [Land] units>","Ignores terrain cost"]
 	},

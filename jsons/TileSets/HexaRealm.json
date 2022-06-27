@@ -2,6 +2,7 @@
 	"useColorAsBaseTerrain": "false",
 	"fallbackTileSet": FantasyHex,
 	"ruleVariants": {
+	//Having horses on top of the Supply route would be weird
 	"Grassland+Horses+Supply Route": ["Grassland","Supply Route+Horses"]
 	"Grassland+Iron+Supply Route": ["Grassland","Supply Route+Iron"]
 	"Grassland+Coal+Supply Route": ["Grassland","Supply Route+Coal"]
@@ -62,5 +63,12 @@
 	"Snow+Hill+Aluminum+Supply Route": ["Snow","Supply Route+Aluminum"]
 	"Snow+Hill+Uranium+Supply Route": ["Snow","Supply Route+Uranium"]
 	"Snow+Hill+Quantum Fragment+Supply Route": ["Snow","Supply Route+Quantum Fragment"]
+	//Elephant on Industry looks weird
+	"Grassland+Ivory+Industry": ["Grassland","Industry+Ivory"]
+	"Plains+Ivory+Industry": ["Plains","Industry+Ivory"]
+	"Grassland+Hill+Gems+Industry": ["Grassland","Industry"]
+	"Plains+Hill+Gems+Industry": ["Plains","Industry"]
+	"Desert+Hill+Gems+Industry": ["Plains","Industry"]
+	"Tundra+Hill+Gems+Industry": ["Plains","Industry"]
 	}
 }

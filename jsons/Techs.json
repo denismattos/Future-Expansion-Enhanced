@@ -2,7 +2,7 @@
 	{
 		"columnNumber": 12,
 		"era": "Modern era",
-		"techCost": 4100,
+		"techCost": 3600,
 		"buildingCost": 500,
 		"wonderCost": 1250,
 		"techs": [
@@ -16,6 +16,7 @@
 				"name": "Corporations",
 				"row": 4,
 				"prerequisites": ["Radio","Replaceable Parts"],
+				"uniques": ["Gain a free [No Corporation] [in City-State cities]"],
 				"quote": "'If you can't feed a team with two pizzas, it's too large.' - Jeff Bezos"
 			},
 			{
@@ -41,7 +42,7 @@
 	{
 		"columnNumber": 13,
 		"era": "Atomic era",
-		"techCost": 5100,
+		"techCost": 4600,
 		"buildingCost": 500,
 		"wonderCost": 1360,
 		"techs": [
@@ -80,7 +81,7 @@
 	{
 		"columnNumber": 14,
 		"era": "Atomic era",
-		"techCost": 6400,
+		"techCost": 5800,
 		"buildingCost": 600,
 		"wonderCost": 1480,
 		"techs": [
@@ -113,7 +114,7 @@
 	{
 		"columnNumber": 15,
 		"era": "Information era",
-		"techCost": 7700,
+		"techCost": 6900,
 		"buildingCost": 750,
 		"wonderCost": 1710,
 		"techs": [
@@ -127,7 +128,7 @@
 				"name": "Urbanization",
 				"row": 3,
 				"prerequisites": ["Ecology","Nuclear Fission"],
-				"uniques": ["[+1 Food] from every [Great Improvement]"]
+				"uniques": ["[Civilian] units gain the [Car] promotion","[+1 Food] from every [Great Improvement]"]
 				"quote": "'Seasons change. So do cities. People come into your life and people go, but it's comforting to know: the ones you love are always in your heart. And if you're very lucky, a plane ride away.' - Michael Patrick"
 			},
 			{
@@ -160,7 +161,7 @@
 	{
 		"columnNumber": 16,
 		"era": "Information era",
-		"techCost": 8800,
+		"techCost": 7920,
 		"buildingCost": 850,
 		"wonderCost": 1890,
 		"techs": [
@@ -199,7 +200,7 @@
 	{
 		"columnNumber": 17,
 		"era": "Future era",
-		"techCost": 10800,
+		"techCost": 9720,
 		"buildingCost": 1000,
 		"wonderCost": 2020,
 		"techs": [
@@ -219,7 +220,7 @@
 				"name": "Lasers",
 				"row": 6,
 				"prerequisites": ["Artificial Intelligence","Mobile Tactics"],
-				"quote": "'You can't blame gravity for falling in love.' - Albert Einstein"
+				"quote": "tThere is always room, if only in one’s own soul, to create a spot of Paradise, crazy though it may sound.' - Henry Miller"
 			},
 			{
 				"name": "Automation",
@@ -232,7 +233,7 @@
 	{
 		"columnNumber": 18,
 		"era": "Future era",
-		"techCost": 12600,
+		"techCost": 11300,
 		"buildingCost": 1120,
 		"wonderCost": 2360,
 		"techs": [
@@ -253,7 +254,7 @@
 				"name": "Clean Energy",
 				"row": 5,
 				"prerequisites": ["Nanotechnology","Lasers"],
-				"uniques": ["+1 Power to Buildings that provide it"]
+				"uniques": ["+3 Power to Buildings that provide it"]
 				"quote": "'For an impenetrable shield, stand inside yourself.' - Henry David"
 			},
 			{
@@ -274,7 +275,7 @@
 	{
 		"columnNumber": 19,
 		"era": "Beyond the Future",
-		"techCost": 25200,
+		"techCost": 22600,
 		"buildingCost": 2000,
 		"wonderCost": 3120,
 		"techs": [

@@ -1,6 +1,15 @@
 [
 //Ancient
     {
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles"],
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Modern Worker",
+		"cost": 70
+	},
+    {
 		"name": "Scout",
 		"unitType": "Scout",
 		"movement": 2,
@@ -28,12 +37,22 @@
 	},
 //Industrial
     {
-		"name": "Supply Agent",
-		"requiredTech": "Electronics",
+		"name": "Archaeologist",
+		"requiredTech": "Archaeology",
 		"unitType": "Civilian",
-		"cost": 560,	
+		"cost": 375	,	
 		"movement": 2,
-		"uniques": ["Cannot be purchased", "Can construct [Supply Route]","Can construct [Water Tower] <after discovering [Infraestructure]>","Can construct [Power Plant] <after discovering [Infraestructure]>","Can construct [Industrial Complex] <after discovering [Infraestructure]>","Can construct [Residential] <after discovering [Infraestructure]>","Uncapturable"],
+		"uniques": ["Cannot be purchased","Can build [Land] improvements on tiles","Can construct [Excavation Site]","Limited to [2] per Civilization","Uncapturable"],
+	},
+	{
+		"name": "Medic",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 375,
+		"requiredTech": "Biology",
+		"upgradesTo": "Tactical Supplier",
+		"obsoleteTech": "Mobile Tactics",
+		"uniques": ["All adjacent units heal [+10] HP when healing <before adopting [Collectivization]>","All adjacent units heal [+20] HP when healing <after adopting [Collectivization]>","Uncapturable","Never appears as a Barbarian unit"],
 	},
 	{
 		"name": "Artillery",
@@ -51,6 +70,39 @@
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
+//Modern
+	{
+		"name": "Modern Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles","Can construct [Modern Farm]","Can construct [Modern Mine]","Can construct [Modern Trading post]"],
+		"requiredTech": "Replaceable Parts",
+		"cost": 440
+	},
+	{
+		"name": "Musician",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Cannot be purchased","Can build [Land] improvements on tiles","Can construct [Concert Venue]","Limited to [2] per Civilization","Uncapturable"],
+		"requiredTech": "Radio",
+		"cost": 560
+	},
+	{
+		"name": "Corporate",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Cannot be purchased","Can build [Land] improvements on tiles","Can construct [Industry]","Limited to [2] per Civilization","Uncapturable"],
+		"requiredTech": "Corporations",
+		"cost": 560
+	},
+	{
+		"name": "Supply Agent",
+		"requiredTech": "Electronics",
+		"unitType": "Civilian",
+		"cost": 560,	
+		"movement": 2,
+		"uniques": ["Cannot be purchased","Can construct [Supply Route]","Uncapturable"],
+	},
 //Atomic
     {
 		"name": "Paratrooper",
@@ -61,8 +113,16 @@
 		"requiredTech": "Radar",
 		"obsoleteTech": "Lasers",
 		"upgradesTo": "Future Soldier",
-		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory","Never appears as a Barbarian unit"],
+		"uniques": ["May Paradrop up to [9] tiles from inside friendly territory","Never appears as a Barbarian unit"],
 		"attackSound": "shot"
+	},
+	{
+		"name": "Architect",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles","Can construct [Power Plant]","Can construct [Water Tower]","Can construct [Industrial Complex]","Can construct [Residential]"],
+		"requiredTech": "Infraestructure",
+		"cost": 670
 	},
 	{
 		"name": "Carrier",
@@ -72,7 +132,6 @@
 		"cost": 375,
 		"requiredTech": "Electronics",
 		"obsoleteTech": "Clean Energy",
-		"upgradesTo": "Orbital Carrier"
 		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units","Never appears as a Barbarian unit"]
 	},
     {
@@ -140,6 +199,8 @@
 		"strength": 60,
 		"cost": 425,
 		"requiredTech": "Computers",
+		"upgradesTo": "Future Copter",
+		"obsoleteTech": "Clean Energy",
 		"requiredResource": "Aluminum",
 		"uniques": ["Cyber","[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
 			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
@@ -155,6 +216,7 @@
 		"rangedStrength": 85,
 		"cost": 425,
 		"requiredTech": "Telecommunications",
+		"upgradesTo": "UUV",
 		"uniques": ["Cyber","[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Missile] units", "Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
 	},
@@ -167,18 +229,16 @@
 		"range": 12,
 		"cost": 1300,
 		"requiredTech": "Advanced Ballistics",
-		"uniques": ["Nuclear weapon of Strength [2]", "Only available <if [Nuclear Testing Site] is constructed>", "Only available <before discovering [Clean Energy]>","Blast radius [2]", "Consumes [2] [Uranium]","Limited to [2] per Civilization"],
+		"uniques": ["Nuclear weapon of Strength [2]", "Only available <if [Nuclear Testing Site] is constructed>", "Only available <before discovering [Clean Energy]>","Blast radius [2]", "Consumes [2] [Uranium]","Limited to [3] per Civilization"],
 		"attackSound": "nuke"
 	},
 	{
 		"name": "Drone",
 		"unitType": "Scout",
 		"movement": 3,
-		"strength": 60,
+		"strength": 70,
 		"cost": 280,
-		"requiredTech": "Robotics",
-		"obsoleteTech": "Metagenetics",
-		"upgradesTo": "Seeker"
+		"requiredTech": "Artificial Intelligence",
 		"uniques": ["Cyber","Can move after attacking","Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "shot"
@@ -217,15 +277,6 @@
 		"Never appears as a Barbarian unit"]
 		"requiredTech": "The Internet",
 		"attackSound": "Hacking"
-	},
-	{
-		"name": "Tactical Supplier",
-		"unitType": "Scout",
-		"movement": 3,
-		"strength": 65,
-		"cost": 375,
-		"requiredTech": "Genetics",
-		"uniques": ["Cyber","All adjacent units heal [+25] HP when healing","[+50]% Strength <when defending>","Cannot attack","Never appears as a Barbarian unit"],
 	},
 	{
 		"name": "Mechanized Infantry",
@@ -268,13 +319,21 @@
 		"attackSound": "jetgun"
 	},
 	{
+		"name": "Tactical Supplier",
+		"unitType": "Civilian",
+		"movement": 4,
+		"cost": 375,
+		"requiredTech": "Mobile Tactics",
+		"uniques": ["All adjacent units heal [+10] HP when healing <before adopting [Collectivization]>","All adjacent units heal [+20] HP when healing <after adopting [Collectivization]>","Uncapturable","Never appears as a Barbarian unit"],
+	},
+	{
 		"name": "Stealth Hacker",
 		"unitType": "Hacker",
 		"movement": 2,
 		"interceptRange": 2,
 		"range": 2,
-		"strength": 70,
-		"rangedStrength": 80,
+		"strength": 60,
+		"rangedStrength": 75,
 		"cost": 560,
 		"requiredResource": "Aluminum",
 		"requiredTech": "Stealth",
@@ -319,7 +378,7 @@
 		"name": "Hovertank",
 		"unitType": "Armored",
 		"movement": 5,
-		"strength": 100,
+		"strength": 110,
 		"cost": 530,
 		"requiredTech": "Nanotechnology",
 		"requiredResource": "Composites",
@@ -334,7 +393,7 @@
 		"strength": 70,
 		"cost": 500,
 		"requiredTech": "Lasers",
-		"uniques": ["May Paradrop up to [20] tiles from inside friendly territory", "No movement cost to pillage",
+		"uniques": ["May Paradrop up to [40] tiles from inside friendly territory", "No movement cost to pillage",
 		"Never appears as a Barbarian unit"],
 		"promotions": ["Rocket Launcher"]
 		"attackSound": "energyshot"
@@ -418,6 +477,19 @@
 		"attackSound": "energyshot"
 	},
 	{
+		"name": "Future Copter",
+		"unitType": "Helicopter",
+		"movement": 6,
+		"strength": 75,
+		"cost": 580,
+		"requiredTech": "Clean Energy",
+		"requiredResource": "Composites",
+		"uniques": ["Cyber","[+100]% Strength <vs [Armored] units>","No defensive terrain bonus","Can move after attacking",
+			Ignores terrain cost,"Ignores Zone of Control", "Unable to capture cities","Never appears as a Barbarian unit"],
+		"promotions": ["Energy Weapons","Hovering","Amphibious"]
+		"attackSound": "machinegun"
+	},
+	{
 		"name": "Orbital Carrier",
 		"unitType": "Land Carrier",
 		"movement": 3,
@@ -436,8 +508,8 @@
 		"name": "Orbital Jet",
 		"unitType": "Fighter",
 		"movement": 2,
-		"strength": 110,
-		"rangedStrength": 110,
+		"strength": 95,
+		"rangedStrength": 95,
 		"range": 20,
 		"interceptRange": 20,
 		"cost": 700,
@@ -454,8 +526,8 @@
 		"name": "Orbital Bomber",
 		"unitType": "Bomber",
 		"movement": 2,
-		"strength": 125,
-		"rangedStrength": 125,
+		"strength": 110,
+		"rangedStrength": 110,
 		"range": 28,
 		"cost": 700,
 		"requiredTech": "Spaceflight",
@@ -510,6 +582,22 @@
 		"unitType": "Civilian",
 		"uniques": ["Can start an [12]-turn golden age", "Can construct [Space Platform] <starting from the [Atomic era]>", "Great Person - [Spacefarer]", "Unbuildable", "Uncapturable"],
 		"movement": 2
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age","[+15]% Strength bonus for [Military] units within [2] tiles <before adopting [Propaganda]>","[+30]% Strength bonus for [Military] units within [2] tiles <after adopting [Propaganda]>", "Can construct [Citadel]",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Khan",
+		"unitType": "Civilian",
+		"uniqueTo": "Mongolia",
+		"replaces": "Great General",
+		"uniques": ["Can start an [8]-turn golden age","[+15]% Strength bonus for [Military] units within [2] tiles <before adopting [Propaganda]>","[+30]% Strength bonus for [Military] units within [2] tiles <after adopting [Propaganda]>"
+		"All adjacent units heal [+15] HP when healing", "[+15] HP when healing", "Can construct [Citadel]", "Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 5
 	},
 //Time Machine Parts
     {
@@ -609,7 +697,8 @@
 		"movement": 3,
 		"strength": 140,
 		"cost": 720,
-		"uniques": ["Bio","Heals [25] damage if it kills a unit","May capture killed [Land] units <with [44]% chance>","Will not be displayed in Civilopedia","Only available <after discovering [Enhancing]>","Only available <if [Monolith Portal] is constructed>","Never appears as a Barbarian unit"]
+		"requiredTech": "Enhancing",
+		"uniques": ["Bio","Heals [25] damage if it kills a unit","May capture killed [Land] units <with [44]% chance>","Will not be displayed in Civilopedia","Only available <if [Monolith Portal] is constructed>","Never appears as a Barbarian unit"]
 		"promotions": ["Implants"]
 		"attackSound": "bite"
 	},
@@ -644,12 +733,12 @@
 		"rangedStrength": 160,
 		"cost": 800,
 		"requiredBuilding": "Monolith Portal",
+		"requiredTech": "Automation",
 		"uniques": ["Can see invisible [Stealth Hacker] units",
 		"[50]% chance to intercept air attacks",
 		"May capture killed [Land] units <with [30]% chance>",
 		"[+50]% Strength <vs [Cyber] units>",
-		"[+25]% Strength <vs [Land] units> <when attacking>",
-		"Only available <after discovering [Automation]>",	
+		"[+25]% Strength <vs [Land] units> <when attacking>",	
 		"Will not be displayed in Civilopedia",
 		"Only available <if [Monolith Portal] is constructed>",
 		"Never appears as a Barbarian unit"]
@@ -676,8 +765,8 @@
 		"strength": 185,
 		"cost": 1180,
 		"requiredBuilding": "Monolith Portal",
-		"uniques": ["Cyber","Can move after attacking","Uncapturable","[+100]% Strength <vs [Air] units>","May capture killed [Land] units <with [22]% chance>",
-		"Only available <after discovering [Nanotechnology]>","Never appears as a Barbarian unit","Will not be displayed in Civilopedia","Only available <if [Monolith Portal] is constructed>"],
+		"requiredTech": "Nanotechnology",
+		"uniques": ["Cyber","Can move after attacking","Uncapturable","[+100]% Strength <vs [Air] units>","May capture killed [Land] units <with [22]% chance>","Never appears as a Barbarian unit","Will not be displayed in Civilopedia","Only available <if [Monolith Portal] is constructed>"],
 		"promotions": ["Firewall","Amphibious","Gravity Generator"]
 		"attackSound": "gdrAttack"
 	},

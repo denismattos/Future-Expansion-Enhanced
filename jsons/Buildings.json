@@ -59,7 +59,7 @@
 		"maintenance": 3,
 		"requiredResource": "Uranium",
 		"requiredTech": "Nuclear Fission",
-		"uniques": ["Provides [7] [Power]","Consumes [5] [Power] <if [Green Energy] is constructed>","Provides [3] [Power] <after discovering [Clean Energy]>","Provides [1] [Power] <if [Electrical Corporation] is constructed>","Only available <in cities without a [Solar Plant]>","Only available <in cities without a [Energy Reactor]>"]
+		"uniques": ["Provides [7] [Power]","Consumes [2] [Power] <if [Green Energy] is constructed>","Provides [3] [Power] <after discovering [Clean Energy]>","Provides [1] [Power] <if [Electrical Corporation] is constructed>","Only available <in cities without a [Solar Plant]>","Only available <in cities without a [Energy Reactor]>"]
 	},
 	{
 		"name": "Solar Plant",
@@ -68,7 +68,7 @@
 		"requiredBuilding": "Factory",
 		"maintenance": 3,
 		"requiredTech": "Ecology",
-		"uniques": ["Provides [7] [Power]","Consumes [5] [Power] <if [Green Energy] is constructed>","Provides [3] [Power] <after discovering [Clean Energy]>","Provides [1] [Power] <if [Electrical Corporation] is constructed>","Must be next to [Desert]",
+		"uniques": ["Provides [7] [Power]","Consumes [2] [Power] <if [Green Energy] is constructed>","Provides [3] [Power] <after discovering [Clean Energy]>","Provides [1] [Power] <if [Electrical Corporation] is constructed>","Must be next to [Desert]",
 		"Only available <in cities without a [Nuclear Plant]>","Only available <in cities without a [Energy Reactor]>"]
 	},
 	{
@@ -203,7 +203,7 @@
 		"requiredBuilding": "Factory",
 		"maintenance": 5,
 		"requiredTech": "Lasers",
-		"uniques": ["Provides [7] [Power]","Consumes [5] [Power] <if [Green Energy] is constructed>","Provides [3] [Power] <after discovering [Clean Energy]>","Provides [1] [Power] <if [Electrical Corporation] is constructed>","Only available <in cities without a [Solar Plant]>","Only available <in cities without a [Nuclear Plant]>"]
+		"uniques": ["Provides [7] [Power]","Consumes [2] [Power] <if [Green Energy] is constructed>","Provides [3] [Power] <after discovering [Clean Energy]>","Provides [1] [Power] <if [Electrical Corporation] is constructed>","Only available <in cities without a [Solar Plant]>","Only available <in cities without a [Nuclear Plant]>"]
 	},
 	{
 		"name": "Space Station",
@@ -281,7 +281,7 @@
 		"name": "Green Energy",
 		"isNationalWonder": true,
 		"requiredTech": "Ecology",
-		"uniques": ["-5 Power provided by Solar Plant, Nuclear Plant and Energy Reactor", "+1 Power provided by Wind Farm and Offshore Wind Farm"],
+		"uniques": ["+1 Power provided by Wind Farm and Offshore Wind Farm"],
 	},
 	{
 		"name": "Time Machine Blueprints",

@@ -91,7 +91,6 @@
 	},
 	{
 		"name": "Hydro Plant",
-		"requiredResource": "Aluminum",
 		"cost": 360,
 		"hurryCostModifier": 0,
 		"maintenance": 3,

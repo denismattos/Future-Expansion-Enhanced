@@ -7,6 +7,7 @@ The main objective is to prevent the late-game from feeling stale by introducing
 While this mod extends game length, the goal is to not extend it too long. If you have any feedback/suggestions feel free to contact me.
 
 ------Latest Version Changelog(3.4)-30/7/2022
+
 --Content
 Added Observation Balloon(Industrial-era Support Unit)
 Added Support Unit Promotion

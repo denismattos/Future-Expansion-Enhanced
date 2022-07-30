@@ -6,96 +6,70 @@ The main objective is to prevent the late-game from feeling stale by introducing
 
 While this mod extends game length, the goal is to not extend it too long. If you have any feedback/suggestions feel free to contact me.
 
-V2.0 Update: Beyond the Future Edition
-
--Added Beyond the Future era
-
--Added Supply Routes
-
--Added Monolith
-
--Added Corporations
-
--Removed Plans
-
--Reworked Time Machine
-
--Reworked costs, techs and wonders
-
--Great Spacefarer can build Space Platform
-
--Added Infraestructure
-
--Reworked Tech Tree
-
--Removed Pre-Future-era policies
-
--Removed Unit-based Future era wonders
-
--Reworked Wonder Modules into Corporation Slots
-
--Added Composites
-
--Added Power
-
--Removed Data Centers, Reworked Improvements into Infraestructure
-
--Removed Culture-Based redundant Information era Wonders
-
--Utopia Project now requires only 6 policies
-
-
-V1.6 Update: Bug Fixes Edition
-
--Synthethic Plant no longer upgrades to Dinosaurs
-
--Slightly lowered Policy increases from Future era Policies
-
--Workers now automate Buildings in earlier eras
-
--Utopia Project now requires only 9 Policies
-
--Lowered cost of Techs, Buildings, and Wonders
-
--Increased cost of Utopia project
-
--Increased cost of Special Forces
-
--SS Cockpit is now unbuildable
-
--Slightly increased strength of Enhanced Infantry
-
--Spaceflight now reveals the entire map
-
--Fixed Residential Districts
-
--Residentials now provide -25% Tile improvement time
-
--Urbanization now provides -25% Tile Improvement time
-
--Removed Greenhouses
-
--Increased Production Bonus obtained from Practicality
-
--Fixed Hubble Space Telescope, Satellite Grid Array and James Webb Telescope
-
--Slightly Increased World Olympics Culture Bonus
-
--Removed redundancies on Private Server
-
--Increased Gold percent bonus from Shopping Mall and Criminal Gang Slightly
-
--Fixed Recreating Lifeforms
-
--Increased Culture obtained from Virtual Assistant
-
--Increased Culture obtained from City-States with United Nations
-
--Increased Production Bonus for Market Competition
-
--Increased Production Bonus for Monopolization
-
--Futurism now lowers maintenance cost by 75% but acts in all cities
+------Latest Version Changelog(3.4)-30/7/2022
+--Content
+Added Observation Balloon(Industrial-era Support Unit)
+Added Support Unit Promotion
+Added Coal Plant(Industrial-era Power-providing Building)
+Added Biplane(Modern-era Fighter unit)
+Added Jet Bomber(Information-era Bomber unit)
+Added Perks(Resources obtained from Great Improvements)
+Removed Quantum Fragment
+Removed The Time Heist and Mega City Pyramid
+Removed Sillicon Valley Wonder
+Removed World Olympics wonder
+--Balance
+Hydro Plants no longer require Aluminum
+Halved the effects of Divine Inspiration and Constitution
+Time Machine parts are no longer tied to specific techs
+Orbital Carrier now has the Amphibious Promotion
+Reworked the effects of Future era policies
+Slightly Reworked the effects of Atomic era Policies
+Hubble Space Telescope now provides 2 Great Scientists
+Supply Routes no longer provide Composites
+Marines cost less and can now embark for no movement cost
+Slightly increased Effect of Corporations
+Recycling Center now provides Oil
+Future era buildings now consume more power, and have more powerful effects
+Slightly lowered strength and range of guided missiles
+Rebalanced Costs and stats of Future era units
+Supply Agents can now be purchased
+Drones are now Support units
+Increased Resources required for units from Information era
+Increased the cost of Atomic Bombs and Nuclear Missiles
+Upgraded the Information era buildings so they require more power, and have more powerful effects
+Spaceship Factory requires Power, and is cannot be built alongside other Information-era Stat-related buildings
+Battleships now upgrade to Missile Cruisers
+Apollo Program is now a Space building
+Nuclear Submarines ignore Zone of control, have increased Stats, can move after attacking, and require Uranium
+Recycling Centers provide less production		
+Hydro-Plants now provide Power
+Information era and beyond buildings require additional Power
+Helicopters now require more Aluminum, are ranged units, and have increased stats, but have lowered movement
+Rocket Artillery can now carry Guided missiles, Consumes Iron, and has slightly rebalanced stats
+Atomic Bombs now cost more
+Medical Labs now provide +1 Food for every Specialist in that city
+Anti-Tank Gun now has an extra 100% Bonus against Tank units
+Carriers are now Cyber, can Melee attack, have increased Strength and gain bonus strength against Ranged units
+Anti-Air, Mobile SAM and Hoverair are now Support units
+Iron is required for Destroyers
++5 Strength to Destroyers, they also have +50% Strength against Ranged units, and -50% Strength against Submarines
+Destroyers have lowered evade chance, and intercept only after discovering Ballistics
+Tanks are now unlocked at Combustion, and have -1 Movement
+Armored Units now have a +33 Combat Bonus against Land units, and ignore Zone of Control
+Artillery now requires Iron
+Lowered Artillery's Range to 2
+Integrated Modern Worker with Worker, they no longer need to upgrade
+Worker can now upgrade to Architect
+Archaeologist, Musician and Corporate can now be purchased, and cannot construct land improvements
+Slightly increased Recon's Strength, they no longer upgrade to Drones
+Medic, Tactical Supplier, Hacker, and Stealth Hacker are now Support units
+Stat-related Industrial era buildings now provide bonuses when you have Power
+Palace now provides (1) Power instead of (3)
+Removed Solar Plants as a Building
+--MISC
+Cleaned Alien Monolith appearance
+Updated Quotes for Beyond the Future Techs
 
 
 Should be compatible with any mod that does not directly alter the G&K Tech Tree 

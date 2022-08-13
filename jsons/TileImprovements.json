@@ -315,6 +315,7 @@
 		"gold": 1,
 		"uniques": ["[+5 Food, +5 Gold] <in [Strategic resource] tiles>",
 		"Removes removable features when built",
+	        "[+1 Food, +2 Gold] <within [1] tiles of a [Water Tower]>",
 		"[+1 Food, +2 Gold] <within [1] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
 		"[+1 Production, +2 Gold] <within [1] tiles of a [Industrial Complex]>",
 		"[+1 Production, +2 Gold] <within [1] tiles of a [Industrial Complex]> <after adopting [Safety Checks]>",

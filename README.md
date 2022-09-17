@@ -6,133 +6,52 @@ The main objective is to prevent the late-game from feeling stale by introducing
 
 While this mod extends game length, the goal is to not extend it too long. If you have any feedback/suggestions feel free to contact me.
 
-------Latest Version Changelog(3.4)-30/7/2022
+------Latest Version Changelog(4.0)-9/16/2022
 
---Content
+-Excavation sites now provide -4 Gold and -1 Culture
 
-Added Observation Balloon(Industrial-era Support Unit)
+-Perks no longer provide negative culture after adopting Constitution
 
-Added Support Unit Promotion
+-Modern and later era units are no longer unlocked by Perks
 
-Added Coal Plant(Industrial-era Power-providing Building)
+-Reworked Perks so they are now all limited by Eras
 
-Added Biplane(Modern-era Fighter unit)
+-Social Network Company has -5% Happiness
 
-Added Jet Bomber(Information-era Bomber unit)
+-Slightly buffered Space Organization
 
-Added Perks(Resources obtained from Great Improvements)
+-Medical Labs and Tactical Supplier no longer require a Perk
 
-Removed Quantum Fragment
+-Recycling Centers and Drones no longer require a Perk
 
-Removed The Time Heist and Mega City Pyramid
+-Late Atomic-Era and Information era Stat buildings no longer require a Perk
 
-Removed Sillicon Valley Wonder
+-Mechanized Infantry no longer consumes Iron
 
-Removed World Olympics wonder
+-Tanks and Modern Armor now consume 1 Oil
 
---Balance
+-Future-era wonders are now shown on the Tech tree
 
-Hydro Plants no longer require Aluminum
+-Teleport Station now affects Future Soldiers
 
-Halved the effects of Divine Inspiration and Constitution
+-Space Elevator now provides Great Person Generation bonuses to all cities, and doubles them on Capital
 
-Time Machine parts are no longer tied to specific techs
+-Coal Plant now requires the Electricity Tech
 
-Orbital Carrier now has the Amphibious Promotion
+-Power Plants now provide -2 power
 
-Reworked the effects of Future era policies
+-Scientific Theory now provides +1 Gold to Trading Post
 
-Slightly Reworked the effects of Atomic era Policies
+-Recon now updates to Paratrooper
 
-Hubble Space Telescope now provides 2 Great Scientists
+-Recon, Paratroopers and Future Soldier now gain the Skirmish Promotion
 
-Supply Routes no longer provide Composites
+-Stadiums no longer require a Perk
 
-Marines cost less and can now embark for no movement cost
+-Ecology now provides +1 Food to Lumber Mills
 
-Slightly increased Effect of Corporations
+-Radio now unlocks the Resort Improvement
 
-
-Recycling Center now provides Oil
-
-Future era buildings now consume more power, and have more powerful effects
-
-Slightly lowered strength and range of guided missiles
-
-Rebalanced Costs and stats of Future era units
-
-Supply Agents can now be purchased
-
-Drones are now Support units
-
-Increased Resources required for units from Information era
-
-Increased the cost of Atomic Bombs and Nuclear Missiles
-
-Upgraded the Information era buildings so they require more power, and have more powerful effects
-
-Spaceship Factory requires Power, and is cannot be built alongside other Information-era Stat-related buildings
-
-Battleships now upgrade to Missile Cruisers
-
-Apollo Program is now a Space building
-
-Nuclear Submarines ignore Zone of control, have increased Stats, can move after attacking, and require Uranium
-
-Recycling Centers provide less production		
-
-Hydro-Plants now provide Power
-
-Information era and beyond buildings require additional Power
-
-Helicopters now require more Aluminum, are ranged units, and have increased stats, but have lowered movement
-
-Rocket Artillery can now carry Guided missiles, Consumes Iron, and has slightly rebalanced stats
-
-Atomic Bombs now cost more
-
-Medical Labs now provide +1 Food for every Specialist in that city
-
-Anti-Tank Gun now has an extra 100% Bonus against Tank units
-
-Carriers are now Cyber, can Melee attack, have increased Strength and gain bonus strength against Ranged units
-
-Anti-Air, Mobile SAM and Hoverair are now Support units
-
-Iron is required for Destroyers
-
-+5 Strength to Destroyers, they also have +50% Strength against Ranged units, and -50% Strength against Submarines
-
-Destroyers have lowered evade chance, and intercept only after discovering Ballistics
-
-Tanks are now unlocked at Combustion, and have -1 Movement
-
-Armored Units now have a +33 Combat Bonus against Land units, and ignore Zone of Control
-
-Artillery now requires Iron
-
-Lowered Artillery's Range to 2
-
-Integrated Modern Worker with Worker, they no longer need to upgrade
-
-Worker can now upgrade to Architect
-
-Archaeologist, Musician and Corporate can now be purchased, and cannot construct land improvements
-
-Slightly increased Recon's Strength, they no longer upgrade to Drones
-
-Medic, Tactical Supplier, Hacker, and Stealth Hacker are now Support units
-
-Stat-related Industrial era buildings now provide bonuses when you have Power
-
-Palace now provides (1) Power instead of (3)
-
-Removed Solar Plants as a Building
-
---MISC
-
-Cleaned Alien Monolith appearance
-
-Updated Quotes for Beyond the Future Techs
+-Aluminum is now revealed by Replaceable Parts	
 
 Should be compatible with any mod that does not directly alter the G&K Tech Tree 

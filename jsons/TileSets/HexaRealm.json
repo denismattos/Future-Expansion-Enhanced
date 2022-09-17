@@ -56,6 +56,9 @@
 	"Snow+Hill+Aluminum+Supply Route": ["Snow","Supply Route+Aluminum"]
 	"Snow+Hill+Uranium+Supply Route": ["Snow","Supply Route+Uranium"]
 	"Desert+Natural Appeal+Resort": ["Desert","Resort+Natural Appeal"]
+        "Plains+Natural Appeal+Resort": ["Plains","Resort+Natural Appeal"]
+        "Grassland+Natural Appeal+Resort": ["Grassland","Resort+Natural Appeal"]
+        "Tundra+Natural Appeal+Resort": ["Tundra","Resort+Natural Appeal"]
 	//Elephant on Industry looks weird
 	"Grassland+Ivory+Industry": ["Grassland","Industry+Ivory"]
 	"Plains+Ivory+Industry": ["Plains","Industry+Ivory"]

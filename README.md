@@ -6,7 +6,9 @@ The main objective is to prevent the late-game from feeling stale by introducing
 
 While this mod extends game length, the goal is to not extend it too long. If you have any feedback/suggestions feel free to contact me.
 
-------Latest Version Changelog(4.1)-9/18/2022
+--
+Latest Version Changelog(4.1)-9/18/2022
+
 -Lowered all Post-Industrial Tech costs by 10%
 
 -Private Grids now provide -30% Science

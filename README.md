@@ -66,5 +66,6 @@ While this mod extends game length, the goal is to not extend it too long. If yo
 -Radio now unlocks the Resort Improvement
 
 -Aluminum is now revealed by Replaceable Parts	
+
 --
 Should be compatible with any mod that does not directly alter the G&K Tech Tree 

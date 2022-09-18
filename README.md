@@ -6,7 +6,20 @@ The main objective is to prevent the late-game from feeling stale by introducing
 
 While this mod extends game length, the goal is to not extend it too long. If you have any feedback/suggestions feel free to contact me.
 
-------Latest Version Changelog(4.0)-9/16/2022
+------Latest Version Changelog(4.1)-9/18/2022
+-Lowered all Post-Industrial Tech costs by 10%
+
+-Private Grids now provide -30% Science
+
+-Lowered overall costs of Civilian units
+
+-Unique Cavalry units no longer upgrade to Landships
+
+-Unique Rifleman no longer upgrade to Great War Infantry
+
+-Pillaging Improvements now yields gold
+
+-Completing the Futurism Policy now enables you to purchase Great Spacefarers with faith
 
 -Excavation sites now provide -4 Gold and -1 Culture
 
@@ -53,5 +66,5 @@ While this mod extends game length, the goal is to not extend it too long. If yo
 -Radio now unlocks the Resort Improvement
 
 -Aluminum is now revealed by Replaceable Parts	
-
+--
 Should be compatible with any mod that does not directly alter the G&K Tech Tree 

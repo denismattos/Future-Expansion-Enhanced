@@ -157,7 +157,7 @@
 			},
 			{
 				"name": "Futurism Complete",
-				"uniques": ["[+25]% Strength <for units with [Energy Weapons]>","Free [Great Spacefarer] appears","[+6 Food, +6 Gold] from every [Space Platform]"]
+				"uniques": ["[+25]% Strength <for units with [Energy Weapons]>","May buy [Great Spacefarer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>","[+6 Food, +6 Gold] from every [Space Platform]"]
 			}
 		]
 	},

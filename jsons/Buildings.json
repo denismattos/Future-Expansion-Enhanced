@@ -24,7 +24,6 @@
 			"[+1 Production] from [Iron] tiles [in this city]"]
 	},
 //Renaissance
-
 //Industrial
    {
 		"name": "Museum",
@@ -235,7 +234,7 @@
     {
 		"name": "Private Grid",
 		"requiredTech": "The Internet",
-		"percentStatBonus": {"science": 100},
+		"percentStatBonus": {"science": 70},
 		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "Research Lab",
 		"maintenance": 5,

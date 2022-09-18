@@ -77,6 +77,48 @@
 		"attackSound": "shot",
 	},
 	{
+		"name": "Mehal Sefari",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman",
+		"uniqueTo": "Ethiopia",
+		"movement": 2,
+		"strength": 34,
+		"cost": 200,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"promotions": ["Drill I","Home Sweet Home"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Carolean",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman",
+		"uniqueTo": "Sweden",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"promotions": ["March"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Norwegian Ski Infantry",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman",
+		"uniqueTo": "Denmark",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"promotions": ["[Norwegian Ski Infantry] ability"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Cavalry",
 		"unitType": "Mounted",
 		"movement": 4,
@@ -87,6 +129,39 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Tank",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Cossack",
+		"unitType": "Mounted",
+		"replaces": "Cavalry",
+		"uniqueTo": "Russia",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Horses",
+		"upgradesTo": "Tank",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"promotions": ["[Cossack] ability"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Hussar",
+		"unitType": "Mounted",
+		"replaces": "Cavalry",
+		"uniqueTo": "Austria",
+		"movement": 5,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Horses",
+		"upgradesTo": "Tank",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
+			"[+1] Sight"],
+		"promotions": ["[Hussar] ability"],
 		"attackSound": "horse"
 	},
 	{
@@ -211,7 +286,7 @@
 		"requiredTech": "Radio",
 		"movement": 2,
 		"uniques": ["Can construct [Concert Venue]","Uncapturable"],
-		"cost": 560
+		"cost": 500,
 	},
 	{
 		"name": "Corporate",
@@ -219,7 +294,7 @@
 		"requiredTech": "Corporations",
 		"movement": 2,
 		"uniques": ["Can construct [Industry]","Uncapturable"],
-		"cost": 560
+		"cost": 500,
 		"civilopediaText": [
 			{"text": "Construct Industries on Luxury Resources you have copies of and cannot trade."}
 		]
@@ -227,7 +302,7 @@
 	{
 		"name": "Supply Agent",
 		"unitType": "Civilian",
-		"cost": 560,	
+		"cost": 500,	
 		"movement": 2,
 		"requiredTech": "Combustion",
 		"uniques": ["Can construct [Supply Route]","Uncapturable"],
@@ -318,7 +393,7 @@
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles","Can construct [Power Plant]","Can construct [Water Tower]","Can construct [Industrial Complex]","Can construct [Residential]"],
 		"requiredTech": "Infraestructure",
-		"cost": 670
+		"cost": 540
 	},
 	{
 		"name": "Carrier",

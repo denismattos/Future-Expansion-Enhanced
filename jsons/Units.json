@@ -689,8 +689,8 @@
 		"strength": 65,
 		"cost": 540,
 		"requiredResource": "Composites",
+		"promotions": ["Support Unit","Heat Sensor","Hovering"],
 		"uniques": ["Cyber","Anti-Air","+33% Strength to adjacent Land Units vs Air units","[100]% chance to intercept air attacks","[+150]% Strength <vs [Air] units>","Only available <if [GP-Hovercombat] is constructed>","Never appears as a Barbarian unit"],
-		"promotions": ["Support Unit","Heat Sensor","Amphibious","Hovering"],
 		"attackSound": "missile"
 	},
 	{

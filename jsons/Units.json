@@ -173,7 +173,7 @@
 		"promotions": ["Support Unit"],
 		"upgradesTo": "Drone",
 		"obsoleteTech": "Computers",
-		"uniques": ["Intel","+1 Range to adjacent Siege Units","[+33]% Strength bonus for [Siege] units within [1] tiles","[+1] Sight","No defensive terrain bonus","All tiles cost 1 movement","Ignores Zone of Control","Never appears as a Barbarian unit"],
+		"uniques": ["Intel","[+33]% Strength bonus for [Siege] units within [1] tiles","No defensive terrain bonus","All tiles cost 1 movement","Never appears as a Barbarian unit"],
 	},
 	{
 		"name": "Artillery",
@@ -521,7 +521,7 @@
 		"cost": 560,
 		"promotions": ["Support Unit"],
 		"requiredTech": "Computers",
-		"uniques": ["Intel","+1 Range to adjacent Siege Units","[+33]% Strength bonus for [Siege] units within [1] tiles","[+1] Sight","No defensive terrain bonus","All tiles cost 1 movement","Ignores Zone of Control","Never appears as a Barbarian unit"],
+		"uniques": ["Intel","[+33]% Strength bonus for [Siege] units within [1] tiles","No defensive terrain bonus","All tiles cost 1 movement","Never appears as a Barbarian unit"],
 	},
 	{
 		"name": "Missile Cruiser",

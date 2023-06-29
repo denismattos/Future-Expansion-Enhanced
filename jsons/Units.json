@@ -761,7 +761,7 @@
 		"rangedStrength": 125,
 		"cost": 750,
 		"requiredResource": "Composites",
-		"promotions": ["In Orbit"]
+		"promotions": ["In Orbit","Flying"]
 		"uniques": ["Cyber","Space","Only available <if [GP-Energy Weapons] is constructed>","Can move after attacking","Ignores Zone of Control","Can carry [2] [Aircraft] units","[100]% chance to intercept air attacks","[+25]% Strength <vs [Air] units>","Never appears as a Barbarian unit"],
 		"attackSound": "energyshot"
 	},

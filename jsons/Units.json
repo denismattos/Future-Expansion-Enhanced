@@ -454,8 +454,9 @@
 		"cost": 425,
 		"requiredTech": "Rocketry",
 		"obsoleteTech": "Nanotechnology",
-		"promotions": ["Support Unit"],
+		"upgradesTo": "Hover-SAM",		
 		"uniques": ["Cyber","Anti-Air","+33% Strength to adjacent Land Units vs Air units","[100]% chance to intercept air attacks","[+150]% Strength <vs [Air] units>","Never appears as a Barbarian unit"],
+		"promotions": ["Support Unit"],
 	},
 	{
 		"name": "Guided Missile",

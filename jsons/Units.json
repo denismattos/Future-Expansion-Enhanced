@@ -716,8 +716,7 @@
 		"strength": 100,
 		"cost": 530,
 		"requiredTech": "Metagenetics",
-		"uniques": ["Bio","[100]% chance to intercept air attacks","[+150]% Strength <vs [Air] units>",
-			"[+50]% Strength <vs [Bomber] units>","Can move after attacking","Heals [25] damage if it kills a unit","Never appears as a Barbarian unit"],
+		"uniques": ["Bio","[100]% chance to intercept air attacks","[+150]% Strength <vs [Air] units>","[+50]% Strength <vs [Bomber] units>","Can move after attacking","Heals [25] damage if it kills a unit","Never appears as a Barbarian unit"],
 		"promotions": ["Sortie","Implants"],
 		"attackSound": "bite"
 	},
@@ -782,10 +781,7 @@
 		"range": 28,
 		"cost": 700,
 		"requiredResource": "Composites",
-		"uniques": ["Only available <if [AP-Space Combat] is constructed>"
-		"Cyber",
-		"Space",
-		"[+4] Sight", "Can see over obstacles"],
+		"uniques": ["Only available <if [AP-Space Combat] is constructed>","Cyber","Space","[+4] Sight", "Can see over obstacles"],
 		"promotions": ["In Orbit"],
 		"attackSound": "bombing"
 	},
@@ -844,8 +840,7 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Mongolia",
 		"replaces": "Great General",
-		"uniques": ["Can start an [8]-turn golden age","[+15]% Strength bonus for [Military] units within [2] tiles <before adopting [Propaganda]>","[+30]% Strength bonus for [Military] units within [2] tiles <after adopting [Propaganda]>"
-		"All adjacent units heal [+15] HP when healing", "[+15] HP when healing", "Can construct [Citadel]", "Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"uniques": ["Can start an [8]-turn golden age","[+15]% Strength bonus for [Military] units within [2] tiles <before adopting [Propaganda]>","[+30]% Strength bonus for [Military] units within [2] tiles <after adopting [Propaganda]>","All adjacent units heal [+15] HP when healing", "[+15] HP when healing", "Can construct [Citadel]", "Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 5
 	},
 //Time Machine Parts
@@ -902,12 +897,7 @@
 		"rangedStrength": 85,
 		"cost": 265,
 		"requiredTech": "The Internet",
-		"uniques": ["Can only attack [Cyber] units",
-		"[50]% chance to intercept air attacks"
-		"May capture killed [Cyber] units <with [33]% chance>",
-		"[+50]% Strength <vs [Cyber] units>",
-		"[+50]% Strength <vs [Cyber] units> <when attacking>",
-		"[+35]% Strength <vs [Wounded] units>"],
+		"uniques": ["Can only attack [Cyber] units","[50]% chance to intercept air attacks","May capture killed [Cyber] units <with [33]% chance>","[+50]% Strength <vs [Cyber] units>","[+50]% Strength <vs [Cyber] units> <when attacking>","[+35]% Strength <vs [Wounded] units>"],
 		"attackSound": "Hacking"
 	},
 	{
@@ -957,16 +947,7 @@
 		"strength": 140,
 		"cost": 400,
 		"requiredTech": "Automation",
-		"uniques": ["Hacker",
-		"+33% Strength for adjacent non-air Units vs Cyber units",
-		"25% Chance for Adjacent units to capture Killed Cyber unit"
-		"Can see invisible [All] units",
-		"Invisible to non-adjacent units",
-		"[50]% chance to intercept air attacks",
-		"May capture killed [Land] units <with [75]% chance>",
-		"[+50]% Strength <vs [Cyber] units>",
-		"[+50]% Strength <vs [Land] units> <when attacking>",
-		"Will not be displayed in Civilopedia"]
+		"uniques": ["Hacker","+33% Strength for adjacent non-air Units vs Cyber units","25% Chance for Adjacent units to capture Killed Cyber unit","Can see invisible [All] units","Invisible to non-adjacent units","[50]% chance to intercept air attacks","May capture killed [Land] units <with [75]% chance>","[+50]% Strength <vs [Cyber] units>","[+50]% Strength <vs [Land] units> <when attacking>","Will not be displayed in Civilopedia"]
 		"promotions": ["Support Unit"],
 		"attackSound": "Hacking"
 	},
@@ -980,18 +961,7 @@
 		"cost": 800,
 		"requiredTech": "Nanotechnology",
 		"requiredBuilding": "Monolith Portal",
-		"uniques": ["Hacker",
-		"+33% Strength for adjacent non-air Units vs Cyber units",
-		"25% Chance for Adjacent units to capture Killed Cyber unit"
-		"Can see invisible [Stealth Support] units",
-		"Invisible to non-adjacent units",
-		"[50]% chance to intercept air attacks",
-		"May capture killed [Land] units <with [30]% chance>",
-		"[+50]% Strength <vs [Cyber] units>",
-		"[+25]% Strength <vs [Land] units> <when attacking>",	
-		"Will not be displayed in Civilopedia",
-		"Only available <if [Monolith Portal] is constructed>",
-		"Never appears as a Barbarian unit"]
+		"uniques": ["Hacker","+33% Strength for adjacent non-air Units vs Cyber units","25% Chance for Adjacent units to capture Killed Cyber unit","Can see invisible [Stealth Support] units","Invisible to non-adjacent units","[50]% chance to intercept air attacks","May capture killed [Land] units <with [30]% chance>","[+50]% Strength <vs [Cyber] units>","[+25]% Strength <vs [Land] units> <when attacking>","Will not be displayed in Civilopedia","Only available <if [Monolith Portal] is constructed>","Never appears as a Barbarian unit"]
 		"promotions": ["Support Unit"],
 		"attackSound": "Hacking"
 	},

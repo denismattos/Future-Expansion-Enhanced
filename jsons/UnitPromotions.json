@@ -27,7 +27,7 @@
 	},
 	{
 		"name": "Flying",
-		"uniques": ["No defensive terrain bonus","May travel on Water tiles without embarking"]
+		"uniques": ["No defensive terrain bonus","All tiles cost 1 movement","May travel on Water tiles without embarking"]
 	},
 	{
 		"name": "Heat Sensor",

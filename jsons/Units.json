@@ -170,10 +170,10 @@
 		"cost": 375,
 		"requiredTech": "Dynamite",
 		"obsoleteTech": "Rocketry",
-		"promotions": ["Support Unit"],
+		"promotions": ["Support Unit","Flying","Intel"],
 		"upgradesTo": "Drone",
 		"obsoleteTech": "Computers",
-		"uniques": ["Intel","[+33]% Strength bonus for [Siege] units within [1] tiles","No defensive terrain bonus","All tiles cost 1 movement","Never appears as a Barbarian unit"],
+		"uniques": ["[+33]% Strength bonus for [Siege] units within [1] tiles","Never appears as a Barbarian unit"],
 	},
 	{
 		"name": "Artillery",

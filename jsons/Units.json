@@ -14,8 +14,7 @@
 		"movement": 4,
 		"cost": 30,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>","May create improvements on water resources",
-        "Can construct [Offshore Wind Farm] <after discovering [Terraforming]>","Uncapturable"]
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>","May create improvements on water resources","Can construct [Offshore Wind Farm] <after discovering [Terraforming]>","Uncapturable"]
 	},
     {
 		"name": "Scout",
@@ -159,8 +158,7 @@
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Tank",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
-			"[+1] Sight"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+1] Sight"],
 		"promotions": ["[Hussar] ability"],
 		"attackSound": "horse"
 	},
@@ -531,8 +529,7 @@
 		"interceptRange": 2,
 		"cost": 425,
 		"requiredTech": "Robotics",
-		"uniques": ["Cyber","Consumes [1] [Aluminum]","[100]% chance to intercept air attacks","Can see invisible [Submarine] units",
-			"Can carry [3] [Missile] units","[+100]% Strength <vs [Submarine] units>","Never appears as a Barbarian unit"],
+		"uniques": ["Cyber","Consumes [1] [Aluminum]","[100]% chance to intercept air attacks","Can see invisible [Submarine] units","Can carry [3] [Missile] units","[+100]% Strength <vs [Submarine] units>","Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
@@ -831,8 +828,7 @@
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age","[+15]% Strength bonus for [Military] units within [2] tiles <before adopting [Propaganda]>","[+30]% Strength bonus for [Military] units within [2] tiles <after adopting [Propaganda]>", "Can construct [Citadel]",
-			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"uniques": ["Can start an [8]-turn golden age","[+15]% Strength bonus for [Military] units within [2] tiles <before adopting [Propaganda]>","[+30]% Strength bonus for [Military] units within [2] tiles <after adopting [Propaganda]>", "Can construct [Citadel]","Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
@@ -849,28 +845,28 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 1500,
-		"uniques": ["Time Machine part", "Cannot be purchased", "Only available <if [Time Machine Blueprints] is constructed>", "Uncapturable", "Can be added to [The Time Machine] in the Capital", "Limited to [2] per Civilization"]
+		"uniques": ["Time Machine part","Cannot be purchased","Only available <if [Time Machine Blueprints] is constructed>","Uncapturable","Can be added to [The Time Machine] in the Capital","Limited to [2] per Civilization"]
 	},
 	{
 		"name": "Causality Matrix",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 1500,
-		"uniques": ["Time Machine part", "Cannot be purchased", "Only available <if [Time Machine Blueprints] is constructed>", "Uncapturable", "Can be added to [The Time Machine] in the Capital", "Limited to [1] per Civilization"]
+		"uniques": ["Time Machine part","Cannot be purchased","Only available <if [Time Machine Blueprints] is constructed>","Uncapturable","Can be added to [The Time Machine] in the Capital","Limited to [1] per Civilization"]
 	},
 	{
 		"name": "Dimensional Shifter",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 1500,
-		"uniques": ["Time Machine part", "Cannot be purchased", "Only available <if [Time Machine Blueprints] is constructed>", "Uncapturable", "Can be added to [The Time Machine] in the Capital", "Limited to [1] per Civilization"]
+		"uniques": ["Time Machine part","Cannot be purchased","Only available <if [Time Machine Blueprints] is constructed>","Uncapturable","Can be added to [The Time Machine] in the Capital","Limited to [1] per Civilization"]
 	},
 	{
 		"name": "Entropy Phaser",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 1500,
-		"uniques": ["Time Machine part", "Cannot be purchased", "Only available <if [Time Machine Blueprints] is constructed>", "Uncapturable", "Can be added to [The Time Machine] in the Capital", "Limited to [1] per Civilization"]
+		"uniques": ["Time Machine part","Cannot be purchased","Only available <if [Time Machine Blueprints] is constructed>","Uncapturable","Can be added to [The Time Machine] in the Capital","Limited to [1] per Civilization"]
 	}
 //Barbarians
     {

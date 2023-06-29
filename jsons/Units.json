@@ -516,12 +516,12 @@
 	{
 		"name": "Drone",
 		"unitType": "Support",
-		"movement": 3,
+		"movement": 4,
 		"strength": 90,
 		"cost": 560,
-		"promotions": ["Support Unit"],
+		"promotions": ["Support Unit","Flying","Intel"],
 		"requiredTech": "Computers",
-		"uniques": ["Intel","[+33]% Strength bonus for [Siege] units within [1] tiles","No defensive terrain bonus","All tiles cost 1 movement","Never appears as a Barbarian unit"],
+		"uniques": ["[+33]% Strength bonus for [Siege] units within [2] tiles","Never appears as a Barbarian unit"],
 	},
 	{
 		"name": "Missile Cruiser",

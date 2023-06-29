@@ -577,6 +577,7 @@
 		"cost": 425,
 		"requiredTech": "Mobile Tactics",
 		"requiredResource": "Aluminum",
+		"upgradesTo": "Orbital Jet",
 		"uniques": ["Cyber","Consumes [1] [Oil]","[100]% chance to intercept air attacks","[+150]% Strength <vs [Bomber] units>","[+50]% Strength <vs [Helicopter] units>"],
 		"attackSound": "jetgun"
 	},

@@ -305,7 +305,7 @@
 		"cost": 500,	
 		"movement": 2,
 		"requiredTech": "Combustion",
-		"uniques": ["Can construct [Supply Route]","Uncapturable"],
+		"uniques": ["Can instantly construct a [Supply Route] improvement <by consuming this unit>","Uncapturable"],
 		"civilopediaText": [
 			{"text": "Construct Supply Routes on Strategic Resources your empire no longer uses."}
 		]

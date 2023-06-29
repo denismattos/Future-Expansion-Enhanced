@@ -480,7 +480,8 @@
 		"cost": 425,
 		"requiredTech": "Computers",
 		"upgradesTo": "Future Copter",
-		"uniques": ["Cyber","Consumes [2] [Aluminum]","[+100]% Strength <vs [Armored] units>","No defensive terrain bonus","Can move after attacking","All tiles cost 1 movement","Ignores Zone of Control","Unable to capture cities","Never appears as a Barbarian unit"],
+		"promotions" : ["Flying"],
+		"uniques": ["Cyber","Consumes [2] [Aluminum]","[+100]% Strength <vs [Armored] units>","Can move after attacking","Ignores Zone of Control","Unable to capture cities","Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 		"civilopediaText": [
 			{"text": "In Future Expansion, Helicopters are powerful Anti-Tank units capable of performing Ranged attacks and then retreating."}

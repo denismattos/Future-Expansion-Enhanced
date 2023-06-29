@@ -27,7 +27,7 @@
 	},
 	{
 		"name": "Flying",
-		"uniques": []
+		"uniques": ["No defensive terrain bonus","May travel on Water tiles without embarking"]
 	},
 	{
 		"name": "Heat Sensor",

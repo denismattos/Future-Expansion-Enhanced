@@ -611,6 +611,7 @@
 		"cost": 425,
 		"requiredTech": "Stealth",
 		"requiredResource": "Aluminum",
+		"upgradesTo": "Orbital Bomber",
 		"uniques": ["Cyber","Consumes [1] [Oil]"],
 		"attackSound": "bombing"
 	},

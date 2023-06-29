@@ -599,6 +599,7 @@
 		"strength": 90,
 		"cost": 560,
 		"requiredResource": "Aluminum",
+		"upgradesTo": "Monolith Brainiac",
 		"uniques": ["Cyber","Hacker","+33% Strength for adjacent non-air Units vs Cyber units","25% Chance for Adjacent units to capture Killed Cyber unit","May withdraw before melee ([50]%)","Can see invisible [Military] units","Only available <if [GP-Stealth Operatives] is constructed>","Never appears as a Barbarian unit"]
 		"promotions": ["Stealth","Support Unit"]
 	},

@@ -38,6 +38,10 @@
 		"uniques": ["[+25]% Strength <vs [Wounded] units>"]
 	},
 	{
+		"name": "Intel",
+		"uniques": ["+1 Range to adjacent Siege Units","[+1] Sight","Ignores Zone of Control"]
+	},	
+	{
 		"name": "Scan Visor",
 		"uniques": ["Can see invisible [All] units"]
 	},

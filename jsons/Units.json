@@ -992,8 +992,8 @@
 		"cost": 1180,
 		"requiredBuilding": "Monolith Portal",
 		"requiredTech": "Nanotechnology",
+		"promotions": ["Firewall","Flying","Gravity Generator"]
 		"uniques": ["Cyber","Can move after attacking","Uncapturable","[+100]% Strength <vs [Air] units>","May capture killed [Land] units <with [22]% chance>","Never appears as a Barbarian unit","Will not be displayed in Civilopedia","Only available <if [Monolith Portal] is constructed>"],
-		"promotions": ["Firewall","Amphibious","Gravity Generator"]
 		"attackSound": "gdrAttack"
 	},
 //Civ-Exclusive

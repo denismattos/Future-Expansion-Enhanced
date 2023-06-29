@@ -543,6 +543,7 @@
 		"cost": 450,
 		"requiredTech": "The Internet",
 		"promotions": ["Support Unit"],
+		"upgradesTo": "Stealth Hacker",
 		"uniques": ["Cyber","Hacker","+33% Strength for adjacent non-air Units vs Cyber units","25% Chance for Adjacent units to capture Killed Cyber unit","Never appears as a Barbarian unit"]
 	},
 	{

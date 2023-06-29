@@ -761,8 +761,8 @@
 		"rangedStrength": 125,
 		"cost": 750,
 		"requiredResource": "Composites",
-		"uniques": ["Cyber","Space","Only available <if [GP-Energy Weapons] is constructed>","No defensive terrain bonus","Can move after attacking","All tiles cost 1 movement","Ignores Zone of Control","Can carry [2] [Aircraft] units","[100]% chance to intercept air attacks","[+25]% Strength <vs [Air] units>","Never appears as a Barbarian unit"],
-		"promotions": ["In Orbit","Amphibious"]
+		"promotions": ["In Orbit"]
+		"uniques": ["Cyber","Space","Only available <if [GP-Energy Weapons] is constructed>","Can move after attacking","Ignores Zone of Control","Can carry [2] [Aircraft] units","[100]% chance to intercept air attacks","[+25]% Strength <vs [Air] units>","Never appears as a Barbarian unit"],
 		"attackSound": "energyshot"
 	},
 	{

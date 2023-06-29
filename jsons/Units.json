@@ -677,8 +677,8 @@
 		"range": 3,
 		"cost": 540,
 		"requiredResource": "Composites",
-		"uniques": ["Cyber","[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","[-1] Sight","Only available <if [GP-Hovercombat] is constructed>","Never appears as a Barbarian unit"],
-		"promotions": ["Indirect Fire","Amphibious","Hovering"],
+		"promotions": ["Indirect Fire","Hovering"],
+		"uniques": ["Cyber","[+200]% Strength <vs cities> <when attacking>","[-1] Sight","Only available <if [GP-Hovercombat] is constructed>","Never appears as a Barbarian unit"],
 		"attackSound": "artillery"
 	},
 	{

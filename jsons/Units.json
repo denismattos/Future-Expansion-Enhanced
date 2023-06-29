@@ -657,7 +657,7 @@
 		"strength": 85,
 		"cost": 500,
 		"requiredTech": "Lasers",
-		"uniques": ["May Paradrop up to [40] tiles from inside friendly territory", "No movement cost to pillage","Never appears as a Barbarian unit"],
+		"uniques": ["May Paradrop up to [40] tiles from inside friendly territory","No movement cost to pillage","Never appears as a Barbarian unit"],
 		"promotions": ["Skirmish","Rocket Launcher"]
 		"attackSound": "energyshot"
 	},

@@ -642,8 +642,7 @@
 		"strength": 100,
 		"cost": 530,
 		"requiredResource": "Composites",
-		"uniques": ["Cyber","Can move after attacking","No defensive terrain bonus","Never appears as a Barbarian unit"],
-		"uniques": ["[+33]% Strength <vs [Land] units>","Ignores Zone of Control","Can move after attacking","No defensive terrain bonus","Only available <if [GP-Hovercombat] is constructed>","Never appears as a Barbarian unit"],
+		"uniques": ["Cyber","Can move after attacking","No defensive terrain bonus","Never appears as a Barbarian unit","[+33]% Strength <vs [Land] units>","Ignores Zone of Control","Can move after attacking","No defensive terrain bonus","Only available <if [GP-Hovercombat] is constructed>","Never appears as a Barbarian unit"],
 		"promotions": ["Amphibious","Hovering"],
 		"attackSound": "tankshot"
 	},

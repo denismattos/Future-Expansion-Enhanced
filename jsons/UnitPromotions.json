@@ -55,7 +55,7 @@
 	},
 	{
 		"name": "In Orbit",
-		"uniques": ["[+25]% Strength <vs [Land] units>"]
+		"uniques": ["[+25]% Strength <vs [Land] units>","No defensive terrain bonus","All tiles cost 1 movement","May travel on Water tiles without embarking"]
 	},
 	{
 		"name": "Energy Shield",

@@ -38,7 +38,7 @@
 		"cost": 375	,	
 		"movement": 2,
 		"requiredTech": "Archaeology",
-		"uniques": ["Can construct [Excavation Site]","Uncapturable"],
+		"uniques": ["Can instantly construct a [Excavation Site] improvement <by consuming this unit>","Uncapturable"],
 	},
 	{
 		"name": "Recon",

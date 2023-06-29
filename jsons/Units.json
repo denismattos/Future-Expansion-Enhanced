@@ -401,6 +401,7 @@
 		"cost": 375,
 		"requiredTech": "Electronics",
 		"obsoleteTech": "Clean Energy",
+		"upgradesTo": "Orbital Carrier",
 		"uniques": ["Cyber","[+33]% Strength <vs [Ranged] units>","Can carry [2] [Aircraft] units","Never appears as a Barbarian unit"]
 	},
 	{

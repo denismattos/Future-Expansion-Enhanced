@@ -439,6 +439,7 @@
 		"cost": 425,
 		"requiredTech": "Rocketry",
 		"requiredResource": "Iron",
+		"upgradesTo": "Hovertillery"
 		"uniques": ["Cyber","Consumes [1] [Aluminum]","[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","[-1] Sight","[+1] Range <after discovering [Advanced Ballistics]>","Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"

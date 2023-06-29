@@ -15,7 +15,7 @@
 	},
 	{
 		"name": "Hovering",
-		"uniques": ["May travel on Water tiles without embarking","[+50]% Strength <vs [Land] units>","Ignores terrain cost"]
+		"uniques": ["[+50]% Strength <vs [Land] units>","All tiles cost 1 movement","May travel on Water tiles without embarking"]
 	},
 	{
 		"name": "Rocket Launcher",

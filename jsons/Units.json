@@ -391,7 +391,7 @@
 		"name": "Architect",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles","Can instantly construct a [Power Plant] improvement <by consuming this unit>","Can instantly construct a [Water Tower] improvement <by consuming this unit>","Can instantly construct a [Industrial Complex] improvement <by consuming this unit>","Can instantly construct a [Residential] improvement <by consuming this unit>",
+		"uniques": ["Can build [Land] improvements on tiles","Can instantly construct a [Power Plant] improvement <by consuming this unit>","Can instantly construct a [Water Tower] improvement <by consuming this unit>","Can instantly construct a [Industrial Complex] improvement <by consuming this unit>","Can instantly construct a [Residential] improvement <by consuming this unit>"],
 		"requiredTech": "Infraestructure",
 		"cost": 540
 	},

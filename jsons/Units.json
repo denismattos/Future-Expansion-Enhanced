@@ -293,7 +293,7 @@
 		"unitType": "Civilian",
 		"requiredTech": "Corporations",
 		"movement": 2,
-		"uniques": ["Can construct [Industry]","Uncapturable"],
+		"uniques": ["Can instantly construct a [Industry] improvement <by consuming this unit>","Uncapturable"],
 		"cost": 500,
 		"civilopediaText": [
 			{"text": "Construct Industries on Luxury Resources you have copies of and cannot trade."}

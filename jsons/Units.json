@@ -980,8 +980,8 @@
 		"strength": 185,
 		"cost": 680,
 		"requiredTech": "Nanotechnology",
+		"promotions": ["Firewall","Flying","Gravity Generator"]
 		"uniques": ["Cyber","Can move after attacking","Uncapturable","[+100]% Strength <vs [Air] units>","May capture killed [Land] units <with [55]% chance>","Will not be displayed in Civilopedia"],
-		"promotions": ["Firewall","Amphibious","Gravity Generator"]
 		"attackSound": "gdrAttack"
 	},
 	{

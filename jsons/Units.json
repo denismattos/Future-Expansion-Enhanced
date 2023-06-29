@@ -285,7 +285,7 @@
 		"unitType": "Civilian",
 		"requiredTech": "Radio",
 		"movement": 2,
-		"uniques": ["Can construct [Concert Venue]","Uncapturable"],
+		"uniques": ["Can instantly construct a [Concert Venue] improvement <by consuming this unit>","Uncapturable"],
 		"cost": 500,
 	},
 	{

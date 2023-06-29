@@ -560,6 +560,7 @@
 		"cost": 425,
 		"requiredTech": "Mobile Tactics"
 		"requiredResource": "Aluminum",
+		"upgradesTo": "Hovertank",
 		"uniques": ["Cyber","[+33]% Strength <vs [Land] units>","Ignores Zone of Control","Can move after attacking","No defensive terrain bonus","Consumes [1] [Oil]","Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},

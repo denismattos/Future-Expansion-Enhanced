@@ -26,6 +26,10 @@
 		"uniques": ["[+33]% Strength <when defending>"]
 	},
 	{
+		"name": "Flying",
+		"uniques": []
+	},
+	{
 		"name": "Heat Sensor",
 		"uniques": ["[+200]% Strength <vs [Stealth Bomber] units>"]
 	},

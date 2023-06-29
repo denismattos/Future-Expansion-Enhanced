@@ -747,8 +747,8 @@
 		"rangedStrength": 70,
 		"cost": 580,
 		"requiredResource": "Composites",
-		"uniques": ["Cyber","Only available <if [GP-Energy Weapons] is constructed>","[+100]% Strength <vs [Armored] units>","[+75]% Strength <vs [Fighter] units>","No defensive terrain bonus", "Can move after attacking","All tiles cost 1 movement","Ignores Zone of Control","Unable to capture cities","Never appears as a Barbarian unit"],
-		"promotions": ["Energy Weapons","Hovering","Amphibious"]
+		"promotions": ["Energy Weapons","Flying"],
+		"uniques": ["Cyber","Only available <if [GP-Energy Weapons] is constructed>","[+100]% Strength <vs [Armored] units>","[+75]% Strength <vs [Fighter] units>","Can move after attacking","Ignores Zone of Control","Unable to capture cities","Never appears as a Barbarian unit"],
 		"attackSound": "energyshot"
 	},
 	{

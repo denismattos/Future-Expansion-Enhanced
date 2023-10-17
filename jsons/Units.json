@@ -821,7 +821,7 @@
 		"cost": 425,
 		"requiredTech": "Mobile Tactics",
 		"requiredResource": "Aluminum",
-		"upgradesTo": "Orbital Jet",
+		"upgradesTo": "Orbital Fighter",
 		"uniques": [
 			"Cyber",
 			"Consumes [1] [Oil]",
@@ -1141,7 +1141,7 @@
 		"attackSound": "energyshot"
 	},
 	{
-		"name": "Orbital Jet",
+		"name": "Orbital Fighter",
 		"unitType": "Fighter",
 		"movement": 2,
 		"strength": 75,
@@ -1154,7 +1154,6 @@
 			"Only available <if [AP-Space Combat] is constructed>",
 			"Cyber",
 			"Space",
-			"Only available <if [AP-Space Combat] is constructed>",
 			"[100]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Bomber] units>",
 			"[+50]% Strength <vs [Helicopter] units>"

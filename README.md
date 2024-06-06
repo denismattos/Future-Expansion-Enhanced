@@ -9,6 +9,10 @@ I can't guarantee its stability or usability in-game.
 I'll do my best to address any received feedback.  
 Thanks in advance for your patience and tolerance.**
 
+# Unwanted Natural Wonder Modification on 1.0.1
+Changes in how Unciv handles world generation forced me to make an unwanted modification that I hope is temporary.  
+See [the foreword to the 4.1.2 release of my reupload](https://github.com/denismattos/Future-Expansion-Continued?tab=readme-ov-file#foreword-to-412) for more details.
+
 # Ownership Disclaimer
 Inspired by the awesome [@emipa606](https://github.com/emipa606). \=\)
 
@@ -18,6 +22,9 @@ Inspired by the awesome [@emipa606](https://github.com/emipa606). \=\)
 * Since I did not create the original mod, I will not accept donations for this mod of a mod.
 
 # Changelog
+## 1.0.1
+Alien Monolith now converts base terrain to desert, to comply with Unciv's current syntax.
+(See [Unwanted Natural Wonder Modification on 1.0.1](https://github.com/denismattos/Future-Expansion-Enhanced?tab=readme-ov-file#unwanted-natural-wonder-modification-on-101) above.)
 ## 1.0
 * Renamed Orbital Jet to Orbital Fighter.
 * Completed military units' upgrade trees:

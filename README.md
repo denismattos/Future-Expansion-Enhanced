@@ -3,13 +3,13 @@ My own modifications to [@Sullien](https://github.com/Sullien)'s great – and, 
 
 Now based on [my continuation of Sullien's mod](https://github.com/denismattos/Future-Expansion-Continued).
 
-# WiP Warning
+## WiP Warning
 **This mod is still a WiP, limited by my currently restricted knowledge of Unciv, the original expansion mod and even JS in general.  
 I can't guarantee its stability or usability in-game.  
 I'll do my best to address any received feedback.  
 Thanks in advance for your patience and tolerance.**
 
-# Ownership Disclaimer
+## Ownership Disclaimer
 Inspired by the awesome [@emipa606](https://github.com/emipa606). \=\)
 
 * This is a modification of an existing mod.
@@ -17,14 +17,14 @@ Inspired by the awesome [@emipa606](https://github.com/emipa606). \=\)
 * The original author is free to use this mod to update their own.
 * Since I did not create the original mod, I will not accept donations for this mod of a mod.
 
-# Changelog
-## 1.0.2
+## Changelog
+### 1.0.2
 Removed code comments.  
 See [the foreword to the 4.1.3 release of my reupload](https://github.com/denismattos/Future-Expansion-Continued/blob/main/forewords.md#413) for more details.
-## 1.0.1
+### 1.0.1
 Alien Monolith now converts base terrain to desert, to comply with Unciv's current syntax.  
 See [the foreword to the 4.1.2 release of my reupload](https://github.com/denismattos/Future-Expansion-Continued/blob/main/forewords.md#412) for more details.
-## 1.0
+### 1.0
 * Renamed Orbital Jet to Orbital Fighter.
 * Completed military units' upgrade trees:
   * Modern Armor now upgrades to Hovertank (Provided GP-Hovercombat perk is adopted.).

@@ -1,5 +1,5 @@
 # Future Expansion – Enhanced
-My own modifications to [@Sullien](https://github.com/Sullien)'s great – and, now, defunct – [Future Expansion](https://github.com/Sullien/Future-Expansion) for [Unciv](https://github.com/yairm210/Unciv).
+My own modifications to Sullien's [<img src="https://i.imgur.com/qdtKSSq.png">](https://github.com/Sullien) great – and, now, defunct – [Future Expansion](https://github.com/Sullien/Future-Expansion) for [Unciv](https://github.com/yairm210/Unciv).
 
 Now based on [my continuation of Sullien's mod](https://github.com/denismattos/Future-Expansion-Continued).
 
@@ -10,7 +10,7 @@ I'll do my best to address any received feedback.
 Thanks in advance for your patience and tolerance.**
 
 ## Ownership Disclaimer
-Inspired by the awesome [@emipa606](https://github.com/emipa606). \=\)
+Inspired by the awesome Mlie [<img src="https://i.imgur.com/qdtKSSq.png">](https://github.com/emipa606). 🙂
 
 * This is a modification of an existing mod.
 * I claim no ownership of the original mod.

@@ -18,6 +18,9 @@ Inspired by the awesome Mlie [<img src="https://i.imgur.com/qdtKSSq.png">](https
 * Since I did not create the original mod, I will not accept donations for this mod of a mod.
 
 ## Changelog
+### 1.0.3
+Alien Monolith no longer converts base terrain.  
+See [the foreword to the 4.1.7 release of my reupload](https://github.com/denismattos/Future-Expansion-Continued/blob/main/forewords.md#417) for more details.
 ### 1.0.2
 Removed code comments.  
 See [the foreword to the 4.1.3 release of my reupload](https://github.com/denismattos/Future-Expansion-Continued/blob/main/forewords.md#413) for more details.

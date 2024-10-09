@@ -20,13 +20,13 @@ Inspired by the awesome Mlie [<img src="https://i.imgur.com/qdtKSSq.png">](https
 ## Changelog
 ### 1.0.3
 Alien Monolith no longer converts base terrain.  
-See [the foreword to the 4.1.7 release of my reupload](https://github.com/denismattos/Future-Expansion-Continued/blob/main/forewords.md#417) for more details.
+See [the foreword to the 4.1.7 release of my reupload](https://github.com/denismattos/Future-Expansion-Continued/blob/main/docs/forewords.md#417) for more details.
 ### 1.0.2
 Removed code comments.  
-See [the foreword to the 4.1.3 release of my reupload](https://github.com/denismattos/Future-Expansion-Continued/blob/main/forewords.md#413) for more details.
+See [the foreword to the 4.1.3 release of my reupload](https://github.com/denismattos/Future-Expansion-Continued/blob/main/docs/forewords.md#413) for more details.
 ### 1.0.1
 Alien Monolith now converts base terrain to desert, to comply with Unciv's current syntax.  
-See [the foreword to the 4.1.2 release of my reupload](https://github.com/denismattos/Future-Expansion-Continued/blob/main/forewords.md#412) for more details.
+See [the foreword to the 4.1.2 release of my reupload](https://github.com/denismattos/Future-Expansion-Continued/blob/main/docs/forewords.md#412) for more details.
 ### 1.0
 * Renamed Orbital Jet to Orbital Fighter.
 * Completed military units' upgrade trees:

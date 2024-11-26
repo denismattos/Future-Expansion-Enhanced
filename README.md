@@ -10,7 +10,7 @@ This customization is based on and requires [Future Expansion Continued](https:/
 As such, it is intended for use with the Gods & Kings ruleset.
 
 ## WiP Warning
-**This mod is still a WiP and limited by my currently restricted knowledge of Unciv, the original expansion mod and even JS in general.  
+**This mod is still a WiP and limited by my currently restricted knowledge of Unciv and the original expansion mod.  
 I can't guarantee its stability or usability in-game.  
 I'll do my best to address any received feedback.  
 Thanks in advance for your patience, tolerance and interest. 🙏🏻**

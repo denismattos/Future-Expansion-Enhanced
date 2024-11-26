@@ -2,7 +2,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": [
-			"Heal this unit by [50] HP",
+			"[This Unit] heals [50] HP",
 			"Doing so will consume this opportunity to choose a Promotion"
 		],
 		"unitTypes": [
@@ -30,16 +30,17 @@
 	{
 		"name": "Amphibious",
 		"uniques": [
-			"Normal vision when embarked",
-			"Defense bonus when embarked"
+			"[+1] Sight <for [Embarked] units>",
+			"[+100]% Strength <when defending> <when [Embarked]>"
 		]
 	},
 	{
 		"name": "Hovering",
 		"uniques": [
+			"[0] Movement point cost to disembark",
+			"[0] Movement point cost to embark",
 			"[+50]% Strength <vs [Land] units>",
-			"All tiles cost 1 movement",
-			"May travel on Water tiles without embarking"
+			"Ignores terrain cost"
 		]
 	},
 	{
@@ -60,7 +61,8 @@
 		"uniques": [
 			"No defensive terrain bonus",
 			"All tiles cost 1 movement",
-			"May travel on Water tiles without embarking"
+			"May travel on Water tiles without embarking",
+			"Can enter ice tiles"
 		]
 	},
 	{
@@ -78,7 +80,7 @@
 	{
 		"name": "Intel",
 		"uniques": [
-			"+1 Range to adjacent Siege Units",
+			"Comment [+1 Range to adjacent [Siege] Units.]",
 			"[+33]% Strength bonus for [Siege] units within [1] tiles",
 			"[+1] Sight",
 			"Ignores Zone of Control"
@@ -106,7 +108,8 @@
 	{
 		"name": "In Orbit",
 		"uniques": [
-			"[+25]% Strength <vs [Land] units>"
+			"[+25]% Strength <vs [Land] units>",
+			"Can pass through impassable tiles"			
 		]
 	},
 	{
@@ -122,7 +125,7 @@
 		"uniques": [
 			"[+1] Movement",
 			"May Paradrop up to [100] tiles from inside friendly territory",
-			"May withdraw before melee ([90]%)"
+			"Withdraws before melee combat <with [90]% chance>"
 		]
 	},
 	{
@@ -134,7 +137,7 @@
 	{
 		"name": "Skirmish",
 		"uniques": [
-			"May withdraw before melee ([33]%)"
+			"Withdraws before melee combat <with [33]% chance>"
 		]
 	},
 	{

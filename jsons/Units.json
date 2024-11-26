@@ -88,6 +88,22 @@
 		]
 	},
 	{
+		"name": "Caravel",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Privateer",
+		"obsoleteTech": "Combustion",
+		"uniques": [
+			"[+1] Sight",
+			"Withdraws before melee combat <with [80]% chance>"
+		],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+	},
+	{
 		"name": "Rifleman",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -211,12 +227,26 @@
 		"attackSound": "horse"
 	},
 	{
+		"name": "Privateer",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Ironclad",
+		"promotions": [
+			"Coastal Raider I",
+			"[Privateer] ability"
+		],
+		"attackSound": "cannon"
+	},
+	{
 		"name": "Observation Balloon",
 		"unitType": "Support",
 		"movement": 3,
 		"strength": 35,
 		"cost": 375,
-		"requiredTech": "Dynamite",
+		"requiredTech": "Chemistry",
 		"obsoleteTech": "Computers",
 		"promotions": [
 			"Support Unit",
@@ -224,9 +254,27 @@
 			"Intel"
 		],
 		"upgradesTo": "Drone",
-		"uniques": [	
+		"uniques": [
+			"Intel",
+			"Comment [+1 Range to adjacent [Intel] units.]",
 			"Never appears as a Barbarian unit"
 		]
+	},
+	{
+		"name": "Ironclad",
+		"unitType": "Melee Water",
+		"movement": 3,
+		"strength": 45,
+		"cost": 250,
+		"requiredTech": "Steam Power",
+		"requiredResource": "Coal",
+		"upgradesTo": "Destroyer",
+		"obsoleteTech": "Combustion",
+		"uniques": [
+			"[+33]% Strength <vs cities>",
+			"Double movement in [Coast]"
+		],
+		"attackSound": "shipguns"
 	},
 	{
 		"name": "Artillery",
@@ -315,7 +363,7 @@
 		"cost": 325,
 		"requiredTech": "Flight",
 		"requiredResource": "Oil",
-		"upgradesTo": "Fighter",
+		"upgradesTo": "Triplane",
 		"obsoleteTech": "Radar",
 		"uniques": [
 			"[25]% chance to intercept air attacks",
@@ -418,7 +466,7 @@
 		"uniques": [
 			"Can see invisible [Submarine] units",
 			"[50]% chance to intercept air attacks <after discovering [Ballistics]>",
-			"May withdraw before melee ([60]%)",
+			"Withdraws before melee combat <with [60]% chance>",
 			"[+50]% Strength <vs [Submarine] units>",
 			"[+50]% Strength <vs [Ranged] units>"
 		],
@@ -439,7 +487,7 @@
 		],
 		"uniques": [
 			"Anti-Air",
-			"+33% Strength to adjacent Land Units vs Air units",
+			"Comment [+33% Strength to adjacent Land Units vs Air Units.]",
 			"[100]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Air] units>",
 			"Never appears as a Barbarian unit"
@@ -476,8 +524,8 @@
 		"uniques": [
 			"[1] Movement point cost to disembark",
 			"[1] Movement point cost to embark",
-			"Normal vision when embarked",
-			"Defense bonus when embarked"
+			"[+1] Sight <when [Embarked]>",
+			"[+100]% Strength <when defending> <when [Embarked]>"
 		],
 		"promotions": [
 			"Amphibious"
@@ -623,7 +671,7 @@
 		"uniques": [
 			"Cyber",
 			"Anti-Air",
-			"+33% Strength to adjacent Land Units vs Air units",
+			"Comment [+33% Strength to adjacent Land Units vs Air Units.]",
 			"[100]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Air] units>",
 			"Never appears as a Barbarian unit"
@@ -655,13 +703,14 @@
 		"cost": 425,
 		"requiredTech": "Computers",
 		"upgradesTo": "Future Copter",
+		"promotions": [
+			"Flying"
+		],
 		"uniques": [
 			"Cyber",
 			"Consumes [2] [Aluminum]",
 			"[+100]% Strength <vs [Armored] units>",
-			"No defensive terrain bonus",
 			"Can move after attacking",
-			"All tiles cost 1 movement",
 			"Ignores Zone of Control",
 			"Unable to capture cities",
 			"Never appears as a Barbarian unit"
@@ -726,7 +775,9 @@
 			"Intel"
 		],
 		"requiredTech": "Computers",
-		"uniques": [			
+		"uniques": [
+			"Intel",
+			"Comment [+1 Range to adjacent [Intel] units.]",
 			"Never appears as a Barbarian unit"
 		]
 	},
@@ -768,8 +819,8 @@
 		"uniques": [
 			"Cyber",
 			"Hacker",
-			"+33% Strength for adjacent non-air Units vs Cyber units",
-			"25% Chance for Adjacent units to capture Killed Cyber unit",
+			"Comment [+33% Strength for adjacent Non-Air Units vs Cyber Units.]",
+			"Comment [25% chance for adjacent units to capture killed Cyber Units.]",
 			"Never appears as a Barbarian unit"
 		]
 	},
@@ -852,9 +903,9 @@
 		"uniques": [
 			"Cyber",
 			"Hacker",
-			"+33% Strength for adjacent non-air Units vs Cyber units",
-			"25% Chance for Adjacent units to capture Killed Cyber unit",
-			"May withdraw before melee ([50]%)",
+			"Comment [+33% Strength for adjacent Non-Air Units vs Cyber Units.]",
+			"Comment [25% chance for adjacent units to capture killed Cyber Units.]",
+			"Withdraws before melee combat <with [50]% chance>",
 			"Can see invisible [Military] units",
 			"Only available <if [GP-Stealth Operatives] is constructed>",
 			"Never appears as a Barbarian unit"
@@ -874,7 +925,7 @@
 		"cost": 425,
 		"requiredTech": "Stealth",
 		"requiredResource": "Aluminum",
-		"upgradesTo": "Orbital Bomber",
+		"upgradesTo": "Stealth Bomber",
 		"uniques": [
 			"Cyber",
 			"Consumes [1] [Oil]"
@@ -889,7 +940,8 @@
 		"rangedStrength": 90,
 		"range": 20,
 		"cost": 560,
-		"requiredResource": "Oil",
+		"requiredResource": "Aluminum",
+		"upgradesTo": "Orbital Bomber",
 		"uniques": [
 			"Cyber",
 			"Damage taken from interception reduced by [50]%",
@@ -997,7 +1049,7 @@
 		"uniques": [
 			"Cyber",
 			"Anti-Air",
-			"+33% Strength to adjacent Land Units vs Air units",
+			"Comment [+33% Strength to adjacent Land Units vs Air Units.]",
 			"[100]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Air] units>",
 			"Only available <if [GP-Hovercombat] is constructed>",
@@ -1240,7 +1292,7 @@
 		"name": "Great Spacefarer",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can start an [12]-turn golden age",
+			"Empire enters a [12]-turn Golden Age <by consuming this unit>",
 			"Can instantly construct a [Space Platform] improvement <by consuming this unit> <starting from the [Atomic era]>",
 			"Great Person - [Spacefarer]",
 			"Unbuildable",
@@ -1252,7 +1304,7 @@
 		"name": "Great General",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can start an [8]-turn golden age",
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles <before adopting [Propaganda]>",
 			"[+30]% Strength bonus for [Military] units within [2] tiles <after adopting [Propaganda]>",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
@@ -1268,7 +1320,7 @@
 		"uniqueTo": "Mongolia",
 		"replaces": "Great General",
 		"uniques": [
-			"Can start an [8]-turn golden age",
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles <before adopting [Propaganda]>",
 			"[+30]% Strength bonus for [Military] units within [2] tiles <after adopting [Propaganda]>",
 			"All adjacent units heal [+15] HP when healing",
@@ -1286,7 +1338,7 @@
 		"movement": 2,
 		"cost": 1500,
 		"uniques": [
-			"Time Machine part",
+			"Comment [Time Machine part.]",
 			"Cannot be purchased",
 			"Only available <if [Time Machine Blueprints] is constructed>",
 			"Uncapturable",
@@ -1300,7 +1352,7 @@
 		"movement": 2,
 		"cost": 1500,
 		"uniques": [
-			"Time Machine part",
+			"Comment [Time Machine part.]",
 			"Cannot be purchased",
 			"Only available <if [Time Machine Blueprints] is constructed>",
 			"Uncapturable",
@@ -1314,7 +1366,7 @@
 		"movement": 2,
 		"cost": 1500,
 		"uniques": [
-			"Time Machine part",
+			"Comment [Time Machine part.]",
 			"Cannot be purchased",
 			"Only available <if [Time Machine Blueprints] is constructed>",
 			"Uncapturable",
@@ -1328,7 +1380,7 @@
 		"movement": 2,
 		"cost": 1500,
 		"uniques": [
-			"Time Machine part",
+			"Comment [Time Machine part.]",
 			"Cannot be purchased",
 			"Only available <if [Time Machine Blueprints] is constructed>",
 			"Uncapturable",
@@ -1401,8 +1453,7 @@
 		"uniques": [
 			"Bio",
 			"Heals [25] damage if it kills a unit",
-			"May capture killed [Military] units <with [99]% chance>",
-			"Will not be displayed in Civilopedia"
+			"May capture killed [Military] units <with [99]% chance>"
 		],
 		"promotions": [
 			"Implants"
@@ -1420,7 +1471,6 @@
 			"Bio",
 			"Heals [25] damage if it kills a unit",
 			"May capture killed [Land] units <with [44]% chance>",
-			"Will not be displayed in Civilopedia",
 			"Only available <if [Monolith Portal] is constructed>",
 			"Never appears as a Barbarian unit"
 		],
@@ -1441,15 +1491,14 @@
 		"requiredTech": "Automation",
 		"uniques": [
 			"Hacker",
-			"+33% Strength for adjacent non-air Units vs Cyber units",
-			"25% Chance for Adjacent units to capture Killed Cyber unit",
+			"Comment [+33% Strength for adjacent Non-Air Units vs Cyber Units.]",
+			"Comment [25% chance for adjacent units to capture killed Cyber Units.]",
 			"Can see invisible [All] units",
 			"Invisible to non-adjacent units",
 			"[50]% chance to intercept air attacks",
 			"May capture killed [Land] units <with [75]% chance>",
 			"[+50]% Strength <vs [Cyber] units>",
-			"[+50]% Strength <vs [Land] units> <when attacking>",
-			"Will not be displayed in Civilopedia"
+			"[+50]% Strength <vs [Land] units> <when attacking>"
 		],
 		"promotions": [
 			"Support Unit"
@@ -1468,15 +1517,14 @@
 		"requiredBuilding": "Monolith Portal",
 		"uniques": [
 			"Hacker",
-			"+33% Strength for adjacent non-air Units vs Cyber units",
-			"25% Chance for Adjacent units to capture Killed Cyber unit",
+			"Comment [+33% Strength for adjacent Non-Air Units vs Cyber Units.]",
+			"Comment [25% chance for adjacent units to capture killed Cyber Units.]",
 			"Can see invisible [Stealth Support] units",
 			"Invisible to non-adjacent units",
 			"[50]% chance to intercept air attacks",
 			"May capture killed [Land] units <with [30]% chance>",
 			"[+50]% Strength <vs [Cyber] units>",
 			"[+25]% Strength <vs [Land] units> <when attacking>",
-			"Will not be displayed in Civilopedia",
 			"Only available <if [Monolith Portal] is constructed>",
 			"Never appears as a Barbarian unit"
 		],
@@ -1504,8 +1552,7 @@
 			"Can move after attacking",
 			"Uncapturable",
 			"[+100]% Strength <vs [Air] units>",
-			"May capture killed [Land] units <with [55]% chance>",
-			"Will not be displayed in Civilopedia"
+			"May capture killed [Land] units <with [55]% chance>"
 		],
 		"attackSound": "gdrAttack"
 	},
@@ -1529,7 +1576,6 @@
 			"[+100]% Strength <vs [Air] units>",
 			"May capture killed [Land] units <with [22]% chance>",
 			"Never appears as a Barbarian unit",
-			"Will not be displayed in Civilopedia",
 			"Only available <if [Monolith Portal] is constructed>"
 		],
 		"attackSound": "gdrAttack"
@@ -1607,7 +1653,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Unbuildable",
-			"Will not be displayed in Civilopedia"
+			"Comment [Instead of a Spaceship, Future Expansion players build a Time Machine!]"
 		]
 	},
 	{
@@ -1615,7 +1661,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Unbuildable",
-			"Will not be displayed in Civilopedia"
+			"Comment [Instead of a Spaceship, Future Expansion players build a Time Machine!]"
 		]
 	},
 	{
@@ -1623,7 +1669,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Unbuildable",
-			"Will not be displayed in Civilopedia"
+			"Comment [Instead of a Spaceship, Future Expansion players build a Time Machine!]"
 		]
 	},
 	{
@@ -1631,7 +1677,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Unbuildable",
-			"Will not be displayed in Civilopedia"
+			"Comment [Instead of a Spaceship, Future Expansion players build a Time Machine!]"
 		]
 	}
 ]

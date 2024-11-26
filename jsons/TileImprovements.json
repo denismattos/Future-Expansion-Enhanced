@@ -432,7 +432,7 @@
 		"production": 1,
 		"uniques": [
 			"Provides [2] [Power]",
-			"Infraestructure",
+			"Comment [Infraestructure]",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+100 Gold]"
 		]
@@ -463,7 +463,7 @@
 		],
 		"food": 1,
 		"uniques": [
-			"Infraestructure",
+			"Comment [Infraestructure]",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+100 Gold]"
 		],
@@ -476,7 +476,7 @@
 		],
 		"production": 1,
 		"uniques": [
-			"Infraestructure",
+			"Comment [Infraestructure]",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+100 Gold]"
 		],
@@ -489,7 +489,7 @@
 			"Land"
 		],
 		"uniques": [
-			"Infraestructure",
+			"Comment [Infraestructure]",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+100 Gold]"
 		],
@@ -608,7 +608,7 @@
 			"Gives a defensive bonus of [100]%",
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Can be built just outside your borders",
-			"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Gain control over [all] tiles in a [1]-tile radius",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		]

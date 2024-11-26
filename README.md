@@ -54,17 +54,17 @@ Removed code comments.
 * Refurbished uniques and promotions:
    * Observation Balloon and Drone now have the Intel promotion, which consolidates the following uniques:
       * "[+33]% Strength bonus for [Siege] units within [1] tiles"
-		* "[+1] Sight"
-		* "Ignores Zone of Control"
+      * "[+1] Sight"
+      * "Ignores Zone of Control"
    * Hovertank, Hovertillery and Hover-SAM now have the Hovering promotion, which consolidates the following uniques:
       * "[0] Movement point cost to disembark"
-		* "[0] Movement point cost to embark"
-		* "[+50]% Strength <vs [Land] units>"
-		* "Ignores terrain cost"
+      * "[0] Movement point cost to embark"
+      * "[+50]% Strength <vs [Land] units>"
+      * "Ignores terrain cost"
    * Observation Balloon, Drone, Future Copter, Orbital Carrier, UFO and Monolith UFO now have the Flying promotion, which consolidates the following uniques:
       * "No defensive terrain bonus"
-		* "All tiles cost 1 movement"
-		* "May travel on Water tiles without embarking"
-		* "Can enter ice tiles"
+      * "All tiles cost 1 movement"
+      * "May travel on Water tiles without embarking"
+      * "Can enter ice tiles"
    * Additionally, Orbital Carriers' In Orbit promotion now contains the following uniques:
       * "Can pass through impassable tiles"

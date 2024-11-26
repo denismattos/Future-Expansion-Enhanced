@@ -53,15 +53,16 @@ Removed code comments.
   * Stealth Hacker now upgrades to Monolith Brainiac (Provided Monolith Portal has been built.).
 * Refurbished uniques and promotions:
    * Observation Balloon and Drone now have the Intel promotion, which consolidates the following uniques:
+      * +1 Range to adjacent [Siege] Units
       * "[+33]% Strength bonus for [Siege] units within [1] tiles"
       * "[+1] Sight"
       * "Ignores Zone of Control"
    * Hovertank, Hovertillery and Hover-SAM now have the Hovering promotion, which consolidates the following uniques:
-      * "[0] Movement point cost to disembark"
-      * "[0] Movement point cost to embark"
       * "[+50]% Strength <vs [Land] units>"
-      * "Ignores terrain cost"
-   * Observation Balloon, Drone, Future Copter, Orbital Carrier, UFO and Monolith UFO now have the Flying promotion, which consolidates the following uniques:
+      * "All tiles cost 1 movement"
+      * "May travel on Water tiles without embarking"
+      * "Can enter ice tiles"
+   * Observation Balloon, Drone, Helicopter Gunship, Future Copter, Orbital Carrier, UFO and Monolith UFO now have the Flying promotion, which consolidates the following uniques:
       * "No defensive terrain bonus"
       * "All tiles cost 1 movement"
       * "May travel on Water tiles without embarking"

@@ -37,10 +37,11 @@
 	{
 		"name": "Hovering",
 		"uniques": [
-			"[0] Movement point cost to disembark",
-			"[0] Movement point cost to embark",
 			"[+50]% Strength <vs [Land] units>",
-			"Ignores terrain cost"
+			"All tiles cost 1 movement",
+			"May travel on Water tiles without embarking",
+			"Can enter ice tiles"
+			
 		]
 	},
 	{

@@ -32,18 +32,26 @@ Now, for my other ideas:
 Some of them come from the great [Future Worlds mod for Civ V](https://steamcommunity.com/sharedfiles/filedetails/?id=596919865) (which I'd wager was one of Sullien's inspirations), some from other Civ V mods, some from Sullien's own [unreleased next version of Future Expansion](https://github.com/denismattos/Future-Expansion-Unreleased), some from interesting ideas in sci-fi and futurism and some from my own ideas while playing the game.  
 What I've thought up, so far:
 * Buildings:
-   * Other energy plants, including tidal and geothermal plants.
+   * Other energy plants, including Tidal and Geothermal Plants.
+   * Battery Bank.
    * Genetic Bank.
    * Gen-Editing Facility.
    * Space Beacon.
    * Central Mainframe.
    * Geodesical Garden.
-   * Several buildings from Sullien's unreleased next version, including faculties and breakthroughs.
+   * Vertical Farm.
+   * Myco-Tank.
+   * Protein Vat.
+   * Several buildings from Sullien's unreleased next version, including Faculties and Breakthroughs.
 * Improvements:
    * Maglev Rails.
    * Living Fortresses.
    * Deep Mines.
    * Nature Preserves.
+   * Hamlets.
+   * Villages.
+   * Towns.
+   * Suburbs.
 * Units:
    * Worker Bots.
    * Coast Guard.
@@ -52,14 +60,15 @@ What I've thought up, so far:
    * Power Armour Infantry.
    * Railgun Tanks.
    * Stealth Destroyers and Stealth Battleships.
-   * More genetically-engineered creatures, including Stealth Seekers (cat-like counterpart to Seekers), dragons, dinosaurs, ambulant fungi and maybe more.
+   * More genetically-engineered creatures, including Stealth Seekers (cat-like counterparts to Seekers), dinosaurs, ambulant fungi, dragons and other pseudo-mythical creatures and maybe more.
    * Zombie Mutants.
    * Super Soldiers.
    * Orbital Drones.
    * Make Orbital Strikes a Unit Type, including Orbital Shots, Orbital Lasers, Convergence Deathrays, Stellaser Strikes and Void Bombs.
-   * Other aliens, including Xenomorphs, Yautja (predators), Asogians, Saya-jins, Namekusei-jins, Zergs, Arachnids (from Starship Troopers), Green Martians (from the Barsoom novels), Skrulls, Gauna and maybe more.
+   * Other aliens, including Xenomorphs, Yautja (predators), Saya-jins, Namekusei-jins, Zergs, Arachnids (from Starship Troopers), Green Martians (from the Barsoom novels), Skrulls, Gauna, Krogans, Daleks, Cylons and maybe more.
 * National Wonders:
    * Super Mainframe.
+   * Megabattery
    * Underground Colony.
    * Space Stations, including Earth's orbit, Earth-Moon Lagrangian points, Sun-Earth Lagrangian points and maybe more.
    * Arcology.
@@ -76,6 +85,7 @@ What I've thought up, so far:
    * Bishop Ring.
    * Space Missions with varied destinies, including Ringworld, Rama, a Dyson sphere, Alpha Centauri, V'Ger, a wormhole, a neutron star, a blackhole's event horizon and maybe more.
    * Space Drive.
+   * First Contacts, including Vulcans, Asogians, Minbari, Protoss, Asari and maybe more.
    * Death Star.
    * Artificial Sun.
    * Artificial Black Hole.

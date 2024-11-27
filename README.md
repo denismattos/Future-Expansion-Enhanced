@@ -23,6 +23,69 @@ Inspired by the awesome Mlie [<img src="https://i.imgur.com/qdtKSSq.png">](https
 * The original author is free to use this mod to update their own.
 * Since I did not create the original mod, I will not accept donations for this mod of a mod.
 
+## Future Plans
+I intend to add much more to this mod-of-a-mod than simply customizations of the original content, although I'm not done with that, yet.  
+After a lot of playtesting, I'd designed a partial restructuring of the specialized, mutually-excluding resource hubs. However, I've since lost access to the HDD I had this on. 🤦‍♂️  
+I'll get back to it ASAI've regained access to my old HDD or I've played enough to recreate what I'd done – whichever comes first.
+
+Now, for my other ideas:  
+Some of them come from the great [Future Worlds mod for Civ V](https://steamcommunity.com/sharedfiles/filedetails/?id=596919865) (which I'd wager was one of Sullien's inspirations), some from other Civ V mods, some from Sullien's own [unreleased next version of Future Expansion](https://github.com/denismattos/Future-Expansion-Unreleased), some from interesting ideas in sci-fi and futurism and some from my own ideas while playing the game.  
+What I've thought up, so far:
+* Buildings:
+   * Other energy plants, including tidal and geothermal plants.
+   * Genetic Bank.
+   * Gen-Editing Facility.
+   * Space Beacon.
+   * Central Mainframe.
+   * Geodesical Garden.
+   * Several buildings from Sullien's unreleased next version, including faculties and breakthroughs.
+* Improvements:
+   * Maglev Rails.
+   * Living Fortresses.
+   * Deep Mines.
+   * Nature Preserves.
+* Units:
+   * Worker Bots.
+   * Coast Guard.
+   * Snipers.
+   * Great Architects.
+   * Power Armour Infantry.
+   * Railgun Tanks.
+   * Stealth Destroyers and Stealth Battleships.
+   * More genetically-engineered creatures, including Stealth Seekers (cat-like counterpart to Seekers), dragons, dinosaurs, ambulant fungi and maybe more.
+   * Zombie Mutants.
+   * Super Soldiers.
+   * Orbital Drones.
+   * Make Orbital Strikes a Unit Type, including Orbital Shots, Orbital Lasers, Convergence Deathrays, Stellaser Strikes and Void Bombs.
+   * Other aliens, including Xenomorphs, Yautja (predators), Asogians, Saya-jins, Namekusei-jins, Zergs, Arachnids (from Starship Troopers), Green Martians (from the Barsoom novels), Skrulls, Gauna and maybe more.
+* National Wonders:
+   * Super Mainframe.
+   * Underground Colony.
+   * Space Stations, including Earth's orbit, Earth-Moon Lagrangian points, Sun-Earth Lagrangian points and maybe more.
+   * Arcology.
+   * Underwater Colony.
+   * Orbital guns, including Orbital Coilgun, Orbital Laser, Focal Mirrors, Stellaser and Matter Aggregator.
+* Wonders:
+   * Borehole.
+   * The Eye in the Sky.
+   * Humanity Vault.
+   * Space Ark.
+   * Space Elevator.
+   * Generational Spaceship.
+   * Space Colonies, including the Moon, Mars, Mercury, Venus, Ceres, Europa, Io, Ganymede, Callisto, Pluto and maybe more.
+   * Bishop Ring.
+   * Space Missions with varied destinies, including Ringworld, Rama, a Dyson sphere, Alpha Centauri, V'Ger, a wormhole, a neutron star, a blackhole's event horizon and maybe more.
+   * Space Drive.
+   * Death Star.
+   * Artificial Sun.
+   * Artificial Black Hole.
+   * Artificial Wormhole.
+
+I plan on holding polls on Discord to decide on what to work next.  
+Keep in mind some of these ideas depend on as-of-yet unavailable modding features (But, hey, we can dream, right? 😉).
+
+I'm, also, very much open to suggestions! 🙂
+
 ## Changelog
 ### 1.0.3
 #### [Foreword](/docs/forewords.md#103)

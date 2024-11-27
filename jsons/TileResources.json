@@ -135,7 +135,7 @@
 		}
 	},
 	{
-		"name": "Corporation Slot(Total)",
+		"name": "Corporation Slot (Total)",
 		"resourceType": "Bonus",
 		"gold": 1
 	},

@@ -10,7 +10,7 @@
 		"cost": 1,
 		"uniques": [
 			"Indicates the capital city",
-			"Provides [1] [Corporation Slot(Total)] <in cities without a [No Corporation]> <after discovering [Corporations]>",
+			"Provides [1] [Corporation Slot (Total)] <in cities without a [No Corporation]> <after discovering [Corporations]>",
 			"Provides [1] [Corporation Slot] <in cities without a [No Corporation]> <after discovering [Corporations]>"
 		]
 	},
@@ -727,7 +727,7 @@
 		"uniques": [
 			"Provides [2] [Electrical Stock]",
 			"Comment [Double [Power] to buildings that provide it.]",
-			"Consumes [1] [Corporation Slot(Total)]",
+			"Consumes [1] [Corporation Slot (Total)]",
 			"Only available <with [Corporation Slot]>",
 			"Only available <starting from the [Atomic era]>"
 		]
@@ -740,7 +740,7 @@
 		"uniques": [
 			"Provides [2] [Engineering Stock]",
 			"Comment [Production improvements have their adjacency bonuses doubled.]",
-			"Consumes [1] [Corporation Slot(Total)]",
+			"Consumes [1] [Corporation Slot (Total)]",
 			"Only available <with [Corporation Slot]>",
 			"Only available <starting from the [Modern era]>"
 		]
@@ -755,7 +755,7 @@
 			"Comment [Doubles the adjacency bonuses of [Concert Venue] tiles.]",
 			"[+100]% Yield from every [Excavation Site]",
 			"[+100]% [Culture] from every [History Museum]",
-			"Consumes [1] [Corporation Slot(Total)]",
+			"Consumes [1] [Corporation Slot (Total)]",
 			"Only available <with [Corporation Slot]>",
 			"Only available <starting from the [Atomic era]>"
 		]
@@ -768,7 +768,7 @@
 		"uniques": [
 			"Provides [2] [Defense Force Stock]",
 			"New [Military] units start with [25] Experience [in all cities]",
-			"Consumes [1] [Corporation Slot(Total)]",
+			"Consumes [1] [Corporation Slot (Total)]",
 			"Only available <after discovering [Corporations]>",
 			"Only available <with [Corporation Slot]>",
 			"Only available <starting from the [Atomic era]>"
@@ -782,7 +782,7 @@
 		"uniques": [
 			"Provides [2] [Social Network Stock]",
 			"[-25]% Unhappiness from [Population] [in all cities]",
-			"Consumes [1] [Corporation Slot(Total)]",
+			"Consumes [1] [Corporation Slot (Total)]",
 			"Only available <after discovering [Corporations]>",
 			"Only available <with [Corporation Slot]>",
 			"Only available <starting from the [Information era]>"
@@ -797,7 +797,7 @@
 			"Provides [2] [World Delivery Stock]",
 			"Comment [Doubles the adjacency bonuses of [Industry] tiles.]",
 			"[+100]% Yield from every [Supply Route]",
-			"Consumes [1] [Corporation Slot(Total)]",
+			"Consumes [1] [Corporation Slot (Total)]",
 			"Only available <after discovering [Corporations]>",
 			"Only available <with [Corporation Slot]>",
 			"Only available <starting from the [Information era]>"
@@ -812,7 +812,7 @@
 			"Provides [2] [Space Stock]",
 			"[-33]% Food consumption by specialists [in all cities]",
 			"[-33]% Unhappiness from [Specialists] [in all cities]",
-			"Consumes [1] [Corporation Slot(Total)]",
+			"Consumes [1] [Corporation Slot (Total)]",
 			"Only available <after discovering [Corporations]>",
 			"Only available <with [Corporation Slot]>",
 			"Only available <starting from the [Atomic era]>"
@@ -826,7 +826,7 @@
 		"uniques": [
 			"Provides [2] [Holy Stock]",
 			"[Faith] cost of purchasing [All] units [-35]%",
-			"Consumes [1] [Corporation Slot(Total)]",
+			"Consumes [1] [Corporation Slot (Total)]",
 			"Only available <after discovering [Corporations]>",
 			"Only available <with [Corporation Slot]>",
 			"Only available <starting from the [Information era]>"
@@ -1727,7 +1727,7 @@
 	{
 		"name": "Corporate Slot",
 		"uniques": [
-			"Provides [1] [Corporation Slot(Total)] <after discovering [Corporations]>",
+			"Provides [1] [Corporation Slot (Total)] <after discovering [Corporations]>",
 			"Provides [1] [Corporation Slot] <after discovering [Corporations]>",
 			"Destroyed when the city is captured",
 			"Unbuildable",

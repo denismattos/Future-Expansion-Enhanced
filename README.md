@@ -60,12 +60,12 @@ What I've thought up, so far:
    * Power Armour Infantry.
    * Railgun Tanks.
    * Stealth Destroyers and Stealth Battleships.
-   * More genetically-engineered creatures, including Stealth Seekers (cat-like counterparts to Seekers), dinosaurs, ambulant fungi, dragons and other pseudo-mythical creatures and maybe more.
+   * More genetically-engineered creatures, including Stealth Seekers (cat-like Seekers), Seeker Drones (bird-like Seekers), dinosaurs, ambulant fungi, dragons and other pseudo-mythical creatures and maybe more.
    * Zombie Mutants.
    * Super Soldiers.
    * Orbital Drones.
    * Make Orbital Strikes a Unit Type, including Orbital Shots, Orbital Lasers, Convergence Deathrays, Stellaser Strikes and Void Bombs.
-   * Other aliens, including Xenomorphs, Yautja (predators), Saya-jins, Namekusei-jins, Zergs, Arachnids (from Starship Troopers), Green Martians (from the Barsoom novels), Skrulls, Gauna, Krogans, Daleks, Cylons and maybe more.
+   * Other aliens, including Xenomorphs, Yautja (predators), Saya-jins, Namekusei-jins, Zergs, Arachnids (from Starship Troopers), Green Martians (from the Barsoom novels), Skrulls, Gauna, Krogans, Daleks, Cylons, Sith Lords, Borgs and maybe more.
 * National Wonders:
    * Super Mainframe.
    * Megabattery

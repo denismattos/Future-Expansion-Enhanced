@@ -97,6 +97,8 @@ Keep in mind some of these ideas depend on as-of-yet unavailable modding feature
 I'm, also, very much open to suggestions! 🙂
 
 ## Changelog
+### 1.0.4
+Rifleman and its equivalents (Carolean, Mehal Sefari and Norwegian Ski Infantry) now upgrade to Great War Infantry, provided GP-Great War perk is adopted.
 ### 1.0.3
 #### [Foreword](/docs/forewords.md#103)
 * Caravel now upgrades to Privateer.

@@ -9,7 +9,7 @@ I get the easter egg idea of some of the mod's advanced units, buildings etc., b
 ## 1.0.1
 See [the foreword to the 4.1.3 release of my reupload](https://github.com/denismattos/Future-Expansion-Continued/blob/main/docs/forewords.md#413) for more details.
 ## 1.0
-* Solar Plants: I've no idea what Sullien has against them, but I like them, so they're back. 😃
+* Solar Plants: I've no idea what Sullien [<img src="https://i.imgur.com/qdtKSSq.png">](https://github.com/Sullien) has against them, but I like them, so they're back. 😃
 * I made Drones faster than Observation Balloons, to better match their IRL speed.
 * Military units' upgrades: I try to preserve my military units and strengthen them with promotions over time, so the breaks in their upgrade trees hurt my playstyle.  
 I'm fairly sure I've connected the units correctly, according to their progression of strength and abilities, but, please tell me if I missed something.

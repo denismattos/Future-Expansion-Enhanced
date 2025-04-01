@@ -285,6 +285,20 @@
 		"shortcutKey": "H"
 	},
 	{
+		"name": "Nature Preserve",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"science": 3,
+		"turnsToBuild": 5,
+		"techRequired": "Ecology",
+		"uniques": [
+			"[+1 Production] <after discovering [Terraforming]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "N"
+	},
+	{
 		"name": "Pasture",
 		"turnsToBuild": 8,
 		"techRequired": "Animal Husbandry",

@@ -4,10 +4,38 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": [
-			"Can build [Land] improvements on tiles"
+			"Can build [Land] improvements on tiles",
+			"Can upgrade to [Architect] <after discovering [Infraestructure]>"
 		],
-		"upgradesTo": "Architect",
+		"upgradesTo": "Heavy Worker",
 		"cost": 70
+	},
+	{
+		"name": "Heavy Worker",
+		"unitType": "Civilian",
+		"movement": 4,
+		"requiredTech": "Urbanization",
+		"requiredResource": "Oil",
+		"uniques": [
+			"Can build [Land] improvements on tiles",
+			"[-50]% tile improvement construction time",
+			"Automation is a primary action"
+		],
+		"cost": 240
+	},
+	{
+		"name": "Worker Bot",
+		"unitType": "Civilian",
+		"movement": 2,
+		"requiredTech": "Nanotechnology",
+		"uniques": [
+			"Can build [Land] improvements on tiles",
+			"[-50]% tile improvement construction time",
+			"Only available <after adopting [Technocracy]>",
+			"Automation is a primary action",
+			"Cyber"
+		],
+		"cost": 180
 	},
 	{
 		"name": "Work Boats",
@@ -111,7 +139,10 @@
 		"cost": 225,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Plastics",
-		"upgradesTo": "Great War Infantry",
+		"upgradesTo": "Infantry",
+		"uniques": [
+			"Can upgrade to [Great War Infantry] <if [GP-Great War] is constructed>"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -128,7 +159,8 @@
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"Can upgrade to [Landship] <if [EP-Early Vehicles] is constructed>"
 		],
 		"attackSound": "horse"
 	},
@@ -228,6 +260,33 @@
 		"attackSound": "shipguns"
 	},
 	{
+		"name": "Coast Guard",
+		"unitType": "Melee Water",
+		"movement": 3,
+		"strength": 50,
+		"cost": 250,
+		"requiredTech": "Steam Power",
+		"requiredResource": "Oil",
+		"uniques": [
+			"[+33]% Strength <vs [Barbarian] units>",
+			"Double movement in [Coast]"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Attack Dinghy",
+		"unitType": "Melee Water",
+		"uniqueTo": "Barbarians",
+		"replaces": "Coast Guard",
+		"movement": 3,
+		"strength": 55,
+		"cost": 125,
+		"uniques": [
+			"Double movement in [Coast]"
+		],
+		"attackSound": "machinegun"
+	},
+	{
 		"name": "Artillery",
 		"unitType": "Siege",
 		"movement": 2,
@@ -314,12 +373,13 @@
 		"cost": 325,
 		"requiredTech": "Flight",
 		"requiredResource": "Oil",
-		"upgradesTo": "Triplane",
+		"upgradesTo": "Fighter",
 		"obsoleteTech": "Radar",
 		"uniques": [
 			"[25]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Observation Balloon] units>",
-			"[+50]% Strength <vs [Bomber] units>"
+			"[+50]% Strength <vs [Bomber] units>",
+			"Can upgrade to [Triplane] <if [EP-Early Vehicles] is constructed>"
 		],
 		"attackSound": "machinegun"
 	},
@@ -876,10 +936,11 @@
 		"cost": 425,
 		"requiredTech": "Stealth",
 		"requiredResource": "Aluminum",
-		"upgradesTo": "Stealth Bomber",
+		"upgradesTo": "Orbital Bomber",
 		"uniques": [
 			"Cyber",
-			"Consumes [1] [Oil]"
+			"Consumes [1] [Oil]",
+			"Can upgrade to [Stealth Bomber] <if [GP-Stealth Operatives] is constructed>"
 		],
 		"attackSound": "bombing"
 	},
@@ -1541,9 +1602,12 @@
 		"cost": 225,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Plastics",
-		"upgradesTo": "Great War Infantry",
+		"upgradesTo": "Infantry",
 		"promotions": [
 			"[Norwegian Ski Infantry] ability"
+		],
+		"uniques": [
+			"Can upgrade to [Great War Infantry] <if [GP-Great War] is constructed>"
 		],
 		"attackSound": "shot"
 	},
@@ -1557,9 +1621,12 @@
 		"cost": 225,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Plastics",
-		"upgradesTo": "Great War Infantry",
+		"upgradesTo": "Infantry",
 		"promotions": [
 			"March"
+		],
+		"uniques": [
+			"Can upgrade to [Great War Infantry] <if [GP-Great War] is constructed>"
 		],
 		"attackSound": "shot"
 	},
@@ -1573,10 +1640,13 @@
 		"cost": 200,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Plastics",
-		"upgradesTo": "Great War Infantry",
+		"upgradesTo": "Infantry",
 		"promotions": [
 			"Drill I",
 			"Home Sweet Home"
+		],
+		"uniques": [
+			"Can upgrade to [Great War Infantry] <if [GP-Great War] is constructed>"
 		],
 		"attackSound": "shot"
 	},

@@ -32,6 +32,7 @@ Now, for my other ideas:
 Some of them come from the great [Future Worlds mod for Civ V](https://steamcommunity.com/sharedfiles/filedetails/?id=596919865) (which I'd wager was one of Sullien's inspirations), some from other Civ V mods, some from Sullien's own [unreleased next version of Future Expansion](https://github.com/denismattos/Future-Expansion-Unreleased), some from interesting ideas in sci-fi and futurism and some from my own ideas while playing the game.  
 What I've thought up, so far:
 * Buildings:
+   * ~~Nature Preserve.~~
    * Other energy plants, including Tidal and Geothermal Plants.
    * Battery Bank.
    * Genetic Bank.
@@ -53,8 +54,8 @@ What I've thought up, so far:
    * Towns.
    * Suburbs.
 * Units:
-   * Worker Bots.
-   * Coast Guard.
+   * ~~Worker Bots.~~
+   * ~~Coast Guard.~~
    * Snipers.
    * Great Architects.
    * Power Armour Infantry.
@@ -97,6 +98,16 @@ Keep in mind some of these ideas depend on as-of-yet unavailable modding feature
 I'm, also, very much open to suggestions! 🙂
 
 ## Changelog
+### 1.0.6
+#### [Foreword](/docs/forewords.md#106)
+* Implemented some units from [Sullien's unreleased future plans for the mod](https://github.com/denismattos/Future-Expansion-Unreleased):
+   * Heavy Worker, a more efficient worker of later eras. (Architect is now a later, optional upgrade for Workers.)
+   * Worker Bot (Slower movement than Heavy Workers, but cheaper. Only available after adopting Technocracy.)
+* Introduced the Coast Guard, a melee water unit specialized in patrolling coastal tiles and repelling Barbarians.
+* Barbarians' gained an equivalent in the Attack Dinghy, a cheap and powerful melee water craft, specialized in harassing coastal tiles.
+* Introduced the Nature Preserve, an improvement that can be built on any land tile and provides Science.
+* Fixed unit upgrade trees' progression, that I'd unintentionally broken.  
+Thanks, Lodo, the Bear [<img src="https://i.imgur.com/46xAeu5.png">](https://discordapp.com/users/lodothebear) [<img src="https://i.imgur.com/qdtKSSq.png">](https://github.com/SpacedOutChicken), for clarifying how this works and chenxing61 [<img src="https://i.imgur.com/46xAeu5.png">](https://discordapp.com/users/chenxing61) [<img src="https://i.imgur.com/qdtKSSq.png">](https://github.com/chenxing61) for teching me how to fix the issue. 🙏🏻
 ### 1.0.5
 Espionage implemented, following [Future Expansion Continued's latest update](https://github.com/denismattos/Future-Expansion-Continued/blob/main/README.md#4112).
 ### 1.0.4

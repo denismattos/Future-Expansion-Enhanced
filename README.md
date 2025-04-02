@@ -107,7 +107,7 @@ I'm, also, very much open to suggestions! 🙂
 * Barbarians' gained an equivalent in the Attack Dinghy, a cheap and powerful melee water craft, specialized in harassing coastal tiles.
 * Introduced the Nature Preserve, an improvement that can be built on any land tile and provides Science.
 * Fixed unit upgrade trees' progression, that I'd unintentionally broken.  
-Thanks, Lodo, the Bear [<img src="https://i.imgur.com/46xAeu5.png">](https://discordapp.com/users/lodothebear) [<img src="https://i.imgur.com/qdtKSSq.png">](https://github.com/SpacedOutChicken), for clarifying how this works and chenxing61 [<img src="https://i.imgur.com/46xAeu5.png">](https://discordapp.com/users/chenxing61) [<img src="https://i.imgur.com/qdtKSSq.png">](https://github.com/chenxing61) for teching me how to fix the issue. 🙏🏻
+Thanks, Lodo, the Bear [<img src="https://i.imgur.com/46xAeu5.png">](https://discordapp.com/users/lodothebear) [<img src="https://i.imgur.com/qdtKSSq.png">](https://github.com/SpacedOutChicken), for clarifying how this works and chenxing61 [<img src="https://i.imgur.com/46xAeu5.png">](https://discordapp.com/users/chenxing61) [<img src="https://i.imgur.com/qdtKSSq.png">](https://github.com/chenxing61) for teaching me how to fix the issue. 🙏🏻
 ### 1.0.5
 Espionage implemented, following [Future Expansion Continued's latest update](https://github.com/denismattos/Future-Expansion-Continued/blob/main/README.md#4112).
 ### 1.0.4

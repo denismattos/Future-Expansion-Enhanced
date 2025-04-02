@@ -521,7 +521,7 @@
 		"cost": 3000,
 		"isNationalWonder": true,
 		"uniques": [
-			"Hidden until [6] social policy branches have been completed",
+			"Unavailable <when number of [Completed Policy branches] is less than [6]>",
 			"Triggers a global alert upon build start",
 			"Triggers a Cultural Victory upon completion",
 			"Only available <when [Cultural] Victory is enabled>"
@@ -767,7 +767,7 @@
 		"requiredResource": "Corporation Slot",
 		"uniques": [
 			"Provides [2] [Defense Force Stock]",
-			"New [Military] units start with [25] Experience [in all cities]",
+			"New [Military] units start with [25] XP [in all cities]",
 			"Consumes [1] [Corporation Slot(Total)]",
 			"Only available <after discovering [Corporations]>",
 			"Only available <with [Corporation Slot]>",

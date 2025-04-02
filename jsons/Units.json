@@ -18,7 +18,7 @@
 		"requiredResource": "Oil",
 		"uniques": [
 			"Can build [Land] improvements on tiles",
-			"[-50]% tile improvement construction time",
+			"[-50]% construction time for [All] improvements",
 			"Automation is a primary action"
 		],
 		"cost": 240
@@ -30,7 +30,7 @@
 		"requiredTech": "Nanotechnology",
 		"uniques": [
 			"Can build [Land] improvements on tiles",
-			"[-50]% tile improvement construction time",
+			"[-50]% construction time for [All] improvements",
 			"Only available <after adopting [Technocracy]>",
 			"Automation is a primary action",
 			"Cyber"

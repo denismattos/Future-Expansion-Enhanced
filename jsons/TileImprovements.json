@@ -446,7 +446,7 @@
 		"production": 1,
 		"uniques": [
 			"Provides [2] [Power]",
-			"Comment [Infraestructure]",
+			"Comment [Infrastructure]",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+100 Gold]"
 		]
@@ -477,7 +477,7 @@
 		],
 		"food": 1,
 		"uniques": [
-			"Comment [Infraestructure]",
+			"Comment [Infrastructure]",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+100 Gold]"
 		],
@@ -490,7 +490,7 @@
 		],
 		"production": 1,
 		"uniques": [
-			"Comment [Infraestructure]",
+			"Comment [Infrastructure]",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+100 Gold]"
 		],
@@ -503,7 +503,7 @@
 			"Land"
 		],
 		"uniques": [
-			"Comment [Infraestructure]",
+			"Comment [Infrastructure]",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+100 Gold]"
 		],

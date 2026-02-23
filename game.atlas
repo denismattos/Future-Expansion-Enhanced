@@ -4,13 +4,6 @@ size: 1024, 128
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-Assets/Tiles/Alien Monolith
-  rotate: false
-  xy: 544, 60
-  size: 67, 64
-  orig: 67, 64
-  offset: 0, 0
-  index: -1
 ImprovementIcons/Nature Preserve
   rotate: false
   xy: 328, 24
@@ -20,42 +13,42 @@ ImprovementIcons/Nature Preserve
   index: -1
 TileSets/FantasyHex/Units/Attack Dinghy
   rotate: false
-  xy: 731, 105
-  size: 22, 19
-  orig: 22, 19
+  xy: 616, 8
+  size: 30, 30
+  orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Coast Guard
   rotate: false
-  xy: 544, 24
-  size: 29, 28
-  orig: 29, 28
+  xy: 616, 89
+  size: 35, 35
+  orig: 35, 35
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Heavy Worker
   rotate: false
-  xy: 691, 88
+  xy: 659, 88
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker Bot
   rotate: false
-  xy: 691, 58
-  size: 23, 22
-  orig: 23, 22
+  xy: 616, 46
+  size: 35, 35
+  orig: 35, 35
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Alien Monolith
   rotate: false
-  xy: 619, 68
+  xy: 544, 68
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Nature Preserve
   rotate: false
-  xy: 619, 4
+  xy: 544, 4
   size: 64, 56
   orig: 64, 56
   offset: 0, 0

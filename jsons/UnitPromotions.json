@@ -41,7 +41,6 @@
 			"All tiles cost 1 movement",
 			"May travel on Water tiles without embarking",
 			"Can enter ice tiles"
-			
 		]
 	},
 	{
@@ -110,7 +109,7 @@
 		"name": "In Orbit",
 		"uniques": [
 			"[+25]% Strength <vs [Land] units>",
-			"Can pass through impassable tiles"			
+			"Can pass through impassable tiles"
 		]
 	},
 	{

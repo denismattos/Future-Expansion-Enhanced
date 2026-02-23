@@ -29,7 +29,7 @@ See [the foreword to the 4.1.3 release of my reupload](https://github.com/denism
 - Military units' upgrades: I try to preserve my military units and strengthen them with promotions over time, so the breaks in their upgrade trees hurt my playstyle.  
   I'm fairly sure I've connected the units correctly, according to their progression of strength and abilities, but, please tell me if I missed something.
 - Uniques and promotions:
-  - In addition to their roles of enhancing Siege units, Intel units are now very powerful for exploration, opening up the possibility of revealing the entire map much earlier than Satellites and rewarding players who spend effort on exploration.
-  - Hovering units are now much more powerful – more in line with their futurism/sci-fi counterparts –, capable of great autonomy and maneuverability.
-  - Similarly, all flying and orbital units not of the Air Movement Type now have maneuverability that completely ignores what's below them.
-  - Orbital Carriers and any units I may be able to implement later that are in space should be able to pass through everything, since their place on the map is merely a projection of their actual position.
+    - In addition to their roles of enhancing Siege units, Intel units are now very powerful for exploration, opening up the possibility of revealing the entire map much earlier than Satellites and rewarding players who spend effort on exploration.
+    - Hovering units are now much more powerful – more in line with their futurism/sci-fi counterparts –, capable of great autonomy and maneuverability.
+    - Similarly, all flying and orbital units not of the Air Movement Type now have maneuverability that completely ignores what's below them.
+    - Orbital Carriers and any units I may be able to implement later that are in space should be able to pass through everything, since their place on the map is merely a projection of their actual position.

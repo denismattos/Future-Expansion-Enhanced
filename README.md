@@ -38,65 +38,65 @@ Some of them come from the great [Future Worlds mod for Civ V](https://steamcomm
 What I've thought up, so far:
 
 - Buildings:
-  - ~~Nature Preserve.~~
-  - Other energy plants, including Tidal and Geothermal Plants.
-  - Battery Bank.
-  - Genetic Bank.
-  - Gen-Editing Facility.
-  - Space Beacon.
-  - Central Mainframe.
-  - Geodesical Garden.
-  - Vertical Farm.
-  - Myco-Tank.
-  - Protein Vat.
-  - Several buildings from Sullien's unreleased next version, including Faculties and Breakthroughs.
+    - ~~Nature Preserve.~~
+    - Other energy plants, including Tidal and Geothermal Plants.
+    - Battery Bank.
+    - Genetic Bank.
+    - Gen-Editing Facility.
+    - Space Beacon.
+    - Central Mainframe.
+    - Geodesical Garden.
+    - Vertical Farm.
+    - Myco-Tank.
+    - Protein Vat.
+    - Several buildings from Sullien's unreleased next version, including Faculties and Breakthroughs.
 - Improvements:
-  - Maglev Rails.
-  - Living Fortresses.
-  - Deep Mines.
-  - Nature Preserves.
-  - Hamlets.
-  - Villages.
-  - Towns.
-  - Suburbs.
+    - Maglev Rails.
+    - Living Fortresses.
+    - Deep Mines.
+    - Nature Preserves.
+    - Hamlets.
+    - Villages.
+    - Towns.
+    - Suburbs.
 - Units:
-  - ~~Worker Bots.~~
-  - ~~Coast Guard.~~
-  - Snipers.
-  - Great Architects.
-  - Power Armour Infantry.
-  - Railgun Tanks.
-  - Stealth Destroyers and Stealth Battleships.
-  - More genetically-engineered creatures, including Stealth Seekers (cat-like Seekers), Seeker Drones (bird-like Seekers), dinosaurs, ambulant fungi, dragons and other pseudo-mythical creatures and maybe more.
-  - Zombie Mutants.
-  - Super Soldiers.
-  - Orbital Drones.
-  - Make Orbital Strikes a Unit Type, including Orbital Shots, Orbital Lasers, Convergence Deathrays, Stellaser Strikes and Void Bombs.
-  - Other aliens, including Xenomorphs, Yautja (predators), Saya-jins, Namekusei-jins, Zergs, Arachnids (from Starship Troopers), Green Martians (from the Barsoom novels), Skrulls, Gauna, Krogans, Daleks, Cylons, Sith Lords, Borgs and maybe more.
+    - ~~Worker Bots.~~
+    - ~~Coast Guard.~~
+    - Snipers.
+    - Great Architects.
+    - Power Armour Infantry.
+    - Railgun Tanks.
+    - Stealth Destroyers and Stealth Battleships.
+    - More genetically-engineered creatures, including Stealth Seekers (cat-like Seekers), Seeker Drones (bird-like Seekers), dinosaurs, ambulant fungi, dragons and other pseudo-mythical creatures and maybe more.
+    - Zombie Mutants.
+    - Super Soldiers.
+    - Orbital Drones.
+    - Make Orbital Strikes a Unit Type, including Orbital Shots, Orbital Lasers, Convergence Deathrays, Stellaser Strikes and Void Bombs.
+    - Other aliens, including Xenomorphs, Yautja (predators), Saya-jins, Namekusei-jins, Zergs, Arachnids (from Starship Troopers), Green Martians (from the Barsoom novels), Skrulls, Gauna, Krogans, Daleks, Cylons, Sith Lords, Borgs and maybe more.
 - National Wonders:
-  - Super Mainframe.
-  - Megabattery
-  - Underground Colony.
-  - Space Stations, including Earth's orbit, Earth-Moon Lagrangian points, Sun-Earth Lagrangian points and maybe more.
-  - Arcology.
-  - Underwater Colony.
-  - Orbital guns, including Orbital Coilgun, Orbital Laser, Focal Mirrors, Stellaser and Matter Aggregator.
+    - Super Mainframe.
+    - Megabattery
+    - Underground Colony.
+    - Space Stations, including Earth's orbit, Earth-Moon Lagrangian points, Sun-Earth Lagrangian points and maybe more.
+    - Arcology.
+    - Underwater Colony.
+    - Orbital guns, including Orbital Coilgun, Orbital Laser, Focal Mirrors, Stellaser and Matter Aggregator.
 - Wonders:
-  - Borehole.
-  - The Eye in the Sky.
-  - Humanity Vault.
-  - Space Ark.
-  - Space Elevator.
-  - Generational Spaceship.
-  - Space Colonies, including the Moon, Mars, Mercury, Venus, Ceres, Europa, Io, Ganymede, Callisto, Pluto and maybe more.
-  - Bishop Ring.
-  - Space Missions with varied destinies, including Ringworld, Rama, a Dyson sphere, Alpha Centauri, V'Ger, a wormhole, a neutron star, a blackhole's event horizon and maybe more.
-  - Space Drive.
-  - First Contacts, including Vulcans, Asogians, Minbari, Protoss, Asari and maybe more.
-  - Death Star.
-  - Artificial Sun.
-  - Artificial Black Hole.
-  - Artificial Wormhole.
+    - Borehole.
+    - The Eye in the Sky.
+    - Humanity Vault.
+    - Space Ark.
+    - Space Elevator.
+    - Generational Spaceship.
+    - Space Colonies, including the Moon, Mars, Mercury, Venus, Ceres, Europa, Io, Ganymede, Callisto, Pluto and maybe more.
+    - Bishop Ring.
+    - Space Missions with varied destinies, including Ringworld, Rama, a Dyson sphere, Alpha Centauri, V'Ger, a wormhole, a neutron star, a blackhole's event horizon and maybe more.
+    - Space Drive.
+    - First Contacts, including Vulcans, Asogians, Minbari, Protoss, Asari and maybe more.
+    - Death Star.
+    - Artificial Sun.
+    - Artificial Black Hole.
+    - Artificial Wormhole.
 
 I plan on holding polls on Discord to decide on what to work next.  
 Keep in mind some of these ideas depend on as-of-yet unavailable modding features (But, hey, we can dream, right? 😉).
@@ -110,8 +110,8 @@ I'm, also, very much open to suggestions! 🙂
 #### [Foreword](/docs/forewords.md#106)
 
 - Implemented some units from [Sullien's unreleased future plans for the mod](https://github.com/denismattos/Future-Expansion-Unreleased):
-  - Heavy Worker, a more efficient worker of later eras. (Architect is now a later, optional upgrade for Workers.)
-  - Worker Bot (Slower movement than Heavy Workers, but cheaper. Only available after adopting Technocracy.)
+    - Heavy Worker, a more efficient worker of later eras. (Architect is now a later, optional upgrade for Workers.)
+    - Worker Bot (Slower movement than Heavy Workers, but cheaper. Only available after adopting Technocracy.)
 - Introduced the Coast Guard, a melee water unit specialized in patrolling coastal tiles and repelling Barbarians.
 - Barbarians' gained an equivalent in the Attack Dinghy, a cheap and powerful melee water craft, specialized in harassing coastal tiles.
 - Introduced the Nature Preserve, an improvement that can be built on any land tile and provides Science.
@@ -152,37 +152,37 @@ Removed code comments.
 
 - Solar Plant can now be built.
 - Units:
-  - Obervation Balloon is now available earlier, once Chemistry is researched.
-  - Renamed Orbital Jet to Orbital Fighter.
-  - Increased Drone's movement from 3 to 4, to make it faster than Observation Balloon.
+    - Obervation Balloon is now available earlier, once Chemistry is researched.
+    - Renamed Orbital Jet to Orbital Fighter.
+    - Increased Drone's movement from 3 to 4, to make it faster than Observation Balloon.
 - Completed military units' upgrade trees:
-  - Modern Armor now upgrades to Hovertank (Provided GP-Hovercombat perk is adopted.).
-  - Rocket Artillery now upgrades to Hovertillery (Provided GP-Hovercombat perk is adopted.).
-  - Mobile SAM now upgrades to Hover-SAM (Provided GP-Hovercombat perk is adopted.).
-  - Mechanized Infantry now upgrades to Energy Infantry (Provided GP-Energy Weapons perk is adopted.).
-  - Helicopter Gunship now upgrades to Future Copter (Provided GP-Energy Weapons perk is adopted.).
-  - Carrier now upgrades to Orbital Carrier (Provided GP-Energy Weapons perk is adopted.).
-  - Jet Fighter now upgrades to Orbital Fighter (Provided GP-Space Combat perk is adopted.).
-  - Jet Bomber now upgrades to Stealth Bomber (Provided GP-Stealth Operatives perk is adopted.).
-  - Stealth Bomber now upgrades to Orbital Bomber (Provided GP-Space Combat perk is adopted.).
-  - Stealth Bomber now requires Aluminum, instead of Oil.
-  - Hacker now upgrades to Stealth Hacker (Provided GP-Stealth Operatives perk is adopted.).
-  - Stealth Hacker now upgrades to Monolith Brainiac (Provided Monolith Portal has been built.).
+    - Modern Armor now upgrades to Hovertank (Provided GP-Hovercombat perk is adopted.).
+    - Rocket Artillery now upgrades to Hovertillery (Provided GP-Hovercombat perk is adopted.).
+    - Mobile SAM now upgrades to Hover-SAM (Provided GP-Hovercombat perk is adopted.).
+    - Mechanized Infantry now upgrades to Energy Infantry (Provided GP-Energy Weapons perk is adopted.).
+    - Helicopter Gunship now upgrades to Future Copter (Provided GP-Energy Weapons perk is adopted.).
+    - Carrier now upgrades to Orbital Carrier (Provided GP-Energy Weapons perk is adopted.).
+    - Jet Fighter now upgrades to Orbital Fighter (Provided GP-Space Combat perk is adopted.).
+    - Jet Bomber now upgrades to Stealth Bomber (Provided GP-Stealth Operatives perk is adopted.).
+    - Stealth Bomber now upgrades to Orbital Bomber (Provided GP-Space Combat perk is adopted.).
+    - Stealth Bomber now requires Aluminum, instead of Oil.
+    - Hacker now upgrades to Stealth Hacker (Provided GP-Stealth Operatives perk is adopted.).
+    - Stealth Hacker now upgrades to Monolith Brainiac (Provided Monolith Portal has been built.).
 - Refurbished uniques and promotions:
-  - Observation Balloon and Drone now have the Intel promotion, which consolidates the following uniques:
-    - +1 Range to adjacent [Siege] Units
-    - "[+33]% Strength bonus for [Siege] units within [1] tiles"
-    - "[+1] Sight"
-    - "Ignores Zone of Control"
-  - Hovertank, Hovertillery and Hover-SAM now have the Hovering promotion, which consolidates the following uniques:
-    - "[+50]% Strength <vs [Land] units>"
-    - "All tiles cost 1 movement"
-    - "May travel on Water tiles without embarking"
-    - "Can enter ice tiles"
-  - Observation Balloon, Drone, Helicopter Gunship, Future Copter, Orbital Carrier, UFO and Monolith UFO now have the Flying promotion, which consolidates the following uniques:
-    - "No defensive terrain bonus"
-    - "All tiles cost 1 movement"
-    - "May travel on Water tiles without embarking"
-    - "Can enter ice tiles"
-  - Additionally, Orbital Carriers' In Orbit promotion now contains the following uniques:
-    - "Can pass through impassable tiles"
+    - Observation Balloon and Drone now have the Intel promotion, which consolidates the following uniques:
+        - +1 Range to adjacent [Siege] Units
+        - "[+33]% Strength bonus for [Siege] units within [1] tiles"
+        - "[+1] Sight"
+        - "Ignores Zone of Control"
+    - Hovertank, Hovertillery and Hover-SAM now have the Hovering promotion, which consolidates the following uniques:
+        - "[+50]% Strength <vs [Land] units>"
+        - "All tiles cost 1 movement"
+        - "May travel on Water tiles without embarking"
+        - "Can enter ice tiles"
+    - Observation Balloon, Drone, Helicopter Gunship, Future Copter, Orbital Carrier, UFO and Monolith UFO now have the Flying promotion, which consolidates the following uniques:
+        - "No defensive terrain bonus"
+        - "All tiles cost 1 movement"
+        - "May travel on Water tiles without embarking"
+        - "Can enter ice tiles"
+    - Additionally, Orbital Carriers' In Orbit promotion now contains the following uniques:
+        - "Can pass through impassable tiles"
